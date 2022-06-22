@@ -28,7 +28,7 @@ export async function getStaticProps(context: any) {
   const genre = context.params.genre
   const id = context.params.id
 
-  const res = await fetch('http://localhost:3000/api/' + genre + '/' + id)
+  const res = await fetch('https://sunny-bombolone-77a1b7.netlify.app/api/' + genre + '/' + id)
   const items = await res.json()
 
   return {
