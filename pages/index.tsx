@@ -1,11 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+import Link from 'next/link'
 import Navbar from '../components/Navbar'
-import 'bootstrap/dist/css/bootstrap.css'
 import styles from '../styles/Home.module.css'
-import Card from '../components/Card'
-import Collection from '../components/Collection'
 
 const Home: NextPage = () => {
   return (
@@ -18,8 +15,9 @@ const Home: NextPage = () => {
 
       <Navbar />
 
-      <Collection />
+      <h1>Hello, this is the homepage</h1>
 
+      <Link href="/design/tools">meem</Link>
 
     </div>
   )

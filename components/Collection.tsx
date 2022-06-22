@@ -1,22 +1,7 @@
 import Card from "./Card"
 
 
-const Collection = () => {
-
-  const fief = [
-    {
-      'name': 'Happy Hues',
-      'description': 'Curated colors in context'
-    },
-    {
-      'name': 'Duo',
-      'description': 'Curated colors in context'
-    },
-    {
-      'name': 'Adobe Colour',
-      'description': 'Curated colors in context'
-    }
-  ]
+const Collection = (props) => {
 
   return (
     <div>
@@ -29,14 +14,16 @@ const Collection = () => {
 
       <div className='container pt-5'>
         <div className='row'>
-          {/* {fief.map((item) => {
-              <div className='col-4'>
-                <Card name={item.name} />
+          {props.data.map((item) => {
+            return (
+              <div key={item.name} className='col-4'>
+                <Card name={item.name} description={item.description} />
               </div>
-            })
-          } */}
+            )
+          })
+          }
 
-          
+
         </div>
       </div>
 
