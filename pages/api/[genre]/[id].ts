@@ -1,4 +1,4 @@
-import fsPromises from 'fs/promises';
+import fs from 'fs';
 import type { NextApiRequest, NextApiResponse } from 'next'
 import path from 'path'
 
@@ -12,7 +12,7 @@ export default async function handler(
 ) {
   const { genre, id } = req.query
   const filePath = path.join(process.cwd(), 'data/' + genre + '/' + id + '.json');
-  const data = await fsPromises.readFile(filePath)
+  const data = await fs.readFileSync(filePath)
   const objectData = await JSON.parse(data.toString());
   return res.json({ objectData })
 }
