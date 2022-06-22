@@ -1,28 +1,9 @@
-import { useRouter } from 'next/router'
 import Collection from "../../components/Collection"
 import Navbar from "../../components/Navbar";
-import { useEffect, useState } from 'react';
 
-export default function Post() {
+export default function Post(props: any) {
 
-  const router = useRouter()
-  const { genre, id } = router.query
-
-  const [data, setData] = useState<any>(null)
-
-  useEffect(() => {
-    console.log('useEffect fired!', { asPath: router.asPath });
-    fetch('/api/' + genre + '/' + id)
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data)
-        console.log(data)
-      })
-  }, [router.asPath]);
-
-
-
-  if (!data) return <p>No data</p>
+  if (!props) return <p>No data</p>
 
   return (
     <div>
@@ -30,23 +11,30 @@ export default function Post() {
 
       <div className="container-fluid header-wrapper">
         <div className="container">
-          <p>{genre}</p>
-          <h1>{data.objectData.name}</h1>
+          <h1>{props.items.objectData.name}</h1>
           <h1>Collection</h1>
         </div>
       </div>
 
-      <Collection data={data.objectData.data} />
+      <Collection data={props.items.objectData.data} />
     </div>
 
   )
 }
 
 
-export async function getStaticProps() {
+export async function getStaticProps(context: any) {
+
+  const genre = context.params.genre
+  const id = context.params.id
+
+  const res = await fetch('http://localhost:3000/api/' + genre + '/' + id)
+  const items = await res.json()
 
   return {
-    props: {"fief": "fief"}
+    props: {
+      items
+    }
   }
 }
 
