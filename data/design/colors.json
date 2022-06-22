@@ -3,15 +3,21 @@
   "data": [
     {
       "name": "Happy Hues",
-      "description": "Curated colors in context"
+      "description": "Curated colors in context",
+      "url": "https://www.happyhues.co/",
+      "img": "https://i.imgur.com/TN8SDfF.jpg"
     },
     {
       "name": "Duo",
-      "description": "Description of Duoo"
+      "description": "Description of Duoo",
+      "url": "",
+      "img": "https://i.imgur.com/TN8SDfF.jpg"
     },
     {
-      "name": "Adobe Colour",
-      "description": "Curated colors in context"
+      "name": "Adobe Color",
+      "description": "Curated colors in context",
+      "url": "https://color.adobe.com/explore",
+      "img": "https://i.imgur.com/TN8SDfF.jpg"
     }
   ]
 }

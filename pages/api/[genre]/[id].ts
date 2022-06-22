@@ -12,8 +12,9 @@ export default async function handler(
 ) {
   const { genre, id } = req.query
   const filePath = path.join(process.cwd(), 'data/' + genre + '/' + id + '.json');
+  console.log(filePath)
   const data = await fsPromises.readFile(filePath)
-  const objectData = await JSON.parse(data);
+  const objectData = await JSON.parse(data.toString());
   console.log(objectData)
   res.status(200).json({ objectData })
 }

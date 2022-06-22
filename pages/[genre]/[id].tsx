@@ -1,7 +1,4 @@
 import { useRouter } from 'next/router'
-
-import fsPromises from 'fs/promises';
-import path from 'path'
 import Collection from "../../components/Collection"
 import Navbar from "../../components/Navbar";
 import { useEffect, useState } from 'react';

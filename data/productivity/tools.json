@@ -3,15 +3,9 @@
     "data": [
       {
         "name": "Daily Tasks",
-        "description": "Curated colors in context"
-      },
-      {
-        "name": "Duo",
-        "description": "Description of Duoo"
-      },
-      {
-        "name": "Adobe Colour",
-        "description": "Curated colors in context"
+        "description": "The Ivy Lee Method",
+        "url": "https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks&hl=en_US&gl=US",
+        "img": "https://i.imgur.com/sdqHZ7A.png"
       }
     ]
   }
