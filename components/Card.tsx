@@ -1,13 +1,8 @@
 import styles from '../styles/Home.module.css'
 
-const Card = (props) => {
+const Card = (props: any) => {
   return (
     <div className='container-fluid wrapper'>
-      <div className="row">
-        <div className="col">
-          <h2>fief</h2>
-        </div>
-      </div>
       <div className="row">
         <div className="col">
           <h2>{props.name}</h2>

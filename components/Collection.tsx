@@ -5,13 +5,6 @@ const Collection = (props) => {
 
   return (
     <div>
-      <div className="container-fluid header-wrapper">
-        <div className="container">
-          <h1>Design Tools</h1>
-          <h1>Collection</h1>
-        </div>
-      </div>
-
       <div className='container pt-5'>
         <div className='row'>
           {props.data.map((item) => {

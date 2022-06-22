@@ -1,17 +1,45 @@
-// import Collection from "../../components/Collection";
+import { useRouter } from 'next/router'
 
 import fsPromises from 'fs/promises';
 import path from 'path'
 import Collection from "../../components/Collection"
 import Navbar from "../../components/Navbar";
+import { useEffect, useState } from 'react';
 
-export default function Post(objectData) {
+export default function Post() {
+
+  const router = useRouter()
+  const { genre, id } = router.query
+
+  const [data, setData] = useState<any>(null)
+
+  useEffect(() => {
+    console.log('useEffect fired!', { asPath: router.asPath });
+    fetch('/api/' + genre + '/' + id)
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data)
+        console.log(data)
+      })
+  }, [router.asPath]);
+
+
+
+  if (!data) return <p>No data</p>
 
   return (
     <div>
       <Navbar />
 
-      <Collection data={objectData.data}/>
+      <div className="container-fluid header-wrapper">
+        <div className="container">
+          <p>{genre}</p>
+          <h1>{data.objectData.name}</h1>
+          <h1>Collection</h1>
+        </div>
+      </div>
+
+      <Collection data={data.objectData.data} />
     </div>
 
   )
@@ -19,21 +47,29 @@ export default function Post(objectData) {
 
 
 export async function getStaticProps() {
-  const filePath = await path.join(process.cwd(), 'data/design/tools.json');
-  console.log(filePath)
-  const jsonData = await fsPromises.readFile(filePath);
-  const objectData = await JSON.parse(jsonData);
-  console.log(objectData)
 
   return {
-    props: objectData
+    props: {"fief": "fief"}
   }
 }
 
 export async function getStaticPaths() {
   return {
     paths: [
-      { params: { genre: 'design', id: 'tools' } }
+      {
+        params:
+        {
+          genre: 'design',
+          id: 'colors'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'productivity',
+          id: 'tools'
+        }
+      }
     ],
     fallback: false
   };
