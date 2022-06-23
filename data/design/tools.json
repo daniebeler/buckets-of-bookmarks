@@ -1,0 +1,25 @@
+{
+  "data": {
+    "name": "Design Tools",
+    "items": [
+      {
+        "name": "Compressor",
+        "description": "Fast & effective image compression",
+        "url": "https://compressor.io",
+        "img": "design/tools/compressor.png"
+      },
+      {
+        "name": "Chroma",
+        "description": "Browser Extension for picking colors and building color palettes",
+        "url": "https://chroma.dev",
+        "img": "design/tools/chroma.png"
+      },
+      {
+        "name": "CleanUp",
+        "description": "Editing Tool to remove unwanted elements from image",
+        "url": "https://cleanup.pictures",
+        "img": "design/tools/cleanup.png"
+      }
+    ]
+  }
+}

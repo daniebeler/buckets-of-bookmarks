@@ -1,25 +1,55 @@
 {
-    "data": {
-      "name": "Icons",
-      "items": [
-        {
-          "name": "unDraw",
-          "description": "Open Source illustrations",
-          "url": "https://undraw.co/illustrations",
-          "img": "design/icons/bootstrap-icons.png"
-        },
-        {
-            "name": "DrawKit",
-            "description": "Hand-drawn vector illustration and icon resources",
-            "url": "https://drawkit.com/",
-            "img": "design/icons/bootstrap-icons.png"
-          },
-          {
-            "name": "Growww Kit",
-            "description": "Paid illustration resources",
-            "url": "https://growwwkit.com/",
-            "img": "design/icons/bootstrap-icons.png"
-          }
-      ]
-    }
+  "data": {
+    "name": "Icons",
+    "items": [
+      {
+        "name": "unDraw",
+        "description": "Open Source illustrations",
+        "url": "https://undraw.co/illustrations",
+        "img": "design/illustrations/bootstrap-icons.png"
+      },
+      {
+        "name": "DrawKit",
+        "description": "Hand-drawn vector illustration and icon resources",
+        "url": "https://drawkit.com/",
+        "img": "design/illustrations/bootstrap-icons.png"
+      },
+      {
+        "name": "Growww Kit",
+        "description": "Paid illustration resources",
+        "url": "https://growwwkit.com/",
+        "img": "design/illustrations/bootstrap-icons.png"
+      },
+      {
+        "name": "Open Stickers",
+        "description": "",
+        "url": "https://openstickers.craftwork.design/",
+        "img": "design/illustrations/"
+      },
+      {
+        "name": "",
+        "description": "",
+        "url": "",
+        "img": "design/illustrations/"
+      },
+      {
+        "name": "",
+        "description": "",
+        "url": "",
+        "img": "design/illustrations/"
+      },
+      {
+        "name": "",
+        "description": "",
+        "url": "",
+        "img": "design/illustrations/"
+      },
+      {
+        "name": "",
+        "description": "",
+        "url": "",
+        "img": "design/illustrations/"
+      }
+    ]
   }
+}

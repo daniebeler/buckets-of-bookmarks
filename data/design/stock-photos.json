@@ -1,0 +1,43 @@
+{
+  "data": {
+    "name": "Stock Photos",
+    "items": [
+      {
+        "name": "Unsplash",
+        "description": "Stock images",
+        "url": "https://unsplash.com/",
+        "img": "design/stock-photos/unsplash.png"
+      },
+      {
+        "name": "Picspree",
+        "description": "Stock images",
+        "url": "https://picspree.com/",
+        "img": "design/stock-photos/"
+      },
+      {
+        "name": "Stockvault",
+        "description": "Stock images",
+        "url": "https://stockvault.net/",
+        "img": "design/stock-photos/"
+      },
+      {
+        "name": "Burst",
+        "description": "Stock images",
+        "url": "https://burst.shopify.com/",
+        "img": "design/stock-photos/burst.png"
+      },
+      {
+        "name": "Pixabay",
+        "description": "Stock images",
+        "url": "https://pixabay.com/",
+        "img": "design/stock-photos/pixabay.png"
+      },
+      {
+        "name": "Freepik",
+        "description": "Stock images",
+        "url": "https://freepik.com/",
+        "img": "design/stock-photos/freepik.webp"
+      }
+    ]
+  }
+}

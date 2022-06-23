@@ -12,33 +12,27 @@
         "name": "Heroicons",
         "description": "Icons by the developers of Tailwind",
         "url": "https://heroicons.com/",
-        "img": "design/icons/bootstrap-icons.png"
-      },
-      {
-        "name": "Heroicons",
-        "description": "Free and Open Source icon library",
-        "url": "https://heroicons.dev/",
-        "img": "design/icons/bootstrap-icons.png"
+        "img": "design/icons/heroicons.png"
       },
       {
         "name": "Flaticon",
         "description": "More than 7.6M vector icons & stickers ",
         "url": "https://www.flaticon.com/",
-        "img": "design/icons/bootstrap-icons.png"
+        "img": "design/icons/flaticon.png"
       }
       ,
       {
         "name": "Ionicons",
         "description": "Hand-crafted open source icons",
         "url": "https://ionic.io/ionicons",
-        "img": "design/icons/bootstrap-icons.png"
+        "img": "design/icons/ionicons.png"
       }
       ,
       {
         "name": "Icons8",
         "description": "Icons, illustrations, photos, music, and design tools",
         "url": "https://icons8.com/",
-        "img": "design/icons/bootstrap-icons.png"
+        "img": "design/icons/icons8.png"
       }
     ]
   }

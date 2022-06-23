@@ -63,6 +63,20 @@ export async function getStaticPaths() {
       {
         params:
         {
+          genre: 'design',
+          id: 'tools'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'design',
+          id: 'stock-photos'
+        }
+      },
+      {
+        params:
+        {
           genre: 'productivity',
           id: 'tools'
         }
