@@ -5,7 +5,7 @@ const Card = (props: any) => {
     <div className='container-fluid wrapper'>
       <div className="row">
         <div className="col">
-          <img src={props.img} alt="" />
+          <img src={'/images/' + props.img} alt="" />
         </div>
       </div>
       <div className="row">

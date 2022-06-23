@@ -1,23 +1,25 @@
 {
-  "name": "Colors",
-  "data": [
-    {
-      "name": "Happy Hues",
-      "description": "Curated colors in context",
-      "url": "https://www.happyhues.co/",
-      "img": "https://i.imgur.com/TN8SDfF.jpg"
-    },
-    {
-      "name": "Duo",
-      "description": "Description of Duoo",
-      "url": "",
-      "img": "https://i.imgur.com/TN8SDfF.jpg"
-    },
-    {
-      "name": "Adobe Color",
-      "description": "Curated colors in context",
-      "url": "https://color.adobe.com/explore",
-      "img": "https://i.imgur.com/TN8SDfF.jpg"
-    }
-  ]
+  "data": {
+    "name": "Colors",
+    "items": [
+      {
+        "name": "Happy Hues",
+        "description": "Curated colors in context",
+        "url": "https://www.happyhues.co/",
+        "img": "design/colors/happy-hues.jpg"
+      },
+      {
+        "name": "Duo",
+        "description": "Description of Duoo",
+        "url": "",
+        "img": "design/colors/happy-hues.jpg"
+      },
+      {
+        "name": "Adobe Color",
+        "description": "Curated colors in context",
+        "url": "https://color.adobe.com/explore",
+        "img": "design/colors/happy-hues.jpg"
+      }
+    ]
+  }
 }

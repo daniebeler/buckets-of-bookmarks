@@ -2,7 +2,6 @@ import Card from "./Card"
 
 
 const Collection = (props: any) => {
-
   return (
     <div>
       <div className='container pt-5'>
@@ -13,9 +12,7 @@ const Collection = (props: any) => {
                 <Card name={item.name} description={item.description} url={item.url} img={item.img} />
               </div>
             )
-          })
-          }
-
+          })}
 
         </div>
       </div>

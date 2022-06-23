@@ -1,6 +1,7 @@
 {
+  "data": {
     "name": "Stock Images",
-    "data": [
+    "items": [
       {
         "name": "Unsplash",
         "description": "Stock images",
@@ -9,3 +10,4 @@
       }
     ]
   }
+}
