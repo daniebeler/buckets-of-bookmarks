@@ -1,0 +1,11 @@
+{
+    "name": "Stock Images",
+    "data": [
+      {
+        "name": "Unsplash",
+        "description": "Stock images",
+        "url": "https://unsplash.com/",
+        "img": "https://unsplash.com/"
+      }
+    ]
+  }

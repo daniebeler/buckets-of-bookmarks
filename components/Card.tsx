@@ -11,7 +11,7 @@ const Card = (props: any) => {
       <div className="row">
         <div className="col">
           <Link href={props.url}>
-          <h2>{props.name}</h2>
+          <h2 className='name'>{props.name}</h2>
           </Link>
           <p>{props.description}</p>
         </div>
@@ -21,6 +21,10 @@ const Card = (props: any) => {
         .wrapper {
           background-color: #eeeeee;
           border-radius: 10px;
+        }
+
+        .name:hover {
+          cursor: pointer;
         }
 
         img {
