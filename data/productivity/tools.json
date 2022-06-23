@@ -7,6 +7,12 @@
         "description": "The Ivy Lee Method",
         "url": "https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks&hl=en_US&gl=US",
         "img": "productivity/tools/dailytasks.png"
+      },
+      {
+        "name": "Notion",
+        "description": "Workspace",
+        "url": "https://www.notion.so",
+        "img": "productivity/tools/notion.png"
       }
     ]
   }

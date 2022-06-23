@@ -49,6 +49,20 @@ export async function getStaticPaths() {
       {
         params:
         {
+          genre: 'design',
+          id: 'icons'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'design',
+          id: 'illustrations'
+        }
+      },
+      {
+        params:
+        {
           genre: 'productivity',
           id: 'tools'
         }
