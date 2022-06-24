@@ -10,9 +10,9 @@ const Card = (props: any) => {
       </div>
       <div className="row">
         <div className="col">
-          <Link href={props.url}>
-          <h2 className='name'>{props.name}</h2>
-          </Link>
+          <a target="_blank" href={props.url} rel="noreferrer">
+            <h2 className='name'>{props.name}</h2>
+          </a>
           <p>{props.description}</p>
         </div>
       </div>
@@ -21,6 +21,8 @@ const Card = (props: any) => {
         .wrapper {
           background-color: #eeeeee;
           border-radius: 10px;
+          margin-top: 24px;
+          margib-bottom: 24px;
         }
 
         .name:hover {
@@ -32,6 +34,11 @@ const Card = (props: any) => {
           height: 80px;
           border-radius: 8px;
           margin-top: 24px;
+        }
+
+        a {
+          text-decoration: none;
+          color: black;
         }
       `}</style>
     </div>
