@@ -19,6 +19,11 @@ export default function Post(props: any) {
         <Link href="/design/tools">Tools</Link>
         <h2>Productivity</h2>
         <Link href="/productivity/tools">Tools</Link>
+        <Link href="/productivity/books">Books</Link>
+        <h2>Coding</h2>
+        <Link href="/coding/books">Books</Link>
+        <Link href="/coding/practice">Practice</Link>
+        <Link href="/coding/vscode-extensions">VS-Code Extensions</Link>
       </div>
 
       <div className="content">
@@ -130,6 +135,34 @@ export async function getStaticPaths() {
         {
           genre: 'productivity',
           id: 'tools'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'productivity',
+          id: 'books'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'coding',
+          id: 'books'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'coding',
+          id: 'practice'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'coding',
+          id: 'vscode-extensions'
         }
       }
     ],

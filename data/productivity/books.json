@@ -1,0 +1,13 @@
+{
+  "data": {
+    "name": "Productivity Books",
+    "items": [
+      {
+        "name": "Atomic Habits",
+        "description": "Guide on how to change your habits and get 1% better every day",
+        "url": "https://jamesclear.com/atomic-habits",
+        "img": "productivity/books/atomic-habits.png"
+      }
+    ]
+  }
+}

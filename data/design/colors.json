@@ -6,19 +6,13 @@
         "name": "Happy Hues",
         "description": "Curated colors in context",
         "url": "https://www.happyhues.co/",
-        "img": "design/colors/happy-hues.jpg"
-      },
-      {
-        "name": "Duo",
-        "description": "Description of Duoo",
-        "url": "",
-        "img": "design/colors/happy-hues.jpg"
+        "img": "design/colors/happy-hues.gif"
       },
       {
         "name": "Adobe Color",
         "description": "Curated colors in context",
         "url": "https://color.adobe.com/explore",
-        "img": "design/colors/happy-hues.jpg"
+        "img": "design/colors/adobe-color.png"
       }
     ]
   }

@@ -12,13 +12,13 @@
         "name": "Picspree",
         "description": "Stock images",
         "url": "https://picspree.com/",
-        "img": "design/stock-photos/"
+        "img": "design/stock-photos/pikspree.png"
       },
       {
         "name": "Stockvault",
         "description": "Stock images",
         "url": "https://stockvault.net/",
-        "img": "design/stock-photos/"
+        "img": "design/stock-photos/stockvault.png"
       },
       {
         "name": "Burst",

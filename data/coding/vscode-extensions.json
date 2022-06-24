@@ -1,0 +1,43 @@
+{
+  "data": {
+    "name": "Visual Studio Code Extensions",
+    "items": [
+      {
+        "name": "Dracula",
+        "description": "Dark theme for VSCode",
+        "url": "https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula",
+        "img": "coding/vscode-extensions/dracula.png"
+      },
+      {
+        "name": "CodeSnap",
+        "description": "Take beautiful screenshots of your code",
+        "url": "https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap",
+        "img": "coding/vscode-extensions/codesnap.png"
+      },
+      {
+        "name": "Git Graph",
+        "description": "View a Git Graph of your repository, and perform Git actions from the graph",
+        "url": "https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph",
+        "img": "coding/vscode-extensions/git-graph.png"
+      },
+      {
+        "name": "Material Theme",
+        "description": "The most epic theme now for Visual Studio Code",
+        "url": "https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme",
+        "img": "coding/vscode-extensions/material-theme.png"
+      },
+      {
+        "name": "Prettier",
+        "description": "Code formatter",
+        "url": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+        "img": "coding/vscode-extensions/prettier.png"
+      },
+      {
+        "name": "Version Lens",
+        "description": "Shows the latest version for each package using code lens",
+        "url": "https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens",
+        "img": "coding/vscode-extensions/version-lens.png"
+      }
+    ]
+  }
+}

@@ -1,30 +1,36 @@
 {
   "data": {
-    "name": "Icons",
+    "name": "Illustrations",
     "items": [
       {
         "name": "unDraw",
         "description": "Open Source illustrations",
         "url": "https://undraw.co/illustrations",
-        "img": "design/illustrations/bootstrap-icons.png"
+        "img": "design/illustrations/undraw.webp"
       },
       {
         "name": "DrawKit",
         "description": "Hand-drawn vector illustration and icon resources",
-        "url": "https://drawkit.com/",
-        "img": "design/illustrations/bootstrap-icons.png"
+        "url": "https://drawkit.com/drawkit.jpeg",
+        "img": "design/illustrations/drawkit.jpeg"
       },
       {
         "name": "Growww Kit",
         "description": "Paid illustration resources",
         "url": "https://growwwkit.com/",
-        "img": "design/illustrations/bootstrap-icons.png"
+        "img": "design/illustrations/growwwkit.jpg"
       },
       {
         "name": "Open Stickers",
-        "description": "",
+        "description": "Free illustrations for web and apps",
         "url": "https://openstickers.craftwork.design/",
-        "img": "design/illustrations/"
+        "img": "design/illustrations/openstickers.png"
+      },
+      {
+        "name": "Humaaans",
+        "description": "Mix-&-match illustrations of people with a design library",
+        "url": "https://www.humaaans.com/",
+        "img": "design/illustrations/humaaans.gif"
       }
     ]
   }

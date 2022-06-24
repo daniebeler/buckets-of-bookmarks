@@ -13,6 +13,12 @@
         "description": "Workspace",
         "url": "https://www.notion.so",
         "img": "productivity/tools/notion.png"
+      },
+      {
+        "name": "Habits Garden",
+        "description": "Turn boring habits into a fun game to beat procrastination once and for all.",
+        "url": "https://habitsgarden.com/",
+        "img": "productivity/tools/habitsgarden.png"
       }
     ]
   }
