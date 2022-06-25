@@ -19,6 +19,18 @@
         "description": "Editing Tool to remove unwanted elements from image",
         "url": "https://cleanup.pictures",
         "img": "design/tools/cleanup.png"
+      },
+      {
+        "name": "Figma",
+        "description": "Design tool",
+        "url": "https://www.figma.com/",
+        "img": "design/tools/figma.png"
+      },
+      {
+        "name": "Zeplin",
+        "description": "Design tool",
+        "url": "https://zeplin.io/",
+        "img": "design/tools/zeplin.png"
       }
     ]
   }

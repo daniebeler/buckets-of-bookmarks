@@ -16,6 +16,8 @@ export default function Post(props: any) {
         <Link href="/design/icons">Icons</Link>
         <Link href="/design/illustrations">Illustrations</Link>
         <Link href="/design/stock-photos">Stock Photos</Link>
+        <Link href="/design/best-practices">Best Practices</Link>
+        <Link href="/design/inspiration">Inspiration</Link>
         <Link href="/design/tools">Tools</Link>
         <h2>Productivity</h2>
         <Link href="/productivity/tools">Tools</Link>
@@ -113,7 +115,21 @@ export async function getStaticPaths() {
         params:
         {
           genre: 'design',
+          id: 'inspiration'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'design',
           id: 'illustrations'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'design',
+          id: 'best-practices'
         }
       },
       {

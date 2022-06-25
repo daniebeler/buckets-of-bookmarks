@@ -19,20 +19,24 @@
         "description": "More than 7.6M vector icons & stickers ",
         "url": "https://www.flaticon.com/",
         "img": "design/icons/flaticon.png"
-      }
-      ,
+      },
       {
         "name": "Ionicons",
         "description": "Hand-crafted open source icons",
         "url": "https://ionic.io/ionicons",
         "img": "design/icons/ionicons.png"
-      }
-      ,
+      },
       {
         "name": "Icons8",
         "description": "Icons, illustrations, photos, music, and design tools",
         "url": "https://icons8.com/",
         "img": "design/icons/icons8.png"
+      },
+      {
+        "name": "Font Awesome",
+        "description": "Icon library and toolkit",
+        "url": "https://fontawesome.com/",
+        "img": "design/icons/fontawesome.png"
       }
     ]
   }

@@ -7,6 +7,18 @@
         "description": "Competitive programming challenges",
         "url": "https://www.hackerrank.com/",
         "img": "coding/practice/hackerrank.png"
+      },
+      {
+        "name": "The Odin Project",
+        "description": "Free Programming Resources",
+        "url": "https://www.theodinproject.com/",
+        "img": "coding/practice/the-odin-project.png"
+      },
+      {
+        "name": "freeCodeCamp",
+        "description": "Free learning material and certifications",
+        "url": "https://www.freecodecamp.org/",
+        "img": "coding/practice/freecodecamp.png"
       }
     ]
   }

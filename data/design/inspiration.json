@@ -1,0 +1,19 @@
+{
+  "data": {
+    "name": "Inspiration",
+    "items": [
+      {
+        "name": "Dribbble",
+        "description": "Social networking platform for digital designers and creatives",
+        "url": "https://dribbble.com/",
+        "img": "design/inspiration/dribbble.png"
+      },
+      {
+        "name": "Awwwards",
+        "description": "The awards of design, creativity and innovation on the internet",
+        "url": "https://www.awwwards.com/",
+        "img": "design/inspiration/awwwards.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "data": {
+    "name": "Best Practices",
+    "items": [
+      {
+        "name": "Checklist Design",
+        "description": "A collection of the best design practices",
+        "url": "https://www.checklist.design/",
+        "img": "design/best-practices/checklist-design.png"
+      }
+    ]
+  }
+}
