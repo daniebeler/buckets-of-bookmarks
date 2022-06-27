@@ -4,7 +4,7 @@ import Card from "./Card"
 const Collection = (props: any) => {
   return (
     <div>
-      <div className='container pt-5'>
+      <div className='container collection-wrapper'>
         <div className='row'>
           {props.data.map((item: any) => {
             return (
@@ -18,9 +18,9 @@ const Collection = (props: any) => {
       </div>
 
       <style>{`
-        .header-wrapper {
-          background-color: #f0eefd;
-          padding: 50px 0 50px 0
+        .collection-wrapper {
+          padding-top: 24px;
+          padding-bottom: 24px;
         }
       `}</style>
     </div>
