@@ -19,6 +19,42 @@
         "description": "Color palettes generator",
         "url": "https://coolors.co/",
         "img": "design/colors/coolors.webp"
+      },
+      {
+        "name": "Canva Color meanings",
+        "description": "Color meanings and symbolism",
+        "url": "https://www.canva.com/colors/color-meanings/",
+        "img": "design/colors/canva-color-meanings.png"
+      },
+      {
+        "name": "Canva Color wheel",
+        "description": "Color theory and the color wheel",
+        "url": "https://www.canva.com/colors/color-wheel/",
+        "img": "design/colors/canva-color-wheel.png"
+      },
+      {
+        "name": "Canva Color palette ideas",
+        "description": "Color palette ideas",
+        "url": "https://www.canva.com/colors/color-palettes/",
+        "img": "design/colors/canva-color-palette-ideas.png"
+      },
+      {
+        "name": "Canva Color palette generator",
+        "description": "Color palette generator",
+        "url": "https://www.canva.com/colors/color-palette-generator/",
+        "img": "design/colors/canva-color-palette-generator.png"
+      },
+      {
+        "name": "Color Hunt",
+        "description": "Color palettes",
+        "url": "https://colorhunt.co/",
+        "img": "design/colors/color-hunt.png"
+      },
+      {
+        "name": "ColorSpace",
+        "description": "Color palettes and gradient generator",
+        "url": "https://mycolor.space",
+        "img": "design/colors/color-space.jpg"
       }
     ]
   }

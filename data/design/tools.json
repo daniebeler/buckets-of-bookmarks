@@ -43,6 +43,12 @@
         "description": "Online design tool",
         "url": "https://www.canva.com/",
         "img": "design/tools/canva.jpg"
+      },
+      {
+        "name": "Toptal Checklist",
+        "description": "Web Developer Checklist",
+        "url": "https://www.toptal.com/developers/webdevchecklist",
+        "img": "design/tools/toptal-checklist.png"
       }
     ]
   }

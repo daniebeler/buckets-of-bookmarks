@@ -19,6 +19,12 @@
         "description": "Visually contrast the differences between two fonts",
         "url": "https://tiff.herokuapp.com/",
         "img": "design/fonts/tiff.png"
+      },
+      {
+        "name": "TypeSource",
+        "description": "Google Web Font inspiration in HTML & CSS",
+        "url": "https://tobiasahlin.com/typesource/",
+        "img": "design/fonts/typesource.png"
       }
     ]
   }

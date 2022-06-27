@@ -13,6 +13,18 @@
         "description": "The awards of design, creativity and innovation on the internet",
         "url": "https://www.awwwards.com/",
         "img": "design/inspiration/awwwards.jpg"
+      },
+      {
+        "name": "Moving Letters",
+        "description": "Text animations with source code",
+        "url": "https://tobiasahlin.com/moving-letters/",
+        "img": "design/inspiration/moving-letters.png"
+      },
+      {
+        "name": "Spinkit",
+        "description": "Simple loading spinners animated with CSS",
+        "url": "https://tobiasahlin.com/spinkit/",
+        "img": "design/inspiration/spinkit.png"
       }
     ]
   }
