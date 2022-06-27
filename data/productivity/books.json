@@ -7,6 +7,18 @@
         "description": "Guide on how to change your habits and get 1% better every day",
         "url": "https://jamesclear.com/atomic-habits",
         "img": "productivity/books/atomic-habits.png"
+      },
+      {
+        "name": "Scrum: The Art of Doing Twice the Work in Half the Time",
+        "description": "Looks at the scrum project management system popular in the technology industry, and how it may be implemented in other fields to increase productivity through customer feedback and a process of constant reiteration",
+        "url": "https://www.goodreads.com/book/show/19288230-scrum",
+        "img": "productivity/books/scrum.png"
+      },
+      {
+        "name": "The Subtle Art of Not Giving a Fuck",
+        "description": "Self improvement book",
+        "url": "https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck",
+        "img": "productivity/books/the-subtle-art-of-not-giving-a-fuck.png"
       }
     ]
   }

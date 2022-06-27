@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Collection from "../../components/Collection"
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 
 export default function Post(props: any) {
@@ -29,6 +30,7 @@ export default function Post(props: any) {
               <h2>Coding</h2>
               <Link href="/coding/books">Books</Link>
               <Link href="/coding/practice">Practice</Link>
+              <Link href="/coding/ideas">Project Ideas</Link>
               <Link href="/coding/vscode-extensions">VS-Code Extensions</Link>
             </div>
           </div>
@@ -47,6 +49,8 @@ export default function Post(props: any) {
           </div>
         </div>
       </div>
+
+      <Footer />
 
 
       <style>{`
@@ -198,6 +202,13 @@ export async function getStaticPaths() {
         {
           genre: 'coding',
           id: 'practice'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'coding',
+          id: 'ideas'
         }
       },
       {
