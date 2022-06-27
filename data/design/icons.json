@@ -37,6 +37,18 @@
         "description": "Icon library and toolkit",
         "url": "https://fontawesome.com/",
         "img": "design/icons/fontawesome.png"
+      },
+      {
+        "name": "Iconfinder",
+        "description": "A free platform for download vector icons in SVG, PNG, EPS, AI & PSD format",
+        "url": "https://www.iconfinder.com/",
+        "img": "design/icons/iconfinder.png"
+      },
+      {
+        "name": "Polaris Icons",
+        "description": "A collection of simple and informative icons that draw on the visual language of the Polaris design system",
+        "url": "https://polaris-icons.shopify.com/",
+        "img": "design/icons/polaris-icons.png"
       }
     ]
   }

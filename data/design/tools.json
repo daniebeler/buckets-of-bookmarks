@@ -31,6 +31,18 @@
         "description": "Design tool",
         "url": "https://zeplin.io/",
         "img": "design/tools/zeplin.png"
+      },
+      {
+        "name": "Remix",
+        "description": "Transform any link, tweet, or product into beautiful Instagram content",
+        "url": "https://buffer.com/remix",
+        "img": "design/tools/remix.png"
+      },
+      {
+        "name": "Canva",
+        "description": "Online design tool",
+        "url": "https://www.canva.com/",
+        "img": "design/tools/canva.jpg"
       }
     ]
   }

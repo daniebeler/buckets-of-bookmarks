@@ -16,6 +16,7 @@ export default function Post(props: any) {
             <div className="sidebar">
               <h2>Design</h2>
               <Link href="/design/colors">Colors</Link>
+              <Link href="/design/fonts">Fonts</Link>
               <Link href="/design/icons">Icons</Link>
               <Link href="/design/illustrations">Illustrations</Link>
               <Link href="/design/stock-photos">Stock Photos</Link>
@@ -162,6 +163,13 @@ export async function getStaticPaths() {
         {
           genre: 'design',
           id: 'stock-photos'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'design',
+          id: 'fonts'
         }
       },
       {

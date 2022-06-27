@@ -1,0 +1,25 @@
+{
+  "data": {
+    "name": "Fonts",
+    "items": [
+      {
+        "name": "Fontjoy",
+        "description": "Font pairing made simple",
+        "url": "https://fontjoy.com/",
+        "img": "design/fonts/fontjoy.jpg"
+      },
+      {
+        "name": "Google Fonts",
+        "description": "Open source fonts",
+        "url": "https://fonts.google.com/",
+        "img": "design/fonts/google-fonts.png"
+      },
+      {
+        "name": "Tiff",
+        "description": "Visually contrast the differences between two fonts",
+        "url": "https://tiff.herokuapp.com/",
+        "img": "design/fonts/tiff.png"
+      }
+    ]
+  }
+}

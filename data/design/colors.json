@@ -13,6 +13,12 @@
         "description": "Curated colors in context",
         "url": "https://color.adobe.com/explore",
         "img": "design/colors/adobe-color.png"
+      },
+      {
+        "name": "Coolors",
+        "description": "Color palettes generator",
+        "url": "https://coolors.co/",
+        "img": "design/colors/coolors.webp"
       }
     ]
   }
