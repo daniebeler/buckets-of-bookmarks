@@ -1,6 +1,6 @@
 {
   "data": {
-    "name": "Fonts",
+    "name": "Typography",
     "items": [
       {
         "name": "Fontjoy",
@@ -25,6 +25,36 @@
         "description": "Google Web Font inspiration in HTML & CSS",
         "url": "https://tobiasahlin.com/typesource/",
         "img": "design/fonts/typesource.png"
+      },
+      {
+        "name": "Font Squirrel",
+        "description": "Free fonts for commercial use",
+        "url": "https://www.fontsquirrel.com/",
+        "img": "design/fonts/font-squirrel.png"
+      },
+      {
+        "name": "Cufon Fonts",
+        "description": "Free font collections",
+        "url": "https://www.cufonfonts.com/",
+        "img": "design/fonts/cufon-fonts.png"
+      },
+      {
+        "name": "Font Bundles",
+        "description": "Free fonts for commercial use",
+        "url": "https://fontbundles.net/free-fonts",
+        "img": "design/fonts/font-bundles.png"
+      },
+      {
+        "name": "Urban Fonts",
+        "description": "Free and premium fonts",
+        "url": "https://www.urbanfonts.com/",
+        "img": "design/fonts/urban-fonts.png"
+      },
+      {
+        "name": "Font Fabric",
+        "description": "High-Quality fonts",
+        "url": "https://www.fontfabric.com/free-fonts/",
+        "img": "design/fonts/fontfabric.png"
       }
     ]
   }

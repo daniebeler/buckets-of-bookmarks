@@ -5,10 +5,10 @@ const Navbar = () => {
     <div className="navbar-wrapper">
       <div className="d-none d-sm-block">
         <div className="header">
-          <div className="row">
+          <div className="row h-100 d-flex align-items-center">
             <div className="col">
               <Link href="/">
-                <h4 className="m-0 headline">Collections</h4>
+                <h4 className="m-0 p-0 headline">Buckets of Bookmarks</h4>
               </Link>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="sidebar">
               <h2>Design</h2>
               <Link href="/design/colors">Colors</Link>
-              <Link href="/design/fonts">Fonts</Link>
+              <Link href="/design/fonts">Typography</Link>
               <Link href="/design/icons">Icons</Link>
               <Link href="/design/illustrations">Illustrations</Link>
               <Link href="/design/stock-photos">Stock Photos</Link>

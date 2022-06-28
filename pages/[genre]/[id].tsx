@@ -17,8 +17,9 @@ export default function Post(props: any) {
             <div className="sidebar">
               <h2>Design</h2>
               <Link href="/design/colors">Colors</Link>
-              <Link href="/design/fonts">Fonts</Link>
+              <Link href="/design/fonts">Typography</Link>
               <Link href="/design/icons">Icons</Link>
+              <Link href="/design/systems">Design Systems</Link>
               <Link href="/design/illustrations">Illustrations</Link>
               <Link href="/design/stock-photos">Stock Photos</Link>
               <Link href="/design/best-practices">Best Practices</Link>
@@ -37,15 +38,15 @@ export default function Post(props: any) {
           <div className="col-12 col-sm-9">
             <div className="content">
               <div className="container-fluid header-wrapper">
-              <div className="container">
-                <h1 className="text-center">{props.data.name}</h1>
-                {/* <h1 className="text-center">Collection</h1> */}
+                <div className="container">
+                  <h1 className="text-center">{props.data.name}</h1>
+                  {/* <h1 className="text-center">Collection</h1> */}
+                </div>
               </div>
+
+              <Collection data={props.data.items} />
             </div>
 
-            <Collection data={props.data.items} />
-            </div>
-            
           </div>
         </div>
       </div>
@@ -145,6 +146,13 @@ export async function getStaticPaths() {
         {
           genre: 'design',
           id: 'inspiration'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'design',
+          id: 'systems'
         }
       },
       {

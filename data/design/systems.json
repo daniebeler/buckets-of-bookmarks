@@ -1,0 +1,73 @@
+{
+  "data": {
+    "name": "Design Systems",
+    "items": [
+      {
+        "name": "Material Design",
+        "description": "By Google",
+        "url": "https://m3.material.io/",
+        "img": "design/systems/material-design.png"
+      },
+      {
+        "name": "Human Interface Guidelines",
+        "description": "By Apple",
+        "url": "https://developer.apple.com/design/human-interface-guidelines/guidelines/overview/",
+        "img": "design/systems/human-interface-design.png"
+      },
+      {
+        "name": "Fluent Design System",
+        "description": "By Microsoft",
+        "url": "https://www.microsoft.com/design/fluent/#/",
+        "img": "design/systems/fluent.png"
+      },
+      {
+        "name": "Carbon Design System",
+        "description": "By IBM",
+        "url": "https://carbondesignsystem.com/",
+        "img": "design/systems/carbon.png"
+      },
+      {
+        "name": "Airbnb Design",
+        "description": "By Airbnb",
+        "url": "https://airbnb.design/building-a-visual-language/",
+        "img": "design/systems/airbnb-design.png"
+      },
+      {
+        "name": "Spectrum",
+        "description": "By Adobe",
+        "url": "https://spectrum.adobe.com/",
+        "img": "design/systems/adobe-spectrum.png"
+      },
+      {
+        "name": "Audi Design",
+        "description": "By Audi",
+        "url": "https://www.audi.com/ci/en/guides/user-interface/introduction.html",
+        "img": "design/systems/audi-design.png"
+      },
+      {
+        "name": "Lightning Design",
+        "description": "By Salesforce",
+        "url": "https://www.lightningdesignsystem.com/",
+        "img": "design/systems/lightning-design.png"
+      },
+      {
+        "name": "Evergreen",
+        "description": "By Segment",
+        "url": "https://evergreen.segment.com/",
+        "img": "design/systems/evergreen.png"
+      },
+      {
+        "name": "Polaris",
+        "description": "By Shopify",
+        "url": "https://polaris.shopify.com/",
+        "img": "design/systems/polaris.png"
+      },
+      {
+        "name": "Atlassian Design System",
+        "description": "By Atlassian",
+        "url": "https://atlassian.design/",
+        "img": "design/systems/atlassian.png"
+      }
+    ]
+  }
+}
