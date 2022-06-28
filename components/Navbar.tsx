@@ -17,26 +17,39 @@ const Navbar = () => {
 
       <div className="d-block d-sm-none">
         <input type="checkbox" id="active" />
-        <label htmlFor="active" className="menu-btn">fief</label>
+        
 
         <div className="header">
-          <div className="row">
+          <div className="row h-100 d-flex align-items-center">
             <div className="col">
               <Link href="/">
-                <h4 className="m-0 headline">Collections</h4>
+                <h4 className="m-0 p-0 headline">Collections</h4>
               </Link>
             </div>
           </div>
         </div>
 
-
+        <label htmlFor="active" className="menu-btn">X</label>
         <div className="wrapper-mobile">
-          <ul className="menu">
-            <li>Fuuf</li>
-            <li>Fuuf</li>
-            <li>Fuuf</li>
-            <li>Fuuf</li>
-          </ul>
+        <div className="sidebar">
+              <h2>Design</h2>
+              <Link href="/design/colors">Colors</Link>
+              <Link href="/design/fonts">Fonts</Link>
+              <Link href="/design/icons">Icons</Link>
+              <Link href="/design/illustrations">Illustrations</Link>
+              <Link href="/design/stock-photos">Stock Photos</Link>
+              <Link href="/design/best-practices">Best Practices</Link>
+              <Link href="/design/inspiration">Inspiration</Link>
+              <Link href="/design/tools">Tools</Link>
+              <h2>Productivity</h2>
+              <Link href="/productivity/tools">Tools</Link>
+              <Link href="/productivity/books">Books</Link>
+              <h2>Coding</h2>
+              <Link href="/coding/books">Books</Link>
+              <Link href="/coding/practice">Practice</Link>
+              <Link href="/coding/ideas">Project Ideas</Link>
+              <Link href="/coding/vscode-extensions">VS-Code Extensions</Link>
+            </div>
         </div>
       </div>
 
@@ -53,11 +66,13 @@ const Navbar = () => {
       .header {
         background: rgba(255, 255, 255, 0.5);
         border-radius: 15px;
+        height: 45px;
       }
 
       .headline {
         text-align: center;
-        padding: 10px;
+        padding: 0;
+
       }
 
       .wrapper-mobile {
@@ -67,7 +82,7 @@ const Navbar = () => {
         height: 100%;
         width: 100%;
         background: linear-gradient(to bottom right, #ccc, #b1aee7);
-        clip-path: circle(20px at calc(100% - 45px) 65px);
+        clip-path: circle(22px at calc(100% - 45px) 65px);
         transition: all 0.3s ease-in-out;
       }
 
@@ -76,15 +91,45 @@ const Navbar = () => {
       }
 
       .menu-btn {
-        position: absolute;
-        right: 30px;
-        top: 20px;
+        position: fixed;
+        right: 24px;
+        top: 45px;
         z-index: 2;
+        text-align: center;
+        height: 45px;
+        width: 45px;
       }
 
       .wrapper-mobile ul li {
         color: #fff;
         text-decoration: none;
+      }
+
+
+      .sidebar {
+        padding: 15px;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.5);
+      }
+      
+      .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+      }
+       
+      .sidebar a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+      
+      .sidebar a:hover:not(.active) {
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
       }
       `}</style>
     </div>

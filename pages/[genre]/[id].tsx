@@ -11,7 +11,7 @@ export default function Post(props: any) {
     <div className="page-wrapper">
       <Navbar />
 
-      <div className="inner-page-wrapper">
+      <div className="inner-page-wrapper w-100">
         <div className="row">
           <div className="col-3 d-none d-sm-block">
             <div className="sidebar">
