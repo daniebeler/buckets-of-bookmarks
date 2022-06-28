@@ -27,7 +27,7 @@ const Card = (props: any) => {
         }
 
         .wrapper {
-          background: rgba(255, 255, 255, 0.5);
+          background: rgba(255, 255, 255, 0.4);
           border-radius: 10px;
           margin: 0;
           height: 100%;

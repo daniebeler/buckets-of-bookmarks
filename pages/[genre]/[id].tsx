@@ -61,7 +61,7 @@ export default function Post(props: any) {
         height: 100%;
         overflow: auto;
         border-radius: 15px;
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.4);
       }
       
       .sidebar a {
@@ -77,7 +77,7 @@ export default function Post(props: any) {
       }
       
       .sidebar a:hover:not(.active) {
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.4);
         border-radius: 10px;
       }
 
@@ -97,7 +97,7 @@ export default function Post(props: any) {
         }
 
         .content {
-          background: rgba(255, 255, 255, 0.5);
+          background: rgba(255, 255, 255, 0.4);
           border-radius: 15px;
         }
 

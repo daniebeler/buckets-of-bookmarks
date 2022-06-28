@@ -36,6 +36,7 @@ const Navbar = () => {
               <Link href="/design/colors">Colors</Link>
               <Link href="/design/fonts">Typography</Link>
               <Link href="/design/icons">Icons</Link>
+              <Link href="/design/systems">Design Systems</Link>
               <Link href="/design/illustrations">Illustrations</Link>
               <Link href="/design/stock-photos">Stock Photos</Link>
               <Link href="/design/best-practices">Best Practices</Link>
