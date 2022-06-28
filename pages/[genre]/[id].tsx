@@ -11,7 +11,7 @@ export default function Post(props: any) {
     <div className="page-wrapper">
       <Navbar />
 
-      <div className="inner-page-wrapper container">
+      <div className="inner-page-wrapper">
         <div className="row">
           <div className="col-3 d-none d-sm-block">
             <div className="sidebar">
@@ -38,8 +38,8 @@ export default function Post(props: any) {
             <div className="content">
               <div className="container-fluid header-wrapper">
               <div className="container">
-                <h1>{props.data.name}</h1>
-                <h1>Collection</h1>
+                <h1 className="text-center">{props.data.name}</h1>
+                {/* <h1 className="text-center">Collection</h1> */}
               </div>
             </div>
 
@@ -81,12 +81,18 @@ export default function Post(props: any) {
       }
 
         .page-wrapper {
-          // background-color: #dcedfc;
           background-image: linear-gradient(to bottom right, #b5d4f6, #b1aee7);
+          padding: 0 24px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
 
         .inner-page-wrapper {
           padding: 20px 0px;
+          max-width: 1140px;
+          display: flex;
+          flex-direction: column;
         }
 
         .content {

@@ -4,12 +4,12 @@ const Footer = () => {
   return (
     <div className="footer-wrapper">
       <div>
-        <div className="footer container">
+        <div className="footer">
           <div className="row">
             <div className="col">
               <p className="m-0 headline">Developed by
-                <Link className="link" href="https://daniebeler.com">
-                  <strong> Daniel Hiebeler</strong>
+                <Link href="https://daniebeler.com">
+                  <strong className="link"> Daniel Hiebeler</strong>
                 </Link>
               </p>
             </div>
@@ -21,6 +21,10 @@ const Footer = () => {
 
       .footer-wrapper {
         padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1140px;
       }
 
       .footer {
@@ -33,7 +37,7 @@ const Footer = () => {
         padding: 10px
       }
 
-      .link:hover {
+      .link {
         cursor: pointer;
       }
       `}</style>
