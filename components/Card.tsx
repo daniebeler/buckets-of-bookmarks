@@ -42,6 +42,7 @@ const Card = (props: any) => {
           width: 80px;
           height: 80px;
           border-radius: 8px;
+          margin-bottom: 8px;
         }
 
         a {

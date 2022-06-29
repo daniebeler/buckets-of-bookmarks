@@ -7,9 +7,7 @@ const Navbar = () => {
         <div className="header">
           <div className="row h-100 d-flex align-items-center">
             <div className="col">
-              <Link href="/">
-                <h4 className="m-0 p-0 headline">Buckets of Bookmarks</h4>
-              </Link>
+              <h4 className="m-0 p-0 headline">Buckets of Bookmarks</h4>
             </div>
           </div>
         </div>
@@ -17,40 +15,38 @@ const Navbar = () => {
 
       <div className="d-block d-sm-none">
         <input type="checkbox" id="active" />
-        
+
 
         <div className="header">
           <div className="row h-100 d-flex align-items-center">
             <div className="col">
-              <Link href="/">
-                <h4 className="m-0 p-0 headline">Collections</h4>
-              </Link>
+              <h4 className="m-0 p-0 headline">Buckets of Bookmarks</h4>
             </div>
           </div>
         </div>
 
         <label htmlFor="active" className="menu-btn">X</label>
         <div className="wrapper-mobile">
-        <div className="sidebar">
-              <h2>Design</h2>
-              <Link href="/design/colors">Colors</Link>
-              <Link href="/design/fonts">Typography</Link>
-              <Link href="/design/icons">Icons</Link>
-              <Link href="/design/systems">Design Systems</Link>
-              <Link href="/design/illustrations">Illustrations</Link>
-              <Link href="/design/stock-photos">Stock Photos</Link>
-              <Link href="/design/best-practices">Best Practices</Link>
-              <Link href="/design/inspiration">Inspiration</Link>
-              <Link href="/design/tools">Tools</Link>
-              <h2>Productivity</h2>
-              <Link href="/productivity/tools">Tools</Link>
-              <Link href="/productivity/books">Books</Link>
-              <h2>Coding</h2>
-              <Link href="/coding/books">Books</Link>
-              <Link href="/coding/practice">Practice</Link>
-              <Link href="/coding/ideas">Project Ideas</Link>
-              <Link href="/coding/vscode-extensions">VS-Code Extensions</Link>
-            </div>
+          <div className="sidebar">
+            <h2>Design</h2>
+            <Link href="/design/colors">Colors</Link>
+            <Link href="/design/fonts">Typography</Link>
+            <Link href="/design/icons">Icons</Link>
+            <Link href="/design/systems">Design Systems</Link>
+            <Link href="/design/illustrations">Illustrations</Link>
+            <Link href="/design/stock-photos">Stock Photos</Link>
+            <Link href="/design/best-practices">Best Practices</Link>
+            <Link href="/design/inspiration">Inspiration</Link>
+            <Link href="/design/tools">Tools</Link>
+            <h2>Productivity</h2>
+            <Link href="/productivity/tools">Tools</Link>
+            <Link href="/productivity/books">Books</Link>
+            <h2>Coding</h2>
+            <Link href="/coding/books">Books</Link>
+            <Link href="/coding/practice">Practice</Link>
+            <Link href="/coding/ideas">Project Ideas</Link>
+            <Link href="/coding/vscode-extensions">VS-Code Extensions</Link>
+          </div>
         </div>
       </div>
 
