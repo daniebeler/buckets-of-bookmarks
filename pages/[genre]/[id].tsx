@@ -9,6 +9,10 @@ export default function Post(props: any) {
 
   return (
     <div className="page-wrapper">
+
+      <div className="bg" style={{backgroundImage: `url('https://images.unsplash.com/photo-1557683311-eac922347aa1')`}}>
+
+      </div>
       <Navbar />
 
       <div className="inner-page-wrapper w-100">
@@ -55,6 +59,17 @@ export default function Post(props: any) {
 
 
       <style>{`
+
+      .bg {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+      }
+
       .sidebar {
         padding: 15px;
         width: 100%;
@@ -82,7 +97,7 @@ export default function Post(props: any) {
       }
 
         .page-wrapper {
-          background-image: linear-gradient(to bottom right, #b5d4f6, #b1aee7);
+          // background-image: linear-gradient(to bottom right, #b5d4f6, #b1aee7);
           padding: 0 24px;
           display: flex;
           flex-direction: column;
