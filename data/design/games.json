@@ -1,0 +1,31 @@
+{
+  "data": {
+    "name": "Design Games",
+    "items": [
+      {
+        "name": "The Bézier Game",
+        "description": "A game to help you master the pen tool",
+        "url": "https://bezier.method.ac/",
+        "img": "design/games/the-bezier-game.png"
+      },
+      {
+        "name": "Kerntype",
+        "description": "A letter spacing game",
+        "url": "https://type.method.ac/",
+        "img": "design/games/kerntype.png"
+      },
+      {
+        "name": "Flexbox Froggy",
+        "description": "Learn CSS",
+        "url": "https://flexboxfroggy.com/",
+        "img": "design/games/flexbox-froggy.png"
+      },
+      {
+        "name": "Color",
+        "description": "A color matching game#",
+        "url": "https://color.method.ac/",
+        "img": "design/games/color.png"
+      }
+    ]
+  }
+}

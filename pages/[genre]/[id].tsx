@@ -17,11 +17,12 @@ export default function Post(props: any) {
 
       <div className="inner-page-wrapper w-100">
         <div className="row">
-          <div className="col-3 d-none d-sm-block">
+          <div className="col-5 col-md-3 d-none d-sm-block">
             <div className="sidebar">
-              <h2>Design</h2>
+              <h4 className="category">Design</h4>
               <Link href="/design/colors">Colors</Link>
               <Link href="/design/fonts">Typography</Link>
+              <Link href="/design/games">Games</Link>
               <Link href="/design/icons">Icons</Link>
               <Link href="/design/systems">Design Systems</Link>
               <Link href="/design/illustrations">Illustrations</Link>
@@ -29,17 +30,19 @@ export default function Post(props: any) {
               <Link href="/design/best-practices">Best Practices</Link>
               <Link href="/design/inspiration">Inspiration</Link>
               <Link href="/design/tools">Tools</Link>
-              <h2>Productivity</h2>
+              <h4 className="category">Entrepreneurship</h4>
+              <Link href="/entrepreneurship/movies">Movies</Link>
+              <h4 className="category">Productivity</h4>
               <Link href="/productivity/tools">Tools</Link>
               <Link href="/productivity/books">Books</Link>
-              <h2>Coding</h2>
+              <h4 className="category">Coding</h4>
               <Link href="/coding/books">Books</Link>
               <Link href="/coding/practice">Practice</Link>
               <Link href="/coding/ideas">Project Ideas</Link>
               <Link href="/coding/vscode-extensions">VS-Code Extensions</Link>
             </div>
           </div>
-          <div className="col-12 col-sm-9">
+          <div className="col-12 col-sm-7 col-md-9">
             <div className="content">
               <div className="container-fluid header-wrapper">
                 <div className="container">
@@ -59,6 +62,10 @@ export default function Post(props: any) {
 
 
       <style>{`
+
+      .category {
+        padding-left: 16px;
+      }
 
       .bg {
         background-repeat: no-repeat;
@@ -160,6 +167,13 @@ export async function getStaticPaths() {
         params:
         {
           genre: 'design',
+          id: 'games'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'design',
           id: 'inspiration'
         }
       },
@@ -203,6 +217,13 @@ export async function getStaticPaths() {
         {
           genre: 'design',
           id: 'fonts'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'entrepreneurship',
+          id: 'movies'
         }
       },
       {

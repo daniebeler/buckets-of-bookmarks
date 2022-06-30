@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
 
       <div className="d-block d-sm-none">
-        <input type="checkbox" id="active" />
+        <input className="checkb" type="checkbox" id="active" />
 
 
         <div className="header">
@@ -22,15 +22,18 @@ const Navbar = () => {
             <div className="col">
               <h4 className="m-0 p-0 headline">Buckets of Bookmarks</h4>
             </div>
+
           </div>
         </div>
 
-        <label htmlFor="active" className="menu-btn">X</label>
+        
         <div className="wrapper-mobile">
+        <label htmlFor="active" className="menu-btn">X</label>
           <div className="sidebar">
             <h2>Design</h2>
             <Link href="/design/colors">Colors</Link>
             <Link href="/design/fonts">Typography</Link>
+            <Link href="/design/games">Games</Link>
             <Link href="/design/icons">Icons</Link>
             <Link href="/design/systems">Design Systems</Link>
             <Link href="/design/illustrations">Illustrations</Link>
@@ -38,6 +41,8 @@ const Navbar = () => {
             <Link href="/design/best-practices">Best Practices</Link>
             <Link href="/design/inspiration">Inspiration</Link>
             <Link href="/design/tools">Tools</Link>
+            <h2>Entrepreneurship</h2>
+              <Link href="/entrepreneurship/movies">Movies</Link>
             <h2>Productivity</h2>
             <Link href="/productivity/tools">Tools</Link>
             <Link href="/productivity/books">Books</Link>
@@ -51,6 +56,10 @@ const Navbar = () => {
       </div>
 
       <style>{`
+
+      .checkb {
+        display: none;
+      }
 
       .navbar-wrapper {
         padding-top: 20px;
@@ -78,7 +87,8 @@ const Navbar = () => {
         left: 0;
         height: 100%;
         width: 100%;
-        background: linear-gradient(to bottom right, #ccc, #b1aee7);
+        // background: linear-gradient(to bottom right, #ccc, #b1aee7);
+        background: #fff;
         clip-path: circle(22px at calc(100% - 45px) 65px);
         transition: all 0.3s ease-in-out;
       }

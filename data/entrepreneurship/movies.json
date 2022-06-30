@@ -1,0 +1,13 @@
+{
+    "data": {
+      "name": "Movies",
+      "items": [
+        {
+          "name": "The Founder",
+          "description": "About the Founder of McDonald's",
+          "url": "https://www.imdb.com/title/tt4276820/",
+          "img": "entrepreneurship/movies/the-founder.png"
+        }
+      ]
+    }
+  }
