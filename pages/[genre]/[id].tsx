@@ -10,7 +10,7 @@ export default function Post(props: any) {
   return (
     <div className="page-wrapper">
 
-      <div className="bg" style={{backgroundImage: `url('https://images.unsplash.com/photo-1557683311-eac922347aa1')`}}>
+      <div className="bg">
 
       </div>
       <Navbar />
@@ -68,9 +68,7 @@ export default function Post(props: any) {
       }
 
       .bg {
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
         position: fixed;
         width: 100vw;
         height: 100vh;
