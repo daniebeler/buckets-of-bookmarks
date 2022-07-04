@@ -1,24 +1,29 @@
-import Link from 'next/link'
+import Image from 'next/image'
 
 const Card = (props: any) => {
   return (
     <div className='outer-wrapper'>
       <div className='wrapper'>
         <div className="row">
-        <div className="col">
-          <img src={'/images/' + props.img} alt="" />
+          <div className="col">
+            <Image
+              src={'/images/' + props.img}
+              alt=""
+              width={80}
+              height={80}
+            />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <a target="_blank" href={props.url} rel="noreferrer">
+              <h2 className='name'>{props.name}</h2>
+            </a>
+            <p className='m-0'>{props.description}</p>
+          </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col">
-          <a target="_blank" href={props.url} rel="noreferrer">
-            <h2 className='name'>{props.name}</h2>
-          </a>
-          <p className='m-0'>{props.description}</p>
-        </div>
-      </div>
-      </div>
-      
+
 
       <style>{`
         .outer-wrapper {
