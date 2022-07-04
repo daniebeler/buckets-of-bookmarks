@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import Collection from "../../components/Collection"
 import Footer from "../../components/Footer";
@@ -9,6 +10,15 @@ export default function Post(props: any) {
 
   return (
     <div className="page-wrapper">
+
+      <Head>
+        <title>Buckets Of Bookmarks</title>
+        <meta
+          name="description"
+          content="Categorized collections of useful websites and tools"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
       <div className="bg">
 
@@ -47,7 +57,6 @@ export default function Post(props: any) {
               <div className="container-fluid header-wrapper">
                 <div className="container">
                   <h1 className="text-center">{props.data.name}</h1>
-                  {/* <h1 className="text-center">Collection</h1> */}
                 </div>
               </div>
 
