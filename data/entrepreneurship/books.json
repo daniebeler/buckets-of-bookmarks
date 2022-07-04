@@ -1,0 +1,13 @@
+{
+  "data": {
+    "name": "Books",
+    "items": [
+      {
+        "name": "How to move to NYC",
+        "description": "Guide on how to move to New York City",
+        "url": "https://letsgoto.nyc/",
+        "img": "entrepreneurship/books/how-to-move-to-nyc.png"
+      }
+    ]
+  }
+}

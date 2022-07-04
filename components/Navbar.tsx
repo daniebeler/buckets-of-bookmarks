@@ -26,9 +26,9 @@ const Navbar = () => {
           </div>
         </div>
 
-        
+
         <div className="wrapper-mobile">
-        <label htmlFor="active" className="menu-btn">X</label>
+          <label htmlFor="active" className="menu-btn">X</label>
           <div className="sidebar">
             <h2>Design</h2>
             <Link href="/design/colors">Colors</Link>
@@ -42,7 +42,8 @@ const Navbar = () => {
             <Link href="/design/inspiration">Inspiration</Link>
             <Link href="/design/tools">Tools</Link>
             <h2>Entrepreneurship</h2>
-              <Link href="/entrepreneurship/movies">Movies</Link>
+            <Link href="/entrepreneurship/movies">Movies</Link>
+            <Link href="/entrepreneurship/books">Books</Link>
             <h2>Productivity</h2>
             <Link href="/productivity/tools">Tools</Link>
             <Link href="/productivity/books">Books</Link>

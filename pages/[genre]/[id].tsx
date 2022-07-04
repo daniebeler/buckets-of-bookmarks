@@ -42,6 +42,7 @@ export default function Post(props: any) {
               <Link href="/design/tools">Tools</Link>
               <h4 className="category">Entrepreneurship</h4>
               <Link href="/entrepreneurship/movies">Movies</Link>
+              <Link href="/entrepreneurship/books">Books</Link>
               <h4 className="category">Productivity</h4>
               <Link href="/productivity/tools">Tools</Link>
               <Link href="/productivity/books">Books</Link>
@@ -231,6 +232,13 @@ export async function getStaticPaths() {
         {
           genre: 'entrepreneurship',
           id: 'movies'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'entrepreneurship',
+          id: 'books'
         }
       },
       {
