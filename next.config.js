@@ -9,6 +9,10 @@ const nextConfig = {
         permanent: true,
       },
     ]
+  },
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
   }
 }
 
