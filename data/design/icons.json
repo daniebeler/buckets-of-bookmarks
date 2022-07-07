@@ -49,6 +49,24 @@
         "description": "A collection of simple and informative icons that draw on the visual language of the Polaris design system",
         "url": "https://polaris-icons.shopify.com/",
         "img": "design/icons/polaris-icons.png"
+      },
+      {
+        "name": "Iconly",
+        "description": "Icons",
+        "url": "https://iconly.pro/",
+        "img": "design/icons/iconly.png"
+      },
+      {
+        "name": "Iconsax",
+        "description": "Official icons of the Vuesax framework",
+        "url": "https://iconsax.io/",
+        "img": "design/icons/iconsax.png"
+      },
+      {
+        "name": "Noun Project",
+        "description": "Icons and Photos For Everything",
+        "url": "https://thenounproject.com/",
+        "img": "design/icons/nounproject.png"
       }
     ]
   }

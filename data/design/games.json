@@ -22,9 +22,21 @@
       },
       {
         "name": "Color",
-        "description": "A color matching game#",
+        "description": "A color matching game",
         "url": "https://color.method.ac/",
         "img": "design/games/color.png"
+      },
+      {
+        "name": "Pixactly",
+        "description": "An online tool that tests how well you know your pixels",
+        "url": "https://pixact.ly/",
+        "img": "design/games/pixactly.png"
+      },
+      {
+        "name": "Kolor",
+        "description": "Try to guess the color as fast as possible!",
+        "url": "https://kolor.moro.es/",
+        "img": "design/games/kolor.png"
       }
     ]
   }

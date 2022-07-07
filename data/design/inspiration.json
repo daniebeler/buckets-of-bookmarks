@@ -25,6 +25,18 @@
         "description": "Simple loading spinners animated with CSS",
         "url": "https://tobiasahlin.com/spinkit/",
         "img": "design/inspiration/spinkit.png"
+      },
+      {
+        "name": "Mobbin",
+        "description": "App screens",
+        "url": "https://mobbin.com",
+        "img": "design/inspiration/mobbin.png"
+      },
+      {
+        "name": "Nicelydone",
+        "description": "Library of UX/UI design examples from web apps",
+        "url": "https://nicelydone.club/",
+        "img": "design/inspiration/nicelydone.png"
       }
     ]
   }

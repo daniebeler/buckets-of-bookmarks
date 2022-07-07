@@ -55,6 +55,24 @@
         "description": "High-Quality fonts",
         "url": "https://www.fontfabric.com/free-fonts/",
         "img": "design/fonts/fontfabric.png"
+      },
+      {
+        "name": "Fontshare",
+        "description": "Free fonts service from the Indian Type Foundry",
+        "url": "https://www.fontshare.com/",
+        "img": "design/fonts/fontshare.jpg"
+      },
+      {
+        "name": "Fontspace",
+        "description": "Free downloads of legally licensed fonts",
+        "url": "https://www.fontspace.com/",
+        "img": "design/fonts/fontspace.png"
+      },
+      {
+        "name": "Fontesk",
+        "description": "Free fonts for commercial and personal use",
+        "url": "https://fontesk.com",
+        "img": "design/fonts/fontesk.png"
       }
     ]
   }
