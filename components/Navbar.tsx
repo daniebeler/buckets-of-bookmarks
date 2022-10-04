@@ -41,6 +41,7 @@ const Navbar = () => {
             <Link href="/design/best-practices">Best Practices</Link>
             <Link href="/design/inspiration">Inspiration</Link>
             <Link href="/design/tools">Tools</Link>
+            <Link href="/design/ai-art">AI Art</Link>
             <h2>Entrepreneurship</h2>
             <Link href="/entrepreneurship/movies">Movies</Link>
             <Link href="/entrepreneurship/books">Books</Link>

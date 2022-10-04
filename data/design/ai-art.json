@@ -1,0 +1,13 @@
+{
+    "data": {
+      "name": "AI Art",
+      "items": [
+        {
+          "name": "Lexica",
+          "description": "A collection of AI generated images",
+          "url": "https://lexica.art/",
+          "img": "design/ai-art/lexica.png"
+        }
+      ]
+    }
+  }
