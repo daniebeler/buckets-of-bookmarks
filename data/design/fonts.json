@@ -6,73 +6,113 @@
         "name": "Fontjoy",
         "description": "Font pairing made simple",
         "url": "https://fontjoy.com/",
-        "img": "design/fonts/fontjoy.jpg"
+        "img": "design/fonts/fontjoy.jpg",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Google Fonts",
         "description": "Open source fonts",
         "url": "https://fonts.google.com/",
-        "img": "design/fonts/google-fonts.png"
+        "img": "design/fonts/google-fonts.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       },
       {
         "name": "Tiff",
         "description": "Visually contrast the differences between two fonts",
         "url": "https://tiff.herokuapp.com/",
-        "img": "design/fonts/tiff.png"
+        "img": "design/fonts/tiff.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "TypeSource",
         "description": "Google Web Font inspiration in HTML & CSS",
         "url": "https://tobiasahlin.com/typesource/",
-        "img": "design/fonts/typesource.png"
+        "img": "design/fonts/typesource.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Font Squirrel",
         "description": "Free fonts for commercial use",
         "url": "https://www.fontsquirrel.com/",
-        "img": "design/fonts/font-squirrel.png"
+        "img": "design/fonts/font-squirrel.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Cufon Fonts",
         "description": "Free font collections",
         "url": "https://www.cufonfonts.com/",
-        "img": "design/fonts/cufon-fonts.png"
+        "img": "design/fonts/cufon-fonts.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Font Bundles",
         "description": "Free fonts for commercial use",
         "url": "https://fontbundles.net/free-fonts",
-        "img": "design/fonts/font-bundles.png"
+        "img": "design/fonts/font-bundles.png",
+        "tags": [
+          { "name": "paid" },
+          { "name": "free" }
+        ]
       },
       {
         "name": "Urban Fonts",
         "description": "Free and premium fonts",
         "url": "https://www.urbanfonts.com/",
-        "img": "design/fonts/urban-fonts.png"
+        "img": "design/fonts/urban-fonts.png",
+        "tags": [
+          { "name": "paid" },
+          { "name": "free" }
+        ]
       },
       {
         "name": "Font Fabric",
         "description": "High-Quality fonts",
         "url": "https://www.fontfabric.com/free-fonts/",
-        "img": "design/fonts/fontfabric.png"
+        "img": "design/fonts/fontfabric.png",
+        "tags": [
+          { "name": "paid" },
+          { "name": "free" }
+        ]
       },
       {
         "name": "Fontshare",
         "description": "Free fonts service from the Indian Type Foundry",
         "url": "https://www.fontshare.com/",
-        "img": "design/fonts/fontshare.jpg"
+        "img": "design/fonts/fontshare.jpg",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Fontspace",
         "description": "Free downloads of legally licensed fonts",
         "url": "https://www.fontspace.com/",
-        "img": "design/fonts/fontspace.png"
+        "img": "design/fonts/fontspace.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Fontesk",
         "description": "Free fonts for commercial and personal use",
         "url": "https://fontesk.com",
-        "img": "design/fonts/fontesk.png"
+        "img": "design/fonts/fontesk.png",
+        "tags": [
+          { "name": "free" }
+        ]
       }
     ]
   }

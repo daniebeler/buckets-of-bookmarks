@@ -6,7 +6,10 @@
           "name": "Lexica",
           "description": "A collection of AI generated images",
           "url": "https://lexica.art/",
-          "img": "design/ai-art/lexica.png"
+          "img": "design/ai-art/lexica.png",
+          "tags": [
+            { "name": "free" }
+          ]
         }
       ]
     }

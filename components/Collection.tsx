@@ -9,7 +9,7 @@ const Collection = (props: any) => {
           {props.data.map((item: any) => {
             return (
               <div key={item.name} className='col-xs-12 col-sm-12 col-md-6 col-lg-4'>
-                <Card name={item.name} description={item.description} url={item.url} img={item.img} />
+                <Card name={item.name} description={item.description} url={item.url} img={item.img} tags={item.tags} />
               </div>
             )
           })}

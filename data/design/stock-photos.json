@@ -6,43 +6,64 @@
         "name": "Unsplash",
         "description": "Stock images",
         "url": "https://unsplash.com/",
-        "img": "design/stock-photos/unsplash.png"
+        "img": "design/stock-photos/unsplash.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
-        "name": "Picspree",
+        "name": "FreeImages",
         "description": "Stock images",
-        "url": "https://picspree.com/",
-        "img": "design/stock-photos/pikspree.png"
+        "url": "https://www.freeimages.com/",
+        "img": "design/stock-photos/pikspree.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Stockvault",
         "description": "Stock images",
         "url": "https://stockvault.net/",
-        "img": "design/stock-photos/stockvault.png"
+        "img": "design/stock-photos/stockvault.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Burst",
         "description": "Stock images",
         "url": "https://burst.shopify.com/",
-        "img": "design/stock-photos/burst.png"
+        "img": "design/stock-photos/burst.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Pixabay",
         "description": "Stock images",
         "url": "https://pixabay.com/",
-        "img": "design/stock-photos/pixabay.png"
+        "img": "design/stock-photos/pixabay.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Freepik",
         "description": "Stock images",
         "url": "https://freepik.com/",
-        "img": "design/stock-photos/freepik.webp"
+        "img": "design/stock-photos/freepik.webp",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Pexels",
         "description": "Stock images",
         "url": "https://www.pexels.com/",
-        "img": "design/stock-photos/pexels.png"
+        "img": "design/stock-photos/pexels.png",
+        "tags": [
+          { "name": "free" }
+        ]
       }
     ]
   }

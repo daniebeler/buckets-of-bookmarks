@@ -6,37 +6,57 @@
         "name": "Dribbble",
         "description": "Social networking platform for digital designers and creatives",
         "url": "https://dribbble.com/",
-        "img": "design/inspiration/dribbble.png"
+        "img": "design/inspiration/dribbble.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Awwwards",
         "description": "The awards of design, creativity and innovation on the internet",
         "url": "https://www.awwwards.com/",
-        "img": "design/inspiration/awwwards.jpg"
+        "img": "design/inspiration/awwwards.jpg",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Moving Letters",
         "description": "Text animations with source code",
         "url": "https://tobiasahlin.com/moving-letters/",
-        "img": "design/inspiration/moving-letters.png"
+        "img": "design/inspiration/moving-letters.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       },
       {
         "name": "Spinkit",
         "description": "Simple loading spinners animated with CSS",
         "url": "https://tobiasahlin.com/spinkit/",
-        "img": "design/inspiration/spinkit.png"
+        "img": "design/inspiration/spinkit.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       },
       {
         "name": "Mobbin",
         "description": "App screens",
         "url": "https://mobbin.com",
-        "img": "design/inspiration/mobbin.png"
+        "img": "design/inspiration/mobbin.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Nicelydone",
         "description": "Library of UX/UI design examples from web apps",
         "url": "https://nicelydone.club/",
-        "img": "design/inspiration/nicelydone.png"
+        "img": "design/inspiration/nicelydone.png",
+        "tags": [
+          { "name": "paid" }
+        ]
       }
     ]
   }

@@ -6,67 +6,103 @@
         "name": "Bootstrap Icons",
         "description": "Free and Open Source icon library",
         "url": "https://icons.getbootstrap.com/",
-        "img": "design/icons/bootstrap-icons.png"
+        "img": "design/icons/bootstrap-icons.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       },
       {
         "name": "Heroicons",
         "description": "Icons by the developers of Tailwind",
         "url": "https://heroicons.com/",
-        "img": "design/icons/heroicons.png"
+        "img": "design/icons/heroicons.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       },
       {
         "name": "Flaticon",
         "description": "More than 7.6M vector icons & stickers ",
         "url": "https://www.flaticon.com/",
-        "img": "design/icons/flaticon.png"
+        "img": "design/icons/flaticon.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Ionicons",
         "description": "Hand-crafted open source icons",
         "url": "https://ionic.io/ionicons",
-        "img": "design/icons/ionicons.png"
+        "img": "design/icons/ionicons.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       },
       {
         "name": "Icons8",
         "description": "Icons, illustrations, photos, music, and design tools",
         "url": "https://icons8.com/",
-        "img": "design/icons/icons8.png"
+        "img": "design/icons/icons8.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Font Awesome",
         "description": "Icon library and toolkit",
         "url": "https://fontawesome.com/",
-        "img": "design/icons/fontawesome.png"
+        "img": "design/icons/fontawesome.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Iconfinder",
         "description": "A free platform for download vector icons in SVG, PNG, EPS, AI & PSD format",
         "url": "https://www.iconfinder.com/",
-        "img": "design/icons/iconfinder.png"
+        "img": "design/icons/iconfinder.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Polaris Icons",
         "description": "A collection of simple and informative icons that draw on the visual language of the Polaris design system",
         "url": "https://polaris-icons.shopify.com/",
-        "img": "design/icons/polaris-icons.png"
+        "img": "design/icons/polaris-icons.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       },
       {
         "name": "Iconly",
         "description": "Icons",
         "url": "https://iconly.pro/",
-        "img": "design/icons/iconly.png"
+        "img": "design/icons/iconly.png",
+        "tags": [
+        ]
       },
       {
         "name": "Iconsax",
         "description": "Official icons of the Vuesax framework",
         "url": "https://iconsax.io/",
-        "img": "design/icons/iconsax.png"
+        "img": "design/icons/iconsax.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Noun Project",
         "description": "Icons and Photos For Everything",
         "url": "https://thenounproject.com/",
-        "img": "design/icons/nounproject.png"
+        "img": "design/icons/nounproject.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       }
     ]
   }

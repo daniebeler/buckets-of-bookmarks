@@ -6,31 +6,46 @@
         "name": "Daily Tasks",
         "description": "The Ivy Lee Method",
         "url": "https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks&hl=en_US&gl=US",
-        "img": "productivity/tools/dailytasks.png"
+        "img": "productivity/tools/dailytasks.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Notion",
         "description": "Workspace",
         "url": "https://www.notion.so",
-        "img": "productivity/tools/notion.png"
+        "img": "productivity/tools/notion.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Habits Garden",
         "description": "Turn boring habits into a fun game to beat procrastination once and for all",
         "url": "https://habitsgarden.com/",
-        "img": "productivity/tools/habitsgarden.png"
+        "img": "productivity/tools/habitsgarden.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Trello",
         "description": "Kanban board",
         "url": "https://trello.com/",
-        "img": "productivity/tools/trello.png"
+        "img": "productivity/tools/trello.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Toggl Track",
         "description": "Time tracking",
         "url": "https://toggl.com/track/",
-        "img": "productivity/tools/toggl-track.png"
+        "img": "productivity/tools/toggl-track.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       }
     ]
   }

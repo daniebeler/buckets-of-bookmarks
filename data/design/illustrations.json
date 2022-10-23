@@ -6,79 +6,121 @@
         "name": "unDraw",
         "description": "Open Source illustrations",
         "url": "https://undraw.co/illustrations",
-        "img": "design/illustrations/undraw.webp"
+        "img": "design/illustrations/undraw.webp",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       },
       {
         "name": "DrawKit",
         "description": "Hand-drawn vector illustration and icon resources",
         "url": "https://drawkit.com",
-        "img": "design/illustrations/drawkit.jpeg"
+        "img": "design/illustrations/drawkit.jpeg",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Growww Kit",
         "description": "Paid illustration resources",
         "url": "https://growwwkit.com/",
-        "img": "design/illustrations/growwwkit.jpg"
+        "img": "design/illustrations/growwwkit.jpg",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Open Stickers",
         "description": "Free illustrations for web and apps",
         "url": "https://openstickers.craftwork.design/",
-        "img": "design/illustrations/openstickers.png"
+        "img": "design/illustrations/openstickers.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       },
       {
         "name": "Humaaans",
         "description": "Mix-&-match illustrations of people with a design library",
         "url": "https://www.humaaans.com/",
-        "img": "design/illustrations/humaaans.gif"
+        "img": "design/illustrations/humaaans.gif",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Open Doodles",
         "description": "A Free Set of Open-Source Illustrations",
         "url": "https://www.opendoodles.com/",
-        "img": "design/illustrations/open-doodles.png"
+        "img": "design/illustrations/open-doodles.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       },
       {
         "name": "Glaze",
         "description": "Royalty-free illustration library",
         "url": "https://www.glazestock.com/",
-        "img": "design/illustrations/glaze.png"
+        "img": "design/illustrations/glaze.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Ouch!",
         "description": "By Icons8",
         "url": "https://icons8.com/illustrations",
-        "img": "design/illustrations/ouch.png"
+        "img": "design/illustrations/ouch.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Skribbl",
         "description": "Premium, Hand-Drawn Illustrations",
         "url": "https://weareskribbl.com/",
-        "img": "design/illustrations/skribbl.png"
+        "img": "design/illustrations/skribbl.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "ui8",
         "description": "Paid Illustrations",
         "url": "https://ui8.net/categories/illustrations",
-        "img": "design/illustrations/ui8.png"
+        "img": "design/illustrations/ui8.png",
+        "tags": [
+          { "name": "paid" }
+        ]
       },
       {
         "name": "Open Peeps",
         "description": "A hand-drawn illustration library",
         "url": "https://www.openpeeps.com/",
-        "img": "design/illustrations/open-peeps.png"
+        "img": "design/illustrations/open-peeps.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       },
       {
         "name": "Pixeltrue",
         "description": "Paid illustration-packs",
         "url": "https://www.pixeltrue.com/packs",
-        "img": "design/illustrations/pixeltrue.png"
+        "img": "design/illustrations/pixeltrue.png",
+        "tags": [
+        ]
       },
       {
         "name": "Absurd Design",
         "description": "Absurd illustrations that make sense",
         "url": "https://absurd.design/",
-        "img": "design/illustrations/absurd-design.png"
+        "img": "design/illustrations/absurd-design.png",
+        "tags": [
+          { "name": "paid" }
+        ]
       }
     ]
   }

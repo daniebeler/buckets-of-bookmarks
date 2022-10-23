@@ -15,9 +15,6 @@ const Links = () => {
       <Link href="/design/inspiration">Inspiration</Link>
       <Link href="/design/tools">Tools</Link>
       <Link href="/design/ai-art">AI Art</Link>
-      <h4 className="category">Entrepreneurship</h4>
-      <Link href="/entrepreneurship/movies">Movies</Link>
-      <Link href="/entrepreneurship/books">Books</Link>
       <h4 className="category">Productivity</h4>
       <Link href="/productivity/tools">Tools</Link>
       <Link href="/productivity/books">Books</Link>

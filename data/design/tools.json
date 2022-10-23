@@ -6,49 +6,73 @@
         "name": "Compressor",
         "description": "Fast & effective image compression",
         "url": "https://compressor.io",
-        "img": "design/tools/compressor.png"
+        "img": "design/tools/compressor.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Chroma",
         "description": "Browser Extension for picking colors and building color palettes",
         "url": "https://chroma.dev",
-        "img": "design/tools/chroma.png"
+        "img": "design/tools/chroma.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "CleanUp",
         "description": "Editing Tool to remove unwanted elements from image",
         "url": "https://cleanup.pictures",
-        "img": "design/tools/cleanup.png"
+        "img": "design/tools/cleanup.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Figma",
         "description": "Design tool",
         "url": "https://www.figma.com/",
-        "img": "design/tools/figma.png"
+        "img": "design/tools/figma.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Zeplin",
         "description": "Design tool",
         "url": "https://zeplin.io/",
-        "img": "design/tools/zeplin.png"
+        "img": "design/tools/zeplin.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Remix",
         "description": "Transform any link, tweet, or product into beautiful Instagram content",
         "url": "https://buffer.com/remix",
-        "img": "design/tools/remix.png"
+        "img": "design/tools/remix.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Canva",
         "description": "Online design tool",
         "url": "https://www.canva.com/",
-        "img": "design/tools/canva.jpg"
+        "img": "design/tools/canva.jpg",
+        "tags": [
+          { "name": "freemium" }
+        ]
       },
       {
         "name": "Toptal Checklist",
         "description": "Web Developer Checklist",
         "url": "https://www.toptal.com/developers/webdevchecklist",
-        "img": "design/tools/toptal-checklist.png"
+        "img": "design/tools/toptal-checklist.png",
+        "tags": [
+          { "name": "free" }
+        ]
       }
     ]
   }

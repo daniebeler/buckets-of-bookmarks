@@ -217,20 +217,6 @@ export async function getStaticPaths() {
       {
         params:
         {
-          genre: 'entrepreneurship',
-          id: 'movies'
-        }
-      },
-      {
-        params:
-        {
-          genre: 'entrepreneurship',
-          id: 'books'
-        }
-      },
-      {
-        params:
-        {
           genre: 'productivity',
           id: 'tools'
         }

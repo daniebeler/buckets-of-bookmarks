@@ -6,37 +6,55 @@
         "name": "The Bézier Game",
         "description": "A game to help you master the pen tool",
         "url": "https://bezier.method.ac/",
-        "img": "design/games/the-bezier-game.png"
+        "img": "design/games/the-bezier-game.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Kerntype",
         "description": "A letter spacing game",
         "url": "https://type.method.ac/",
-        "img": "design/games/kerntype.png"
+        "img": "design/games/kerntype.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Flexbox Froggy",
         "description": "Learn CSS",
         "url": "https://flexboxfroggy.com/",
-        "img": "design/games/flexbox-froggy.png"
+        "img": "design/games/flexbox-froggy.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Color",
         "description": "A color matching game",
         "url": "https://color.method.ac/",
-        "img": "design/games/color.png"
+        "img": "design/games/color.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Pixactly",
         "description": "An online tool that tests how well you know your pixels",
         "url": "https://pixact.ly/",
-        "img": "design/games/pixactly.png"
+        "img": "design/games/pixactly.png",
+        "tags": [
+          { "name": "free" }
+        ]
       },
       {
         "name": "Kolor",
         "description": "Try to guess the color as fast as possible!",
         "url": "https://kolor.moro.es/",
-        "img": "design/games/kolor.png"
+        "img": "design/games/kolor.png",
+        "tags": [
+          { "name": "free" }
+        ]
       }
     ]
   }

@@ -13,6 +13,16 @@ const Card = (props: any) => {
               height={80}
             />
           </div>
+          <div className='col'>
+            {
+              props.tags && props.tags.map((item: any) => {
+                return (
+                  <div key={item.name}>
+                    <p className='m-0 text-blue-600'>{item.name}</p>
+                  </div>
+                )
+              })}
+          </div>
         </div>
         <div className="row">
           <div className="col">
@@ -20,6 +30,8 @@ const Card = (props: any) => {
               <h2 className='name'>{props.name}</h2>
             </a>
             <p className='m-0'>{props.description}</p>
+
+
           </div>
         </div>
       </div>
