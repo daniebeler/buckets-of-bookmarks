@@ -27,13 +27,13 @@ export default function Post(props: any) {
       {/* <Navbar /> */}
 
       <div className="inner-page-wrapper w-100">
-        <div className="row height-screen">
-          <div className="col-5 col-md-3 d-none d-sm-block height-full">
+        <div className="row m-0 height-screen">
+          <div className="col-auto p-0 d-none d-sm-block height-full">
             <div className="sidebar h-full">
               <Links />
             </div>
           </div>
-          <div className="col-12 col-sm-7 col-md-9 height-full">
+          <div className="col p-0 height-full">
             <div className="content h-full">
               <div className="container-fluid flex header-wrapper">
                 <div className="container">
@@ -74,6 +74,10 @@ export default function Post(props: any) {
         height: 100vh;
       }
 
+      .col-sidebar {
+        width: 200px;
+      }
+
       .category {
         padding-left: 16px;
       }
@@ -100,9 +104,10 @@ export default function Post(props: any) {
       }
       
       .sidebar a {
+        font-size: 0.9rem;
         display: block;
         color: black;
-        padding: 16px;
+        padding: 14px;
         text-decoration: none;
       }
        
@@ -117,8 +122,6 @@ export default function Post(props: any) {
       }
 
         .page-wrapper {
-          // background-image: linear-gradient(to bottom right, #b5d4f6, #b1aee7);
-          padding: 0 24px;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -126,7 +129,7 @@ export default function Post(props: any) {
 
         .inner-page-wrapper {
           padding: 0px;
-          max-width: 1140px;
+          // max-width: 1140px;
           display: flex;
           flex-direction: column;
         }
