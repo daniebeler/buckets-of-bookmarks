@@ -24,54 +24,79 @@ export default function Post(props: any) {
       <div className="bg">
 
       </div>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <div className="inner-page-wrapper w-100">
-        <div className="row">
-          <div className="col-5 col-md-3 d-none d-sm-block">
-            <div className="sidebar">
+        <div className="row height-screen">
+          <div className="col-5 col-md-3 d-none d-sm-block height-full">
+            <div className="sidebar h-full">
               <Links />
             </div>
           </div>
-          <div className="col-12 col-sm-7 col-md-9">
-            <div className="content">
-              <div className="container-fluid header-wrapper">
+          <div className="col-12 col-sm-7 col-md-9 height-full">
+            <div className="content h-full">
+              <div className="container-fluid flex header-wrapper">
                 <div className="container">
-                  <h1 className="text-center">{props.data.name}</h1>
+                  <h1 className="text-center headline">{props.data.name}</h1>
                 </div>
               </div>
 
+              {/* <div className="h-full w-100 bg-black filler"> */}
               <Collection data={props.data.items} />
+              {/* </div> */}
+
+              
             </div>
 
           </div>
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
 
 
       <style>{`
+
+      .height-screen {
+        height: 100vh;
+      }
+
+      .height-full {
+        height: 100%;
+      }
+
+      .filler {
+        flex-grow: 1;
+        display: flex;
+      }
+
+      .row-wrapper {
+        height: 100vh;
+      }
 
       .category {
         padding-left: 16px;
       }
 
       .bg {
-        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+        background-color: #3CCF4E;
         position: fixed;
         width: 100vw;
         height: 100vh;
         z-index: -1;
       }
 
+      .headline {
+        color: #fff;
+      }
+
       .sidebar {
         padding: 15px;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         overflow: auto;
-        border-radius: 15px;
-        background: rgba(255, 255, 255, 0.4);
+        // border-radius: 15px;
+        background-color: #fff;
       }
       
       .sidebar a {
@@ -100,15 +125,18 @@ export default function Post(props: any) {
         }
 
         .inner-page-wrapper {
-          padding: 20px 0px;
+          padding: 0px;
           max-width: 1140px;
           display: flex;
           flex-direction: column;
         }
 
         .content {
-          background: rgba(255, 255, 255, 0.4);
+          // background: rgba(255, 255, 255, 0.4);
           border-radius: 15px;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
         }
 
         .header-wrapper {

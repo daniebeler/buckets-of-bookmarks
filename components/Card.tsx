@@ -44,11 +44,16 @@ const Card = (props: any) => {
         }
 
         .wrapper {
-          background: rgba(255, 255, 255, 0.4);
+          // background: rgba(255, 255, 255, 0.4);
+          background-color: #fff;
           border-radius: 10px;
           margin: 0;
           height: 100%;
           padding: 24px;
+        }
+
+        .name {
+          font-size: 1.3rem;
         }
 
         .name:hover {
