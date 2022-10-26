@@ -92,6 +92,8 @@ export default function Post(props: any) {
 
       .headline {
         color: #fff;
+        font-size: 3rem;
+        margin: 0;
       }
 
       .sidebar {
@@ -143,7 +145,7 @@ export default function Post(props: any) {
         }
 
         .header-wrapper {
-          padding: 50px 0 50px 0
+          padding: 100px 0
         }
       `}</style>
     </div>

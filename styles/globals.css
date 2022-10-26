@@ -1,11 +1,26 @@
 @font-face {
-  font-family: 'UbuntuMedium';
-  src: url('../assets/Ubuntu-Medium.ttf');
+  font-family: 'CarosMedium';
+  src: url('../assets/Caros-Medium.otf');
 }
 
 @font-face {
   font-family: 'UbuntuRegular';
   src: url('../assets/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'CarosRegular';
+  src: url('../assets/Caros.otf');
+}
+
+@font-face {
+  font-family: 'CarosBold';
+  src: url('../assets/Caros-Bold.otf');
+}
+
+@font-face {
+  font-family: 'CarosExtraBold';
+  src: url('../assets/Caros-ExtraBold.otf');
 }
 
 html,
@@ -21,9 +36,13 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: UbuntuRegular, sans-serif;
+  font-family: CarosRegular, sans-serif;
 }
 
-h1, h2, h3, h4 {
-  font-family: UbuntuMedium, sans-serif;
+h1 {
+  font-family: CarosExtraBold, sans-serif;
+}
+
+h2, h3, h4 {
+  font-family: CarosBold, sans-serif;
 }

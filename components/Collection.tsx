@@ -29,7 +29,6 @@ const Collection = (props: any) => {
         }
 
         .collection-wrapper {
-          padding-top: 24px;
           padding-bottom: 24px;
         }
       `}</style>
