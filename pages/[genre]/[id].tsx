@@ -1,8 +1,6 @@
 import Head from "next/head";
 import Collection from "../../components/Collection"
-import Footer from "../../components/Footer";
 import Links from "../../components/Links";
-import Navbar from "../../components/Navbar";
 
 export default function Post(props: any) {
 
@@ -24,7 +22,6 @@ export default function Post(props: any) {
       <div className="bg">
 
       </div>
-      {/* <Navbar /> */}
 
       <div className="inner-page-wrapper w-100">
         <div className="row m-0 height-screen">
@@ -40,19 +37,12 @@ export default function Post(props: any) {
                   <h1 className="text-center headline">{props.data.name}</h1>
                 </div>
               </div>
-
-              {/* <div className="h-full w-100 bg-black filler"> */}
               <Collection data={props.data.items} />
-              {/* </div> */}
-
-              
             </div>
 
           </div>
         </div>
       </div>
-
-      {/* <Footer /> */}
 
 
       <style>{`
@@ -84,6 +74,7 @@ export default function Post(props: any) {
 
       .bg {
         background-color: #3CCF4E;
+        background-color: { props.data.name };
         position: fixed;
         width: 100vw;
         height: 100vh;
@@ -101,27 +92,10 @@ export default function Post(props: any) {
         width: 100%;
         height: 100vh;
         overflow: auto;
-        // border-radius: 15px;
         background-color: #fff;
       }
       
-      .sidebar a {
-        font-size: 0.9rem;
-        display: block;
-        color: black;
-        padding: 14px;
-        text-decoration: none;
-      }
-       
-      .sidebar a.active {
-        background-color: #04AA6D;
-        color: white;
-      }
       
-      .sidebar a:hover:not(.active) {
-        background: rgba(255, 255, 255, 0.4);
-        border-radius: 10px;
-      }
 
         .page-wrapper {
           display: flex;
@@ -131,13 +105,11 @@ export default function Post(props: any) {
 
         .inner-page-wrapper {
           padding: 0px;
-          // max-width: 1140px;
           display: flex;
           flex-direction: column;
         }
 
         .content {
-          // background: rgba(255, 255, 255, 0.4);
           border-radius: 15px;
           height: 100%;
           display: flex;
