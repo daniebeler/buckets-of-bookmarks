@@ -76,6 +76,7 @@ const Links = () => {
         background-color: #3CCF4E;
         color: white;
         border-radius: 10px;
+        font-family: CarosExtraBold, sans-serif;
       }
 
       .active:hover {
