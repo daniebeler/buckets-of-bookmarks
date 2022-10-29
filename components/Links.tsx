@@ -34,10 +34,14 @@ const navLinks = [
       { title: 'VS-Code Extensions', path: '/coding/vscode-extensions' },
     ]
   }
-
-
-
 ]
+
+let accentColor = "#000";
+
+function setColor() {
+  return <div style={{ "--accent-color": '#000' } as React.CSSProperties} />
+  // document.documentElement.style.setProperty('--accent-color', '#000');
+}
 
 const Links = () => {
 
@@ -51,11 +55,16 @@ const Links = () => {
             <div key={bucket.name}>
               <h4 className="category">{bucket.name}</h4>
               {
-                bucket.items.map((link) => (
-                  <Link key={link.title} href={link.path} passHref>
-                    <a className={router.asPath === link.path ? "active" : ""}>{link.title}</a>
-                  </Link>
-                ))
+                bucket.items.map(link => {
+                  setColor();
+                  return (
+                    <div key={link.title}>
+                      <Link key={link.title} href={link.path} passHref>
+                        <a className={router.asPath === link.path ? "active" : ""}>{link.title}</a>
+                      </Link>
+                    </div>
+                  )
+                })
               }
             </div>
           )
@@ -64,7 +73,7 @@ const Links = () => {
       <style>{`
        
       .active {
-        background-color: #04AA6D;
+        background-color: #3CCF4E;
         color: white;
         border-radius: 10px;
       }
@@ -82,7 +91,7 @@ const Links = () => {
       }
 
       a:hover:not(.active) {
-        background: #04AA6D;
+        background: #3CCF4E;
         border-radius: 10px;
         color: white;
       }

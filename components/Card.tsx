@@ -49,9 +49,9 @@ const Card = (props: any) => {
         <div className="row">
           <div className="col">
             <a target="_blank" href={props.url} rel="noreferrer">
-              <h2 className='name'>{props.name}</h2>
+              <h2 className='name m-0'>{props.name}</h2>
             </a>
-            <p className='m-0'>{props.description}</p>
+            <p className='m-0 pt-1'>{props.description}</p>
 
 
           </div>

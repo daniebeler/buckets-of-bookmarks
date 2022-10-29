@@ -74,7 +74,7 @@ export default function Post(props: any) {
 
       .bg {
         background-color: #3CCF4E;
-        background-color: { props.data.name };
+        // background-color: { props.data.name };
         position: fixed;
         width: 100vw;
         height: 100vh;
