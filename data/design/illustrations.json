@@ -121,6 +121,16 @@
         "tags": [
           { "name": "paid" }
         ]
+      },
+      {
+        "name": "illustrations",
+        "description": "Open source illustrations kit",
+        "url": "https://illlustrations.co/",
+        "img": "design/illustrations/illustrationsco.svg",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       }
     ]
   }
