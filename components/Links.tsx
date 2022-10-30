@@ -59,8 +59,8 @@ const Links = () => {
                   setColor();
                   return (
                     <div key={link.title}>
-                      <Link key={link.title} href={link.path} passHref>
-                        <a className={router.asPath === link.path ? "active" : ""}>{link.title}</a>
+                      <Link key={link.title} href={link.path} passHref className={router.asPath === link.path ? "active" : ""}>
+                        {link.title}
                       </Link>
                     </div>
                   )
