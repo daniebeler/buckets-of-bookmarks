@@ -36,13 +36,6 @@ const navLinks = [
   }
 ]
 
-let accentColor = "#000";
-
-function setColor() {
-  return <div style={{ "--accent-color": '#000' } as React.CSSProperties} />
-  // document.documentElement.style.setProperty('--accent-color', '#000');
-}
-
 const Links = () => {
 
   const router = useRouter();
@@ -56,7 +49,6 @@ const Links = () => {
               <h4 className="category">{bucket.name}</h4>
               {
                 bucket.items.map(link => {
-                  setColor();
                   return (
                     <div key={link.title}>
                       <Link key={link.title} href={link.path} passHref className={router.asPath === link.path ? "active" : ""}>
@@ -73,7 +65,7 @@ const Links = () => {
       <style>{`
        
       .active {
-        background-color: #3CCF4E;
+        background-color: #111;
         color: white;
         border-radius: 10px;
         font-family: CarosExtraBold, sans-serif;
@@ -92,7 +84,7 @@ const Links = () => {
       }
 
       a:hover:not(.active) {
-        background: #3CCF4E;
+        background: #111;
         border-radius: 10px;
         color: white;
       }

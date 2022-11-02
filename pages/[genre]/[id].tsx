@@ -73,8 +73,7 @@ export default function Post(props: any) {
       }
 
       .bg {
-        background-color: #3CCF4E;
-        // background-color: { props.data.name };
+        background-color: #fff;
         position: fixed;
         width: 100vw;
         height: 100vh;
@@ -82,7 +81,7 @@ export default function Post(props: any) {
       }
 
       .headline {
-        color: #fff;
+        color: #111;
         font-size: 3rem;
         margin: 0;
       }
@@ -92,7 +91,7 @@ export default function Post(props: any) {
         width: 100%;
         height: 100vh;
         overflow: auto;
-        background-color: #fff;
+        background-color: #ebebeb;
       }
       
       

@@ -67,7 +67,6 @@ const Navbar = () => {
         left: 0;
         height: 100%;
         width: 100%;
-        // background: linear-gradient(to bottom right, #ccc, #b1aee7);
         background: #fff;
         clip-path: circle(22px at calc(100% - 45px) 65px);
         transition: all 0.3s ease-in-out;
@@ -90,33 +89,6 @@ const Navbar = () => {
       .wrapper-mobile ul li {
         color: #fff;
         text-decoration: none;
-      }
-
-
-      .sidebar {
-        padding: 15px;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        border-radius: 15px;
-        background: rgba(255, 255, 255, 0.5);
-      }
-      
-      .sidebar a {
-        display: block;
-        color: black;
-        padding: 16px;
-        text-decoration: none;
-      }
-       
-      .sidebar a.active {
-        background-color: #04AA6D;
-        color: white;
-      }
-      
-      .sidebar a:hover:not(.active) {
-        background: rgba(255, 255, 255, 0.5);
-        border-radius: 10px;
       }
       `}</style>
     </div>

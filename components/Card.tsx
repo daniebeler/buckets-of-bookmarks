@@ -68,9 +68,10 @@ const Card = (props: any) => {
         .wrapper {
           background-color: #fff;
           border-radius: 10px;
+          border: #111 solid 2px;
           margin: 0;
           height: 100%;
-          padding: 24px;
+          padding: 20px;
         }
 
         .name {
@@ -85,6 +86,7 @@ const Card = (props: any) => {
           width: 80px;
           height: 80px;
           border-radius: 8px;
+          border: #111 solid 2px;
           margin-bottom: 8px;
         }
 
