@@ -1,13 +1,14 @@
 import Head from "next/head";
 import Collection from "../../components/Collection"
 import Links from "../../components/Links";
+import styles from '../../styles/Home.module.css'
 
 export default function Post(props: any) {
 
   if (!props) return <p>No data</p>
 
   return (
-    <div className="page-wrapper">
+    <div className={styles.page_wrapper}>
 
       <Head>
         <title>Buckets Of Bookmarks</title>
@@ -19,22 +20,18 @@ export default function Post(props: any) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="bg">
-
-      </div>
-
-      <div className="inner-page-wrapper w-100">
-        <div className="row m-0 height-screen">
-          <div className="col-auto p-0 d-none d-sm-block height-full">
-            <div className="sidebar h-full">
+      <div className={styles.inner_page_wrapper + " w-100"}>
+        <div className={"row m-0 " + styles.height_screen}>
+          <div className={"col-auto p-0 d-none d-sm-block " + styles.height_full}>
+            <div className={styles.sidebar + " h-full"}>
               <Links />
             </div>
           </div>
-          <div className="col p-0 height-full">
-            <div className="content h-full">
-              <div className="container-fluid flex header-wrapper">
+          <div className={"col p-0 " + styles.height_full}>
+            <div className={styles.content + " h-full"}>
+              <div className={"container-fluid flex " + styles.header_wrapper}>
                 <div className="container">
-                  <h1 className="text-center headline">{props.data.name}</h1>
+                  <h1 className={"text-center " + styles.headline}>{props.data.name}</h1>
                 </div>
               </div>
               <Collection data={props.data.items} />
@@ -47,77 +44,7 @@ export default function Post(props: any) {
 
       <style>{`
 
-      .height-screen {
-        height: 100vh;
-      }
-
-      .height-full {
-        height: 100%;
-      }
-
-      .filler {
-        flex-grow: 1;
-        display: flex;
-      }
-
-      .row-wrapper {
-        height: 100vh;
-      }
-
-      .col-sidebar {
-        width: 200px;
-      }
-
-      .category {
-        padding-left: 16px;
-      }
-
-      .bg {
-        background-color: #fff;
-        position: fixed;
-        width: 100vw;
-        height: 100vh;
-        z-index: -1;
-      }
-
-      .headline {
-        color: #111;
-        font-size: 3rem;
-        margin: 0;
-      }
-
-      .sidebar {
-        padding: 15px;
-        width: 100%;
-        height: 100vh;
-        overflow: auto;
-        background-color: #ebebeb;
-      }
       
-      
-
-        .page-wrapper {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-
-        .inner-page-wrapper {
-          padding: 0px;
-          display: flex;
-          flex-direction: column;
-        }
-
-        .content {
-          border-radius: 15px;
-          height: 100%;
-          display: flex;
-          flex-direction: column;
-        }
-
-        .header-wrapper {
-          padding: 100px 0
-        }
       `}</style>
     </div>
 

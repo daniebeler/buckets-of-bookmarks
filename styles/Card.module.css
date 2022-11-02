@@ -1,0 +1,35 @@
+.outerwrapper {
+  padding-bottom: 20px;
+  height: 100%
+}
+
+.wrapper {
+  background-color: #fff;
+  border-radius: 10px;
+  border: #111 solid 2px;
+  margin: 0;
+  height: 100%;
+  padding: 20px;
+}
+
+.name {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+.img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  border: #111 solid 2px;
+  margin-bottom: 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

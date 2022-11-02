@@ -1,0 +1,9 @@
+.wrapper_wrapper {
+  flex-grow: 1;
+  display: flex;
+  overflow: scroll;
+}
+
+.collection_wrapper {
+  padding-bottom: 24px;
+}

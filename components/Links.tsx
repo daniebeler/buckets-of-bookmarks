@@ -50,7 +50,7 @@ const Links = () => {
               {
                 bucket.items.map(link => {
                   return (
-                    <div key={link.title}>
+                    <div className="link-wrapper" key={link.title}>
                       <Link key={link.title} href={link.path} passHref className={router.asPath === link.path ? "active" : ""}>
                         {link.title}
                       </Link>
@@ -78,7 +78,7 @@ const Links = () => {
       a {
         font-size: 0.9rem;
         display: block;
-        color: black;
+        color: #111;
         padding: 14px;
         text-decoration: none;
       }
@@ -88,10 +88,12 @@ const Links = () => {
         border-radius: 10px;
         color: white;
       }
+
+      .link-wrapper {
+        margin-bottom: 5px;
+      }
       `}</style>
     </div>
-
-
   )
 }
 
