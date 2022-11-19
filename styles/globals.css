@@ -1,26 +1,21 @@
 @font-face {
-  font-family: 'CarosMedium';
-  src: url('../assets/Caros-Medium.otf');
-}
-
-@font-face {
-  font-family: 'UbuntuRegular';
-  src: url('../assets/Ubuntu-Regular.ttf');
-}
-
-@font-face {
   font-family: 'CarosRegular';
-  src: url('../assets/Caros.otf');
+  src: url('../assets/fonts/Rubik-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'CarosMedium';
+  src: url('../assets/fonts/Rubik-Medium.ttf');
 }
 
 @font-face {
   font-family: 'CarosBold';
-  src: url('../assets/Caros-Bold.otf');
+  src: url('../assets/fonts/Rubik-Bold.ttf');
 }
 
 @font-face {
   font-family: 'CarosExtraBold';
-  src: url('../assets/Caros-ExtraBold.otf');
+  src: url('../assets/fonts/Rubik-ExtraBold.ttf');
 }
 
 html,
@@ -40,9 +35,9 @@ a {
 }
 
 h1 {
-  font-family: CarosExtraBold, sans-serif;
+  font-family: CarosBold, sans-serif;
 }
 
 h2, h3, h4 {
-  font-family: CarosBold, sans-serif;
+  font-family: CarosMedium, sans-serif;
 }
