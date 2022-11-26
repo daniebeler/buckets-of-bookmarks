@@ -3,7 +3,7 @@ import styles from '../styles/Collection.module.css'
 
 const Collection = (props: any) => {
   return (
-    <div className={styles.wrapper_wrapper}>
+    <div>
       <div className={'container-fluid ' + styles.collection_wrapper}>
         <div className='row'>
           {props.data.map((item: any) => {
