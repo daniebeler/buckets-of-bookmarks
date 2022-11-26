@@ -22,7 +22,7 @@ export default function Post(props: any) {
 
       <div className={styles.inner_page_wrapper + " w-100"}>
         <div className={"row m-0 " + styles.height_screen}>
-          <div className={"col-auto p-0 d-none d-sm-block " + styles.height_full}>
+          <div className={"col-12 col-sm-auto p-0 d-block " + styles.height_full}>
             <div className={styles.sidebar + " h-full"}>
               <Links />
             </div>
