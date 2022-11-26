@@ -29,6 +29,7 @@ const navLinks = [
     name: 'Coding',
     items: [
       { title: 'Books', path: '/coding/books' },
+      { title: 'Tools', path: '/coding/tools' },
       { title: 'Practice', path: '/coding/practice' },
       { title: 'Project Ideas', path: '/coding/ideas' },
       { title: 'VS-Code Extensions', path: '/coding/vscode-extensions' },

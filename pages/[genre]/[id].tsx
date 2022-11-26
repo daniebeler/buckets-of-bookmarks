@@ -184,6 +184,13 @@ export async function getStaticPaths() {
         params:
         {
           genre: 'coding',
+          id: 'tools'
+        }
+      },
+      {
+        params:
+        {
+          genre: 'coding',
           id: 'vscode-extensions'
         }
       }

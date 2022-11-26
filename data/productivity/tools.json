@@ -46,6 +46,16 @@
         "tags": [
           { "name": "freemium" }
         ]
+      },
+      {
+        "name": "Kommiuniti",
+        "description": "Task distribution and management",
+        "url": "https://kommiuniti.netlify.app/",
+        "img": "productivity/tools/kommiuniti.svg",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       }
     ]
   }

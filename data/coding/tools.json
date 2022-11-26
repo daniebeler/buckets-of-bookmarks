@@ -1,0 +1,29 @@
+{
+  "data": {
+    "name": "Coding Tools",
+    "items": [
+      {
+        "name": "Visual Studio Code",
+        "description": "Free and powerful code editor",
+        "url": "https://code.visualstudio.com/",
+        "img": "coding/tools/vscode.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Open Source Alternative To",
+        "description": "400+ popular open source alternatives to your proprietary SaaS",
+        "url": "https://www.opensourcealternative.to",
+        "img": "others/internet.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      }
+    ]
+  }
+}
