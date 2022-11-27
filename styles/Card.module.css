@@ -33,3 +33,17 @@
   text-decoration: none;
   color: black;
 }
+
+.a {
+  font-size: 0.9rem;
+  display: block;
+  color: #111;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.a:hover {
+  background: #111;
+  border-radius: 10px;
+  color: white;
+}

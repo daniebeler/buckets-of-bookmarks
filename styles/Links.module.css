@@ -1,0 +1,33 @@
+.link_wrapper {
+  margin-bottom: 5px;
+}
+
+.category {
+  padding-left: 16px;
+}
+
+.a {
+  font-size: 0.9rem;
+  display: block;
+  color: #111;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.a:hover:not(.active) {
+  background: #111;
+  border-radius: 10px;
+  color: white;
+}
+
+.active {
+  background-color: #111;
+  color: white;
+  border-radius: 10px;
+  font-family: CarosExtraBold, sans-serif;
+}
+
+.active:hover {
+  color: white;
+}
+

@@ -24,6 +24,11 @@ body {
   margin: 0;
 }
 
+::selection {
+  background: #111;
+  color: #fff;
+}
+
 a {
   color: inherit;
   text-decoration: none;

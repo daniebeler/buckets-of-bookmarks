@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import styles from '../styles/Links.module.css'
 
 const navLinks = [
   {
@@ -47,12 +48,12 @@ const Links = () => {
         navLinks.map(bucket => {
           return (
             <div key={bucket.name}>
-              <h4 className="category">{bucket.name}</h4>
+              <h4 className={styles.category}>{bucket.name}</h4>
               {
                 bucket.items.map(link => {
                   return (
-                    <div className="link-wrapper" key={link.title}>
-                      <Link key={link.title} href={link.path} passHref className={router.asPath === link.path ? "active" : ""}>
+                    <div className={styles.link_wrapper} key={link.title}>
+                      <Link key={link.title} href={link.path} passHref className={styles.a + ' ' + (router.asPath === link.path ? styles.active : "")}>
                         {link.title}
                       </Link>
                     </div>
@@ -62,38 +63,6 @@ const Links = () => {
             </div>
           )
         })}
-
-      <style>{`
-       
-      .active {
-        background-color: #111;
-        color: white;
-        border-radius: 10px;
-        font-family: CarosExtraBold, sans-serif;
-      }
-
-      .active:hover {
-        color: white;
-      }
-      
-      a {
-        font-size: 0.9rem;
-        display: block;
-        color: #111;
-        padding: 14px;
-        text-decoration: none;
-      }
-
-      a:hover:not(.active) {
-        background: #111;
-        border-radius: 10px;
-        color: white;
-      }
-
-      .link-wrapper {
-        margin-bottom: 5px;
-      }
-      `}</style>
     </div>
   )
 }

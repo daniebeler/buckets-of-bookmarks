@@ -50,14 +50,13 @@ const Card = (props: any) => {
         </div>
         <div className="row">
           <div className="col">
-            <a target="_blank" href={props.url} rel="noreferrer">
+            <a className={styles.a} target="_blank" href={props.url} rel="noreferrer">
               <h2 className={styles.name}>{props.name}</h2>
             </a>
             <p className='m-0 pt-1'>{props.description}</p>
           </div>
         </div>
       </div>
-
 
       <style>{`
         .Polaris-Icon {
