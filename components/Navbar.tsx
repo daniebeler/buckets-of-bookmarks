@@ -1,43 +1,40 @@
+import { useState } from "react";
 import Links from "./Links";
 
 const Navbar = () => {
+
+  const [toggle, setToggle] = useState(false);
+  const toggleMenu = () => setToggle(!toggle);
+
   return (
-    <div className="navbar-wrapper">
-      <div className="d-none d-sm-block">
-        <div className="header">
-          <div className="row h-100 d-flex align-items-center">
+    <div className="navbar-wrapper d-block d-sm-none">
+      <div className="container">
+        <div className="row header d-flex align-items-center">
+          <div className="col">
+            <h4 className="m-0 p-0 headline">Buckets of Bookmarks</h4>
+          </div>
+          <div className="col-auto">
+            <button onClick={toggleMenu}>X</button>
+          </div>
+        </div>
+
+        <div className={toggle ? "show" : "hide"}>
+          <div className="row">
             <div className="col">
-              <h4 className="m-0 p-0 headline">Buckets of Bookmarks</h4>
+              <Links />
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="d-block d-sm-none">
-        <input className="checkb" type="checkbox" id="active" />
-
-
-        <div className="header">
-          <div className="row h-100 d-flex align-items-center">
-            <div className="col">
-              <h4 className="m-0 p-0 headline">Buckets of Bookmarks</h4>
-            </div>
-
-          </div>
-        </div>
-
-
-        <div className="wrapper-mobile">
-          <label htmlFor="active" className="menu-btn">X</label>
-          <div className="sidebar">
-            <Links />
-          </div>
-        </div>
       </div>
 
       <style>{`
 
-      .checkb {
+      .show {
+        display: block;
+      }
+
+      .hide {
         display: none;
       }
 

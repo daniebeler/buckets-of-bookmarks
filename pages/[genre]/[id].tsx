@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Collection from "../../components/Collection"
 import Links from "../../components/Links";
+import Navbar from "../../components/Navbar";
 import styles from '../../styles/Home.module.css'
 
 export default function Post(props: any) {
@@ -20,9 +21,11 @@ export default function Post(props: any) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Navbar />
+
       <div className={styles.inner_page_wrapper + " w-100"}>
         <div className={"row m-0 " + styles.height_screen}>
-          <div className={"col-12 col-sm-auto p-0 d-block " + styles.height_full}>
+          <div className={"col-12 col-sm-auto p-0 d-none d-sm-block " + styles.height_full}>
             <div className={styles.sidebar + " h-full"}>
               <Links />
             </div>
@@ -40,12 +43,6 @@ export default function Post(props: any) {
           </div>
         </div>
       </div>
-
-
-      <style>{`
-
-      
-      `}</style>
     </div>
 
   )
