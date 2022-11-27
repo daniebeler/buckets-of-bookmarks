@@ -31,9 +31,8 @@
   height: 100vh;
   overflow: auto;
   background-color: #ebebeb;
+  border-right: 2px #111 solid;
 }
-
-
 
 .page_wrapper {
   display: flex;
