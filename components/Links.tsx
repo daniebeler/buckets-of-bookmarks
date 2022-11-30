@@ -46,8 +46,8 @@ const Links = () => {
   return (
     <div>
       <div className={styles.link_wrapper} key='home'>
-        <Link key='home' href='/home' passHref className={styles.a + ' ' + (router.asPath === '/home' ? styles.active : "")}>
-          <Image src={router.asPath === '/home' ? '/icons/ideas-white.svg' : '/icons/ideas.svg'} width={24} height={24} alt="" /> Home
+        <Link key='home' href='/' passHref className={styles.a + ' ' + (router.asPath === '/' ? styles.active : "")}>
+          <Image src={router.asPath === '/' ? '/icons/ideas-white.svg' : '/icons/ideas.svg'} width={24} height={24} alt="" /> Home
         </Link>
       </div>
       {

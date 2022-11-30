@@ -73,8 +73,14 @@ export async function getStaticProps(context: any) {
 
   console.log(context.params)
 
-  const genre = context.params.id[0]
-  const id = context.params.id[1]
+  let genre
+  let id
+
+  if (context.params.id) {
+    genre = context.params.id[0]
+    id = context.params.id[1]
+  }
+
 
   if (genre && id) {
     const file = await import('../data/' + genre + '/' + id + '.json')
@@ -100,7 +106,7 @@ export async function getStaticPaths() {
         params:
         {
           id: [
-            'home'
+            ''
           ]
         }
       },
