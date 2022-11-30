@@ -6,8 +6,6 @@ import styles from '../styles/Home.module.css'
 
 export default function Post(props: any) {
 
-  console.log(props)
-
   if (!props) return <p>No data</p>
 
   return (
@@ -70,9 +68,6 @@ export default function Post(props: any) {
 
 
 export async function getStaticProps(context: any) {
-
-  console.log(context.params)
-
   let genre
   let id
 
@@ -80,7 +75,6 @@ export async function getStaticProps(context: any) {
     genre = context.params.id[0]
     id = context.params.id[1]
   }
-
 
   if (genre && id) {
     const file = await import('../data/' + genre + '/' + id + '.json')
@@ -92,11 +86,9 @@ export async function getStaticProps(context: any) {
   }
   else {
     return {
-      props: {}, // will be passed to the page component as props
+      props: {}
     }
   }
-
-
 }
 
 export async function getStaticPaths() {
