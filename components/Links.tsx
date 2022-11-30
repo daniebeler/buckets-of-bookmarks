@@ -45,6 +45,11 @@ const Links = () => {
 
   return (
     <div>
+      <div className={styles.link_wrapper} key='home'>
+        <Link key='home' href='/home' passHref className={styles.a + ' ' + (router.asPath === '/home' ? styles.active : "")}>
+          <Image src={router.asPath === '/home' ? '/icons/ideas-white.svg' : '/icons/ideas.svg'} width={24} height={24} alt="" /> Home
+        </Link>
+      </div>
       {
         navLinks.map(bucket => {
           return (
@@ -56,7 +61,7 @@ const Links = () => {
                   return (
                     <div className={styles.link_wrapper} key={link.title}>
                       <Link key={link.title} href={link.path} passHref className={styles.a + ' ' + (router.asPath === link.path ? styles.active : "")}>
-                      <Image src={router.asPath === link.path ? '/icons/' + link.icon + '-white.svg' : '/icons/' + link.icon + '.svg'} width={24} height={24} alt="" /> {link.title}
+                        <Image src={router.asPath === link.path ? '/icons/' + link.icon + '-white.svg' : '/icons/' + link.icon + '.svg'} width={24} height={24} alt="" /> {link.title}
                       </Link>
                     </div>
                   )
