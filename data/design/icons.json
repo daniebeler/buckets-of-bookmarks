@@ -103,6 +103,16 @@
         "tags": [
           { "name": "freemium" }
         ]
+      },
+      {
+        "name": "Phosphor Icons",
+        "description": "Flexible icon family",
+        "url": "https://phosphoricons.com/",
+        "img": "design/icons/phosphor.svg",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
       }
     ]
   }
