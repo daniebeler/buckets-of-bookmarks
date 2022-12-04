@@ -37,6 +37,7 @@ a {
 * {
   box-sizing: border-box;
   font-family: CarosRegular, sans-serif;
+  color: #111;
 }
 
 h1 {

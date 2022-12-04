@@ -18,6 +18,7 @@ const Home = () => {
                 alt=""
                 fill
                 className={styles.img}
+                priority
               />
             </div>
           </div>
