@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Collection from "../components/Collection"
+import Home from "../components/Home";
 import Links from "../components/Links";
 import Navbar from "../components/Navbar";
-import styles from '../styles/Home.module.css'
+import styles from '../styles/App.module.css'
 
 export default function Post(props: any) {
 
@@ -50,11 +51,7 @@ export default function Post(props: any) {
             !props.data &&
             <div className={"col p-0 " + styles.height_full}>
               <div className={styles.content + " h-full"}>
-                <div className={"container-fluid flex " + styles.header_wrapper}>
-                  <div className="container">
-                    <h1 className={"text-center " + styles.headline}>Home</h1>
-                  </div>
-                </div>
+                  <Home />
               </div>
             </div>
           }
