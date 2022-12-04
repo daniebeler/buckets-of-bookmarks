@@ -2,6 +2,10 @@
   margin-bottom: 5px;
 }
 
+.link_wrapper_home {
+  margin: 20px 0;
+}
+
 .category {
   padding-left: 16px;
 }
@@ -12,6 +16,10 @@
   color: #111;
   padding: 14px;
   text-decoration: none;
+
+  svg {
+    vertical-align: bottom;
+  }
 }
 
 .a:hover:not(.active) {
@@ -30,4 +38,3 @@
 .active:hover {
   color: white;
 }
-

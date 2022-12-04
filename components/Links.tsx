@@ -1,40 +1,40 @@
 import Link from "next/link";
-import Image from 'next/image'
 import { useRouter } from "next/router";
 import styles from '../styles/Links.module.scss';
+import { House, Palette, TextAa, GameController, BezierCurve, PaintBrush, GraduationCap, Books, Camera, ImageSquare, Lightbulb, Smiley, ThumbsUp, Wrench, PuzzlePiece } from "phosphor-react";
 
 const navLinks = [
   {
     name: 'Design',
     items: [
-      { title: 'Colors', path: '/design/colors', icon: 'colors' },
-      { title: 'Typography', path: '/design/fonts', icon: 'fonts' },
-      { title: 'Games', path: '/design/games', icon: 'games' },
-      { title: 'Icons', path: '/design/icons', icon: 'icons' },
-      { title: 'Design Systems', path: '/design/systems', icon: 'design-systems' },
-      { title: 'Illustrations', path: '/design/illustrations', icon: 'illustrations' },
-      { title: 'Stock Photos', path: '/design/stock-photos', icon: 'stock-photos' },
-      { title: 'Best Practices', path: '/design/best-practices', icon: 'best-practices' },
-      { title: 'Inspiration', path: '/design/inspiration', icon: 'ideas' },
-      { title: 'Tools', path: '/design/tools', icon: 'tools' },
-      { title: 'AI Art', path: '/design/ai-art', icon: 'ai-art' },
+      { title: 'Colors', path: '/design/colors', icon: Palette },
+      { title: 'Typography', path: '/design/fonts', icon: TextAa },
+      { title: 'Games', path: '/design/games', icon: GameController },
+      { title: 'Icons', path: '/design/icons', icon: Smiley },
+      { title: 'Design Systems', path: '/design/systems', icon: BezierCurve },
+      { title: 'Illustrations', path: '/design/illustrations', icon: ImageSquare },
+      { title: 'Stock Photos', path: '/design/stock-photos', icon: Camera },
+      { title: 'Best Practices', path: '/design/best-practices', icon: ThumbsUp },
+      { title: 'Inspiration', path: '/design/inspiration', icon: Lightbulb },
+      { title: 'Tools', path: '/design/tools', icon: Wrench },
+      { title: 'AI Art', path: '/design/ai-art', icon: PaintBrush },
     ]
   },
   {
     name: 'Productivity',
     items: [
-      { title: 'Tools', path: '/productivity/tools', icon: 'tools' },
-      { title: 'Books', path: '/productivity/books', icon: 'books' },
+      { title: 'Tools', path: '/productivity/tools', icon: Wrench },
+      { title: 'Books', path: '/productivity/books', icon: Books },
     ]
   },
   {
     name: 'Coding',
     items: [
-      { title: 'Books', path: '/coding/books', icon: 'books' },
-      { title: 'Tools', path: '/coding/tools', icon: 'tools' },
-      { title: 'Practice', path: '/coding/practice', icon: 'practice' },
-      { title: 'Project Ideas', path: '/coding/ideas', icon: 'ideas' },
-      { title: 'VS-Code Extensions', path: '/coding/vscode-extensions', icon: 'vs-code-extensions' },
+      { title: 'Books', path: '/coding/books', icon: Books },
+      { title: 'Tools', path: '/coding/tools', icon: Wrench },
+      { title: 'Practice', path: '/coding/practice', icon: GraduationCap },
+      { title: 'Project Ideas', path: '/coding/ideas', icon: Lightbulb },
+      { title: 'VS-Code Extensions', path: '/coding/vscode-extensions', icon: PuzzlePiece },
     ]
   }
 ]
@@ -45,9 +45,9 @@ const Links = () => {
 
   return (
     <div>
-      <div className={styles.link_wrapper} key='home'>
+      <div className={styles.link_wrapper_home} key='home'>
         <Link key='home' href='/' passHref className={styles.a + ' ' + (router.asPath === '/' ? styles.active : "")}>
-          <Image src={router.asPath === '/' ? '/icons/ideas-white.svg' : '/icons/ideas.svg'} width={24} height={24} alt="" /> Home
+          <House color={router.asPath === '/' ? '#fff' : '#111'} size='24' /> Home
         </Link>
       </div>
       {
@@ -61,7 +61,7 @@ const Links = () => {
                   return (
                     <div className={styles.link_wrapper} key={link.title}>
                       <Link key={link.title} href={link.path} passHref className={styles.a + ' ' + (router.asPath === link.path ? styles.active : "")}>
-                        <Image src={router.asPath === link.path ? '/icons/' + link.icon + '-white.svg' : '/icons/' + link.icon + '.svg'} width={24} height={24} alt="" /> {link.title}
+                        <link.icon color={router.asPath === link.path ? '#fff' : '#111'} size='24' /> {link.title}
                       </Link>
                     </div>
                   )
