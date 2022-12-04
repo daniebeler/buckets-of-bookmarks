@@ -1,5 +1,5 @@
 import Card from "./Card"
-import styles from '../styles/Collection.module.css'
+import styles from '../styles/Collection.module.scss'
 
 const Collection = (props: any) => {
   return (

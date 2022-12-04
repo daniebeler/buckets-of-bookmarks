@@ -3,7 +3,7 @@ import Collection from "../components/Collection"
 import Home from "../components/Home";
 import Links from "../components/Links";
 import Navbar from "../components/Navbar";
-import styles from '../styles/App.module.css'
+import styles from '../styles/App.module.scss'
 
 export default function Post(props: any) {
 

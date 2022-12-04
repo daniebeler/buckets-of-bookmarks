@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../styles/Card.module.css'
+import styles from '../styles/Card.module.scss'
 import { Icon } from '@shopify/polaris';
 import { CodeMajor, CashDollarMajor, SmileyJoyMajor, CartMajor } from '@shopify/polaris-icons';
 
