@@ -3,15 +3,6 @@
     "name": "Typography",
     "items": [
       {
-        "name": "Fontjoy",
-        "description": "Font pairing made simple",
-        "url": "https://fontjoy.com/",
-        "img": "design/fonts/fontjoy.jpg",
-        "tags": [
-          { "name": "free" }
-        ]
-      },
-      {
         "name": "Google Fonts",
         "description": "Open source fonts",
         "url": "https://fonts.google.com/",
@@ -19,6 +10,15 @@
         "tags": [
           { "name": "free" },
           { "name": "os" }
+        ]
+      },
+      {
+        "name": "Fontjoy",
+        "description": "Font pairing made simple",
+        "url": "https://fontjoy.com/",
+        "img": "design/fonts/fontjoy.jpg",
+        "tags": [
+          { "name": "free" }
         ]
       },
       {
@@ -58,6 +58,33 @@
         ]
       },
       {
+        "name": "Fontshare",
+        "description": "Free fonts service from the Indian Type Foundry",
+        "url": "https://www.fontshare.com/",
+        "img": "design/fonts/fontshare.jpg",
+        "tags": [
+          { "name": "free" }
+        ]
+      },
+      {
+        "name": "Fontspace",
+        "description": "Free downloads of legally licensed fonts",
+        "url": "https://www.fontspace.com/",
+        "img": "design/fonts/fontspace.png",
+        "tags": [
+          { "name": "free" }
+        ]
+      },
+      {
+        "name": "Fontesk",
+        "description": "Free fonts for commercial and personal use",
+        "url": "https://fontesk.com",
+        "img": "design/fonts/fontesk.png",
+        "tags": [
+          { "name": "free" }
+        ]
+      },
+      {
         "name": "Font Bundles",
         "description": "Free fonts for commercial use",
         "url": "https://fontbundles.net/free-fonts",
@@ -84,33 +111,6 @@
         "img": "design/fonts/fontfabric.png",
         "tags": [
           { "name": "paid" },
-          { "name": "free" }
-        ]
-      },
-      {
-        "name": "Fontshare",
-        "description": "Free fonts service from the Indian Type Foundry",
-        "url": "https://www.fontshare.com/",
-        "img": "design/fonts/fontshare.jpg",
-        "tags": [
-          { "name": "free" }
-        ]
-      },
-      {
-        "name": "Fontspace",
-        "description": "Free downloads of legally licensed fonts",
-        "url": "https://www.fontspace.com/",
-        "img": "design/fonts/fontspace.png",
-        "tags": [
-          { "name": "free" }
-        ]
-      },
-      {
-        "name": "Fontesk",
-        "description": "Free fonts for commercial and personal use",
-        "url": "https://fontesk.com",
-        "img": "design/fonts/fontesk.png",
-        "tags": [
           { "name": "free" }
         ]
       }

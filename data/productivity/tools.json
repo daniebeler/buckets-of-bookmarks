@@ -3,6 +3,16 @@
     "name": "Productivity Tools",
     "items": [
       {
+        "name": "Kommiuniti",
+        "description": "Task distribution and management",
+        "url": "https://kommiuniti.netlify.app/",
+        "img": "productivity/tools/kommiuniti.svg",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
+      },
+      {
         "name": "Daily Tasks",
         "description": "The Ivy Lee Method",
         "url": "https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks&hl=en_US&gl=US",
@@ -45,16 +55,6 @@
         "img": "productivity/tools/toggl-track.png",
         "tags": [
           { "name": "freemium" }
-        ]
-      },
-      {
-        "name": "Kommiuniti",
-        "description": "Task distribution and management",
-        "url": "https://kommiuniti.netlify.app/",
-        "img": "productivity/tools/kommiuniti.svg",
-        "tags": [
-          { "name": "free" },
-          { "name": "os" }
         ]
       }
     ]

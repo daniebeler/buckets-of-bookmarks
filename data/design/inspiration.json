@@ -3,24 +3,6 @@
     "name": "Inspiration",
     "items": [
       {
-        "name": "Dribbble",
-        "description": "Social networking platform for digital designers and creatives",
-        "url": "https://dribbble.com/",
-        "img": "design/inspiration/dribbble.png",
-        "tags": [
-          { "name": "free" }
-        ]
-      },
-      {
-        "name": "Awwwards",
-        "description": "The awards of design, creativity and innovation on the internet",
-        "url": "https://www.awwwards.com/",
-        "img": "design/inspiration/awwwards.jpg",
-        "tags": [
-          { "name": "free" }
-        ]
-      },
-      {
         "name": "Moving Letters",
         "description": "Text animations with source code",
         "url": "https://tobiasahlin.com/moving-letters/",
@@ -38,6 +20,24 @@
         "tags": [
           { "name": "free" },
           { "name": "os" }
+        ]
+      },
+      {
+        "name": "Dribbble",
+        "description": "Social networking platform for digital designers and creatives",
+        "url": "https://dribbble.com/",
+        "img": "design/inspiration/dribbble.png",
+        "tags": [
+          { "name": "free" }
+        ]
+      },
+      {
+        "name": "Awwwards",
+        "description": "The awards of design, creativity and innovation on the internet",
+        "url": "https://www.awwwards.com/",
+        "img": "design/inspiration/awwwards.jpg",
+        "tags": [
+          { "name": "free" }
         ]
       },
       {

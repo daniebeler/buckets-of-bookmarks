@@ -21,15 +21,6 @@
         ]
       },
       {
-        "name": "Coolors",
-        "description": "Color palettes generator",
-        "url": "https://coolors.co/",
-        "img": "design/colors/coolors.webp",
-        "tags": [
-          { "name": "freemium" }
-        ]
-      },
-      {
         "name": "Canva Color meanings",
         "description": "Color meanings and symbolism",
         "url": "https://www.canva.com/colors/color-meanings/",
@@ -81,6 +72,15 @@
         "img": "design/colors/color-space.jpg",
         "tags": [
           { "name": "free" }
+        ]
+      },
+      {
+        "name": "Coolors",
+        "description": "Color palettes generator",
+        "url": "https://coolors.co/",
+        "img": "design/colors/coolors.webp",
+        "tags": [
+          { "name": "freemium" }
         ]
       }
     ]

@@ -13,6 +13,64 @@
         ]
       },
       {
+        "name": "Open Stickers",
+        "description": "Free illustrations for web and apps",
+        "url": "https://openstickers.craftwork.design/",
+        "img": "design/illustrations/openstickers.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
+      },
+      {
+        "name": "Open Doodles",
+        "description": "A Free Set of Open-Source Illustrations",
+        "url": "https://www.opendoodles.com/",
+        "img": "design/illustrations/open-doodles.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
+      },
+      {
+        "name": "Open Peeps",
+        "description": "A hand-drawn illustration library",
+        "url": "https://www.openpeeps.com/",
+        "img": "design/illustrations/open-peeps.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
+      },
+      {
+        "name": "illustrations",
+        "description": "Open source illustrations kit",
+        "url": "https://illlustrations.co/",
+        "img": "design/illustrations/illustrationsco.svg",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
+      },
+      {
+        "name": "Glaze",
+        "description": "Royalty-free illustration library",
+        "url": "https://www.glazestock.com/",
+        "img": "design/illustrations/glaze.png",
+        "tags": [
+          { "name": "free" }
+        ]
+      },
+      {
+        "name": "Humaaans",
+        "description": "Mix-&-match illustrations of people with a design library",
+        "url": "https://www.humaaans.com/",
+        "img": "design/illustrations/humaaans.gif",
+        "tags": [
+          { "name": "free" }
+        ]
+      },
+      {
         "name": "DrawKit",
         "description": "Hand-drawn vector illustration and icon resources",
         "url": "https://drawkit.com",
@@ -28,44 +86,6 @@
         "img": "design/illustrations/growwwkit.jpg",
         "tags": [
           { "name": "freemium" }
-        ]
-      },
-      {
-        "name": "Open Stickers",
-        "description": "Free illustrations for web and apps",
-        "url": "https://openstickers.craftwork.design/",
-        "img": "design/illustrations/openstickers.png",
-        "tags": [
-          { "name": "free" },
-          { "name": "os" }
-        ]
-      },
-      {
-        "name": "Humaaans",
-        "description": "Mix-&-match illustrations of people with a design library",
-        "url": "https://www.humaaans.com/",
-        "img": "design/illustrations/humaaans.gif",
-        "tags": [
-          { "name": "free" }
-        ]
-      },
-      {
-        "name": "Open Doodles",
-        "description": "A Free Set of Open-Source Illustrations",
-        "url": "https://www.opendoodles.com/",
-        "img": "design/illustrations/open-doodles.png",
-        "tags": [
-          { "name": "free" },
-          { "name": "os" }
-        ]
-      },
-      {
-        "name": "Glaze",
-        "description": "Royalty-free illustration library",
-        "url": "https://www.glazestock.com/",
-        "img": "design/illustrations/glaze.png",
-        "tags": [
-          { "name": "free" }
         ]
       },
       {
@@ -96,24 +116,6 @@
         ]
       },
       {
-        "name": "Open Peeps",
-        "description": "A hand-drawn illustration library",
-        "url": "https://www.openpeeps.com/",
-        "img": "design/illustrations/open-peeps.png",
-        "tags": [
-          { "name": "free" },
-          { "name": "os" }
-        ]
-      },
-      {
-        "name": "Pixeltrue",
-        "description": "Paid illustration-packs",
-        "url": "https://www.pixeltrue.com/packs",
-        "img": "design/illustrations/pixeltrue.png",
-        "tags": [
-        ]
-      },
-      {
         "name": "Absurd Design",
         "description": "Absurd illustrations that make sense",
         "url": "https://absurd.design/",
@@ -123,13 +125,11 @@
         ]
       },
       {
-        "name": "illustrations",
-        "description": "Open source illustrations kit",
-        "url": "https://illlustrations.co/",
-        "img": "design/illustrations/illustrationsco.svg",
+        "name": "Pixeltrue",
+        "description": "Paid illustration-packs",
+        "url": "https://www.pixeltrue.com/packs",
+        "img": "design/illustrations/pixeltrue.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
         ]
       }
     ]

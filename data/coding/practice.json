@@ -3,15 +3,6 @@
     "name": "Coding Practice",
     "items": [
       {
-        "name": "HackerRank",
-        "description": "Competitive programming challenges",
-        "url": "https://www.hackerrank.com/",
-        "img": "coding/practice/hackerrank.png",
-        "tags": [
-          { "name": "free" }
-        ]
-      },
-      {
         "name": "The Odin Project",
         "description": "Free Programming Resources",
         "url": "https://www.theodinproject.com/",
@@ -29,6 +20,15 @@
         "tags": [
           { "name": "free" },
           { "name": "os" }
+        ]
+      },
+      {
+        "name": "HackerRank",
+        "description": "Competitive programming challenges",
+        "url": "https://www.hackerrank.com/",
+        "img": "coding/practice/hackerrank.png",
+        "tags": [
+          { "name": "free" }
         ]
       }
     ]

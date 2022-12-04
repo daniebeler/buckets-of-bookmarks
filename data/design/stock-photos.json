@@ -48,21 +48,21 @@
         ]
       },
       {
-        "name": "Freepik",
-        "description": "Stock images",
-        "url": "https://freepik.com/",
-        "img": "design/stock-photos/freepik.webp",
-        "tags": [
-          { "name": "freemium" }
-        ]
-      },
-      {
         "name": "Pexels",
         "description": "Stock images",
         "url": "https://www.pexels.com/",
         "img": "design/stock-photos/pexels.png",
         "tags": [
           { "name": "free" }
+        ]
+      },
+      {
+        "name": "Freepik",
+        "description": "Stock images",
+        "url": "https://freepik.com/",
+        "img": "design/stock-photos/freepik.webp",
+        "tags": [
+          { "name": "freemium" }
         ]
       }
     ]

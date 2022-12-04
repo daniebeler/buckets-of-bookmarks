@@ -23,12 +23,13 @@
         ]
       },
       {
-        "name": "Flaticon",
-        "description": "More than 7.6M vector icons & stickers ",
-        "url": "https://www.flaticon.com/",
-        "img": "design/icons/flaticon.png",
+        "name": "Polaris Icons",
+        "description": "A collection of simple and informative icons that draw on the visual language of the Polaris design system",
+        "url": "https://polaris-icons.shopify.com/",
+        "img": "design/icons/polaris-icons.png",
         "tags": [
-          { "name": "freemium" }
+          { "name": "free" },
+          { "name": "os" }
         ]
       },
       {
@@ -39,6 +40,25 @@
         "tags": [
           { "name": "free" },
           { "name": "os" }
+        ]
+      },
+      {
+        "name": "Phosphor Icons",
+        "description": "Flexible icon family",
+        "url": "https://phosphoricons.com/",
+        "img": "design/icons/phosphor.svg",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
+      },
+      {
+        "name": "Iconsax",
+        "description": "Official icons of the Vuesax framework",
+        "url": "https://iconsax.io/",
+        "img": "design/icons/iconsax.png",
+        "tags": [
+          { "name": "free" }
         ]
       },
       {
@@ -60,39 +80,21 @@
         ]
       },
       {
+        "name": "Flaticon",
+        "description": "More than 7.6M vector icons & stickers ",
+        "url": "https://www.flaticon.com/",
+        "img": "design/icons/flaticon.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
+      },
+      {
         "name": "Iconfinder",
         "description": "A free platform for download vector icons in SVG, PNG, EPS, AI & PSD format",
         "url": "https://www.iconfinder.com/",
         "img": "design/icons/iconfinder.png",
         "tags": [
           { "name": "freemium" }
-        ]
-      },
-      {
-        "name": "Polaris Icons",
-        "description": "A collection of simple and informative icons that draw on the visual language of the Polaris design system",
-        "url": "https://polaris-icons.shopify.com/",
-        "img": "design/icons/polaris-icons.png",
-        "tags": [
-          { "name": "free" },
-          { "name": "os" }
-        ]
-      },
-      {
-        "name": "Iconly",
-        "description": "Icons",
-        "url": "https://iconly.pro/",
-        "img": "design/icons/iconly.png",
-        "tags": [
-        ]
-      },
-      {
-        "name": "Iconsax",
-        "description": "Official icons of the Vuesax framework",
-        "url": "https://iconsax.io/",
-        "img": "design/icons/iconsax.png",
-        "tags": [
-          { "name": "free" }
         ]
       },
       {
@@ -105,13 +107,11 @@
         ]
       },
       {
-        "name": "Phosphor Icons",
-        "description": "Flexible icon family",
-        "url": "https://phosphoricons.com/",
-        "img": "design/icons/phosphor.svg",
+        "name": "Iconly",
+        "description": "Icons",
+        "url": "https://iconly.pro/",
+        "img": "design/icons/iconly.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
         ]
       }
     ]
