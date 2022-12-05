@@ -10,6 +10,15 @@
           "tags": [
             { "name": "free" }
           ]
+        },
+        {
+          "name": "DreamStudio",
+          "description": "Online AI-Art generator",
+          "url": "https://beta.dreamstudio.ai/dream",
+          "img": "design/ai-art/dreamstudio.png",
+          "tags": [
+            { "name": "freemium" }
+          ]
         }
       ]
     }

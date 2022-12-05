@@ -1,0 +1,16 @@
+{
+    "data": {
+      "name": "Google",
+      "items": [
+        {
+          "name": "YouTube",
+          "description": "Videos",
+          "url": "https://www.youtube.com/",
+          "img": "general/google/youtube.svg",
+          "tags": [
+            { "name": "free" }
+          ]
+        }
+      ]
+    }
+  }

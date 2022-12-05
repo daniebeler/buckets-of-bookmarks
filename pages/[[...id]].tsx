@@ -102,6 +102,24 @@ export async function getStaticPaths() {
         params:
         {
           id: [
+            'general',
+            'google'
+          ]
+        }
+      },
+      {
+        params:
+        {
+          id: [
+            'general',
+            'blogs'
+          ]
+        }
+      },
+      {
+        params:
+        {
+          id: [
             'design',
             'colors'
           ]
