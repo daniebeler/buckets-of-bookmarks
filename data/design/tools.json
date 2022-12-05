@@ -21,6 +21,24 @@
         ]
       },
       {
+        "name": "Patternico",
+        "description": "Pattern generator",
+        "url": "https://patternico.com/",
+        "img": "design/tools/patternico.webp",
+        "tags": [
+          { "name": "free" }
+        ]
+      },
+      {
+        "name": "The good line-height",
+        "description": "Calculate perfect line height",
+        "url": "https://www.thegoodlineheight.com",
+        "img": "design/tools/thegoodlineheight.svg",
+        "tags": [
+          { "name": "free" }
+        ]
+      },
+      {
         "name": "CleanUp",
         "description": "Editing Tool to remove unwanted elements from image",
         "url": "https://cleanup.pictures",

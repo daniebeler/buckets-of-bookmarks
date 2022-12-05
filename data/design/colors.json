@@ -75,6 +75,15 @@
         ]
       },
       {
+        "name": "Grabient",
+        "description": "Collection of trendy color gradients",
+        "url": "https://www.grabient.com/",
+        "img": "design/colors/grabient.png",
+        "tags": [
+          { "name": "free" }
+        ]
+      },
+      {
         "name": "Coolors",
         "description": "Color palettes generator",
         "url": "https://coolors.co/",

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="173.76869mm"
+   height="173.76869mm"
+   viewBox="0 0 173.76869 173.76869"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="thegoodlineheight.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.69041105"
+     inkscape:cx="352.68844"
+     inkscape:cy="328.78964"
+     inkscape:window-width="1920"
+     inkscape:window-height="947"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="paint0_linear"
+       x1="-4.0284499e-07"
+       y1="11"
+       x2="1.82425"
+       y2="4.7760701"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(7.0846007,0,0,7.0846007,41.026409,92.780101)">
+      <stop
+         stop-color="#7638F4"
+         id="stop877" />
+      <stop
+         offset="1"
+         stop-color="#FF5A98"
+         id="stop879" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-11.484818,-61.269501)">
+    <rect
+       style="fill:#212224;fill-opacity:1;stroke-width:0"
+       id="rect869"
+       width="173.76869"
+       height="173.76869"
+       x="11.484818"
+       y="61.269501" />
+    <style
+       id="style871">
+    .grid {
+       fill: black;
+       opacity: 0.24;
+    }
+    @media (prefers-color-scheme: dark) {
+      .grid {
+        fill: white;
+        opacity: 0.24;
+      }
+    }
+  </style>
+    <path
+       class="grid"
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="M 154.37994,99.864831 H 41.026419 V 114.03385 H 154.37994 Z m 0,28.338309 H 41.026419 v 14.16929 H 154.37994 Z m 0,28.33832 H 41.026419 v 7.08478 H 154.37994 Z M 41.026419,184.88004 H 154.37994 v 14.16902 H 41.026419 Z"
+       id="path873"
+       style="stroke-width:7.08459" />
+    <rect
+       y="156.54164"
+       width="113.35361"
+       height="14.169201"
+       fill="url(#paint0_linear)"
+       id="rect875"
+       x="41.026409"
+       style="fill:url(#paint0_linear);stroke-width:7.08459" />
+  </g>
+</svg>

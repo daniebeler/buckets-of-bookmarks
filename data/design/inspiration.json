@@ -50,6 +50,15 @@
         ]
       },
       {
+        "name": "MarbleFlows",
+        "description": "User onboarding flows from Top SaaS",
+        "url": "https://www.marbleflows.com/onboarding",
+        "img": "design/inspiration/marbleflows.png",
+        "tags": [
+          { "name": "freemium" }
+        ]
+      },
+      {
         "name": "Nicelydone",
         "description": "Library of UX/UI design examples from web apps",
         "url": "https://nicelydone.club/",

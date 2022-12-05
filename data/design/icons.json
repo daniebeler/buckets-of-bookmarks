@@ -43,6 +43,16 @@
         ]
       },
       {
+        "name": "Icons.download",
+        "description": "Open source vector icons in 16 styles",
+        "url": "https://icons.download/",
+        "img": "design/icons/icons-download.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
+      },
+      {
         "name": "Phosphor Icons",
         "description": "Flexible icon family",
         "url": "https://phosphoricons.com/",
