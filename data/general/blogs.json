@@ -1,25 +1,29 @@
 {
-    "data": {
-      "name": "Blogs",
-      "items": [
-        {
-          "name": "The Verge",
-          "description": "Tech Blog",
-          "url": "https://www.theverge.com/",
-          "img": "general/blogs/theverge.png",
-          "tags": [
-            { "name": "free" }
-          ]
-        },
-        {
-          "name": "It's FOSS",
-          "description": "Tech Blog",
-          "url": "https://itsfoss.com/",
-          "img": "general/blogs/itsfoss.png",
-          "tags": [
-            { "name": "free" }
-          ]
-        }
-      ]
-    }
+  "data": {
+    "name": "Blogs",
+    "items": [
+      {
+        "name": "The Verge",
+        "description": "Tech Blog",
+        "url": "https://www.theverge.com/",
+        "img": "general/blogs/theverge.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "It's FOSS",
+        "description": "Tech Blog",
+        "url": "https://itsfoss.com/",
+        "img": "general/blogs/itsfoss.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      }
+    ]
   }
+}

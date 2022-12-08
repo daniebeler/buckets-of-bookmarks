@@ -1,0 +1,18 @@
+{
+  "data": {
+    "name": "Social Media",
+    "items": [
+      {
+        "name": "WhatsApp",
+        "description": "Messenger",
+        "url": "https://web.whatsapp.com/",
+        "img": "general/social-media/whatsapp.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      }
+    ]
+  }
+}

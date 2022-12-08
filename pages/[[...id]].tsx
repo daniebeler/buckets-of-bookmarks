@@ -120,6 +120,15 @@ export async function getStaticPaths() {
         params:
         {
           id: [
+            'general',
+            'social-media'
+          ]
+        }
+      },
+      {
+        params:
+        {
+          id: [
             'design',
             'colors'
           ]

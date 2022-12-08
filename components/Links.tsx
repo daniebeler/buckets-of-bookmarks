@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from '../styles/Links.module.scss';
-import { House, Palette, NewspaperClipping, TextAa, GoogleLogo, GameController, BezierCurve, PaintBrush, GraduationCap, Books, Camera, ImageSquare, Lightbulb, Smiley, ThumbsUp, Wrench, PuzzlePiece } from "phosphor-react";
+import { House, Palette, NewspaperClipping, ChatCircleDots, TextAa, GoogleLogo, GameController, BezierCurve, PaintBrush, GraduationCap, Books, Camera, ImageSquare, Lightbulb, Smiley, ThumbsUp, Wrench, PuzzlePiece } from "phosphor-react";
 
 const navLinks = [
   {
@@ -9,6 +9,7 @@ const navLinks = [
     items: [
       { title: 'Google', path: '/general/google', icon: GoogleLogo },
       { title: 'Blogs', path: '/general/blogs', icon: NewspaperClipping },
+      { title: 'Social Media', path: '/general/social-media', icon: ChatCircleDots },
     ]
   },
   {

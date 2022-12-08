@@ -1,61 +1,73 @@
 {
-    "data": {
-      "name": "Google",
-      "items": [
-        {
-          "name": "YouTube",
-          "description": "Videos",
-          "url": "https://www.youtube.com/",
-          "img": "general/google/youtube.svg",
-          "tags": [
-            { "name": "free" }
-          ]
-        },
-        {
-          "name": "Google Translate",
-          "description": "Translator",
-          "url": "https://translate.google.com",
-          "img": "general/google/translate.svg",
-          "tags": [
-            { "name": "free" }
-          ]
-        },
-        {
-          "name": "Google Maps",
-          "description": "Maps",
-          "url": "https://www.google.at/maps",
-          "img": "general/google/maps.svg",
-          "tags": [
-            { "name": "free" }
-          ]
-        },
-        {
-          "name": "Gmail",
-          "description": "Mail",
-          "url": "https://mail.google.com",
-          "img": "general/google/gmail.svg",
-          "tags": [
-            { "name": "free" }
-          ]
-        },
-        {
-          "name": "Google Photos",
-          "description": "Cloud storage for photos",
-          "url": "https://photos.google.com",
-          "img": "general/google/photos.svg",
-          "tags": [
-            { "name": "free" }
-          ]
-        },
-        {
-          "name": "Google Drive",
-          "description": "Cloud storage",
-          "url": "https://drive.google.com",
-          "img": "general/google/drive.svg",
-          "tags": [
-            { "name": "free" }
-          ]
-        }
-      ]
-    }
+  "data": {
+    "name": "Google",
+    "items": [
+      {
+        "name": "YouTube",
+        "description": "Videos",
+        "url": "https://www.youtube.com/",
+        "img": "general/google/youtube.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Google Translate",
+        "description": "Translator",
+        "url": "https://translate.google.com",
+        "img": "general/google/translate.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Google Maps",
+        "description": "Maps",
+        "url": "https://www.google.at/maps",
+        "img": "general/google/maps.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Gmail",
+        "description": "Mail",
+        "url": "https://mail.google.com",
+        "img": "general/google/gmail.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Google Photos",
+        "description": "Cloud storage for photos",
+        "url": "https://photos.google.com",
+        "img": "general/google/photos.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Google Drive",
+        "description": "Cloud storage",
+        "url": "https://drive.google.com",
+        "img": "general/google/drive.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      }
+    ]
   }
+}
