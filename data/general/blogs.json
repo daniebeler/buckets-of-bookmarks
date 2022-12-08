@@ -10,6 +10,15 @@
           "tags": [
             { "name": "free" }
           ]
+        },
+        {
+          "name": "It's FOSS",
+          "description": "Tech Blog",
+          "url": "https://itsfoss.com/",
+          "img": "general/blogs/itsfoss.png",
+          "tags": [
+            { "name": "free" }
+          ]
         }
       ]
     }
