@@ -12,6 +12,28 @@
             "name": "free"
           }
         ]
+      },
+      {
+        "name": "Instagram",
+        "description": "Social Media",
+        "url": "https://www.instagram.com/",
+        "img": "general/social-media/instagram.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Twitter",
+        "description": "Social Media",
+        "url": "https://twitter.com/",
+        "img": "general/social-media/twitter.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
       }
     ]
   }

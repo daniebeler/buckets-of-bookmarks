@@ -1,0 +1,73 @@
+{
+  "data": {
+    "name": "Fun",
+    "items": [
+      {
+        "name": "JetPunk",
+        "description": "The world's best quizzes",
+        "url": "https://www.jetpunk.com/",
+        "img": "general/fun/jetpunk.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "TypeRacer",
+        "description": "Online typing competition game",
+        "url": "https://play.typeracer.com/",
+        "img": "general/fun/typeracer.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "GeoGuessr",
+        "description": "Guess where you are in the world",
+        "url": "https://www.geoguessr.com/",
+        "img": "general/fun/geoguessr.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Chess.com",
+        "description": "Online chess",
+        "url": "https://www.chess.com",
+        "img": "general/fun/chess.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Quick, Draw!",
+        "description": "Can a neural network learn to recognize doodling?",
+        "url": "https://quickdraw.withgoogle.com/",
+        "img": "general/fun/quickdraw.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Sudoku",
+        "description": "One of the most popular puzzle games of all time",
+        "url": "https://sudoku.com/",
+        "img": "general/fun/sudoku.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -31,6 +31,15 @@
         ]
       },
       {
+        "name": "DaFont",
+        "description": "Free fonts",
+        "url": "https://www.dafont.com",
+        "img": "design/fonts/dafont.png",
+        "tags": [
+          { "name": "free" }
+        ]
+      },
+      {
         "name": "TypeSource",
         "description": "Google Web Font inspiration in HTML & CSS",
         "url": "https://tobiasahlin.com/typesource/",

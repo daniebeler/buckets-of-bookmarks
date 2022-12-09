@@ -10,6 +10,7 @@ const navLinks = [
       { title: 'Google', path: '/general/google', icon: GoogleLogo },
       { title: 'Blogs', path: '/general/blogs', icon: NewspaperClipping },
       { title: 'Social Media', path: '/general/social-media', icon: ChatCircleDots },
+      { title: 'Fun', path: '/general/fun', icon: GameController },
     ]
   },
   {

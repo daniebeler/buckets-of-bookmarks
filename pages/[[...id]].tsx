@@ -129,6 +129,15 @@ export async function getStaticPaths() {
         params:
         {
           id: [
+            'general',
+            'fun'
+          ]
+        }
+      },
+      {
+        params:
+        {
+          id: [
             'design',
             'colors'
           ]
