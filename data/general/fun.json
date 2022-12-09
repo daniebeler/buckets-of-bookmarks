@@ -67,6 +67,20 @@
             "name": "free"
           }
         ]
+      },
+      {
+        "name": "itch.io",
+        "description": "A simple way to find and share indie games online for free",
+        "url": "https://itch.io/",
+        "img": "general/fun/itch.svg",
+        "tags": [
+          {
+            "name": "free"
+          },
+          {
+            "name": "paid"
+          }
+        ]
       }
     ]
   }
