@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.scss';
 import Image from 'next/image'
-import { House } from "phosphor-react";
+import { FileCode } from "phosphor-react";
 
 
 const Home = () => {
@@ -12,7 +12,11 @@ const Home = () => {
             <h1>Buckets Of</h1>
             <h1>Bookmarks</h1>
             <p>An ever-growing collection of useful websites and hidden gems of the internet. Sorted by category and tagged by price.</p>
-            {/* <House size='24' /> */}
+            <div className={styles.github_outer_wrapper}>
+              <a className={styles.github_wrapper} target="_blank" href='https://github.com/daniebeler/buckets-of-bookmarks' rel="noreferrer">
+                <FileCode size='24' color='#111' />
+              </a>
+            </div>
           </div>
           <div className={'col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xxl-6 ' + styles.right_col}>
             <div className={styles.image_wrapper}>

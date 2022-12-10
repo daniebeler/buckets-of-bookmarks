@@ -27,3 +27,16 @@
 .right_col {
   padding: 40px;
 }
+
+.github_outer_wrapper {
+  display: flex;
+
+  .github_wrapper {
+    border: #111 solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
