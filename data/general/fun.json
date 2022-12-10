@@ -36,6 +36,17 @@
         ]
       },
       {
+        "name": "Geotastic",
+        "description": "Guess where you are in the world",
+        "url": "https://geotastic.net",
+        "img": "general/fun/geotastic.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
         "name": "Chess.com",
         "description": "Online chess",
         "url": "https://www.chess.com",

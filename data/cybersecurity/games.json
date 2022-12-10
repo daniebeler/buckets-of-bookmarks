@@ -1,0 +1,29 @@
+{
+  "data": {
+    "name": "Cyber Games",
+    "items": [
+      {
+        "name": "XSS game",
+        "description": "Learn about Cross Site Scripting",
+        "url": "https://xss-game.appspot.com/",
+        "img": "cybersecurity/games/xssgame.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Sourcing Games",
+        "description": "Game to improve your OSINT skills",
+        "url": "https://sourcing.games/",
+        "img": "cybersecurity/games/sourcinggames.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      }
+    ]
+  }
+}

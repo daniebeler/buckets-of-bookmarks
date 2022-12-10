@@ -45,6 +45,13 @@ const navLinks = [
       { title: 'Project Ideas', path: '/coding/ideas', icon: Lightbulb },
       { title: 'VS-Code Extensions', path: '/coding/vscode-extensions', icon: PuzzlePiece },
     ]
+  },
+  {
+    name: 'Cybersecurity',
+    items: [
+      { title: 'Practice', path: '/cybersecurity/practice', icon: GraduationCap },
+      { title: 'Games', path: '/cybersecurity/games', icon: GameController },
+    ]
   }
 ]
 

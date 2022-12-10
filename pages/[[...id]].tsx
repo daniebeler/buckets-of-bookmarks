@@ -278,6 +278,22 @@ export async function getStaticPaths() {
             'vscode-extensions'
           ]
         }
+      },
+      {
+        params: {
+          id: [
+            'cybersecurity',
+            'practice'
+          ]
+        }
+      },
+      {
+        params: {
+          id: [
+            'cybersecurity',
+            'games'
+          ]
+        }
       }
     ],
     fallback: false
