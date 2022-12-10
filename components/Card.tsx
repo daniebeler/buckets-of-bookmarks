@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/Card.module.scss'
-import { Icon } from '@shopify/polaris';
-import { CodeMajor, CashDollarMajor, SmileyJoyMajor, CartMajor } from '@shopify/polaris-icons';
+import { Smiley, CurrencyCircleDollar, Code, ShoppingCart } from "phosphor-react";
 
 const Card = (props: any) => {
   return (
@@ -22,26 +21,26 @@ const Card = (props: any) => {
               props.tags && props.tags.map((item: any) => {
                 if (item.name === "free") {
                   return (
-                    <div key={item.name} className='green_icon'>
-                      <Icon source={SmileyJoyMajor} />
+                    <div key={item.name}>
+                      <Smiley size='24' color='green' />
                     </div>
                   )
                 } else if (item.name === "os") {
                   return (
-                    <div key={item.name} className='gray_icon'>
-                      <Icon source={CodeMajor} />
+                    <div key={item.name} >
+                      <Code size='24' color='gray' />
                     </div>
                   )
                 } else if (item.name === "freemium") {
                   return (
-                    <div key={item.name} className='orange_icon'>
-                      <Icon source={CartMajor} />
+                    <div key={item.name}>
+                      <ShoppingCart size='24' color='orange' />
                     </div>
                   )
                 } else if (item.name === "paid") {
                   return (
-                    <div key={item.name} className="red_icon">
-                      <Icon source={CashDollarMajor} />
+                    <div key={item.name}>
+                      <CurrencyCircleDollar size='24' color='red' />
                     </div>
                   )
                 }

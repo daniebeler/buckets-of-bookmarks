@@ -1,5 +1,7 @@
 import styles from '../styles/Home.module.scss';
 import Image from 'next/image'
+import { House } from "phosphor-react";
+
 
 const Home = () => {
   return (
@@ -9,7 +11,8 @@ const Home = () => {
           <div className={'col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xxl-6 ' + styles.left_col}>
             <h1>Buckets Of</h1>
             <h1>Bookmarks</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus commodi fuga ut dolorem quasi doloremque ?</p>
+            <p>An ever-growing collection of useful websites and hidden gems of the internet. Sorted by category and tagged by price.</p>
+            {/* <House size='24' /> */}
           </div>
           <div className={'col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xxl-6 ' + styles.right_col}>
             <div className={styles.image_wrapper}>
