@@ -1,16 +1,32 @@
 .wrapper {
   height: 100%;
+
+
+  .main_row {
+    flex-wrap: wrap-reverse;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .main_row {
+      height: 100%;
+    }
+  }
 }
 
 .image_wrapper {
   background-color: #ffd52c;
   border-radius: 12px;
-  height: 100%;
-  padding: 20px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .image_wrapper {
+    height: 100%;
+  }
 }
 
 .left_col {
@@ -21,6 +37,18 @@
 
   h1 {
     font-size: 5rem;
+  }
+
+  @media only screen and (max-width: 1300px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    h1 {
+      font-size: 2.5rem;
+    }
   }
 }
 

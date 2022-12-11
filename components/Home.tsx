@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <div className={styles.wrapper}>
       <div className="container-fluid h-100">
-        <div className="row h-100">
-          <div className={'col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xxl-6 ' + styles.left_col}>
+        <div className={"row " + styles.main_row}>
+          <div className={'col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6 ' + styles.left_col}>
             <h1>Buckets Of</h1>
             <h1>Bookmarks</h1>
             <p>An ever-growing collection of useful websites and hidden gems of the internet. Sorted by category and tagged by price.</p>
@@ -18,7 +18,7 @@ const Home = () => {
               </a>
             </div>
           </div>
-          <div className={'col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xxl-6 ' + styles.right_col}>
+          <div className={'col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6 ' + styles.right_col}>
             <div className={styles.image_wrapper}>
               <Image
                 src={'/images/others/ReadingDoodle.svg'}
