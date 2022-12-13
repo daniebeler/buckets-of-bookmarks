@@ -294,6 +294,14 @@ export async function getStaticPaths() {
             'games'
           ]
         }
+      },
+      {
+        params: {
+          id: [
+            'cybersecurity',
+            'osint'
+          ]
+        }
       }
     ],
     fallback: false

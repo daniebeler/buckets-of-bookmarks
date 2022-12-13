@@ -80,6 +80,28 @@
         ]
       },
       {
+        "name": "skribbl.io",
+        "description": "Online multiplayer drawing and guessing pictionary game",
+        "url": "https://skribbl.io/",
+        "img": "general/fun/skribbl.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Gartic Phone",
+        "description": "The online Telephone Game",
+        "url": "https://garticphone.com/",
+        "img": "general/fun/gartic.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
         "name": "itch.io",
         "description": "A simple way to find and share indie games online for free",
         "url": "https://itch.io/",

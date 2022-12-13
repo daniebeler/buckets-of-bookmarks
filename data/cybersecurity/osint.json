@@ -1,0 +1,62 @@
+{
+  "data": {
+    "name": "OSINT",
+    "items": [
+      {
+        "name": "Shodan",
+        "description": "IoT search engine",
+        "url": "https://www.shodan.io/",
+        "img": "cybersecurity/osint/shodan.png",
+        "tags": [
+          {
+            "name": "freemium"
+          }
+        ]
+      },
+      {
+        "name": "PimEyes",
+        "description": "Search engine that goes through the Internet to find pictures containing given faces",
+        "url": "https://pimeyes.com",
+        "img": "cybersecurity/osint/pimeyes.png",
+        "tags": [
+          {
+            "name": "freemium"
+          }
+        ]
+      },
+      {
+        "name": "urlscan.io",
+        "description": "Website scanner for suspicious and malicious URLs",
+        "url": "https://urlscan.io/",
+        "img": "cybersecurity/osint/urlscan.png",
+        "tags": [
+          {
+            "name": "freemium"
+          }
+        ]
+      },
+      {
+        "name": "Wappalyzer",
+        "description": "Identify technologies on websites",
+        "url": "https://www.wappalyzer.com/",
+        "img": "cybersecurity/osint/wappalyzer.svg",
+        "tags": [
+          {
+            "name": "freemium"
+          }
+        ]
+      },
+      {
+        "name": "hunter.io",
+        "description": "Find professional email addresses in seconds",
+        "url": "https://hunter.io/",
+        "img": "cybersecurity/osint/hunter.svg",
+        "tags": [
+          {
+            "name": "freemium"
+          }
+        ]
+      }
+    ]
+  }
+}

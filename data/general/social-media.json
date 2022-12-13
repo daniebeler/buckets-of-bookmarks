@@ -63,7 +63,8 @@
         "url": "https://joinmastodon.org/",
         "img": "general/social-media/mastodon.svg",
         "tags": [
-          { "name": "free" }
+          { "name": "free" },
+          { "name": "os" }
         ]
       },
       {
@@ -72,7 +73,8 @@
         "url": "https://ideaoverflow.xyz",
         "img": "coding/ideas/idea-overflow.svg",
         "tags": [
-          { "name": "free" }
+          { "name": "free" },
+          { "name": "os" }
         ]
       }
     ]
