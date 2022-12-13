@@ -34,6 +34,46 @@
             "name": "free"
           }
         ]
+      },
+      {
+        "name": "Polywork",
+        "description": "Discover opportunities to collaborate with other professionals",
+        "url": "https://www.polywork.com/",
+        "img": "general/social-media/polywork.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "LinkedIn",
+        "description": "Business and employment-oriented online service",
+        "url": "https://www.linkedin.com",
+        "img": "general/social-media/linkedin.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Mastodon",
+        "description": "Social networking that's not for sale",
+        "url": "https://joinmastodon.org/",
+        "img": "general/social-media/mastodon.svg",
+        "tags": [
+          { "name": "free" }
+        ]
+      },
+      {
+        "name": "Idea Overflow",
+        "description": "A Platform to share project ideas",
+        "url": "https://ideaoverflow.xyz",
+        "img": "coding/ideas/idea-overflow.svg",
+        "tags": [
+          { "name": "free" }
+        ]
       }
     ]
   }
