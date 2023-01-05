@@ -23,9 +23,11 @@
 }
 
 .a:hover:not(.active) {
-  background: #111;
+  // background: #111;
+  border: #111 solid 2px;
   border-radius: 10px;
-  color: white;
+  color: #111;
+  padding: 12px;
 }
 
 .active {
