@@ -56,14 +56,18 @@ const navLinks = [
   }
 ]
 
-const Links = () => {
+interface ChildProps {
+  toggleMenu: Function
+}
+
+const Links = (props: ChildProps) => {
 
   const router = useRouter();
 
   return (
     <ul className={styles.outer_ul}>
       <li className={styles.link_wrapper_home} key='home'>
-        <Link key='home' href='/' passHref className={styles.a + ' ' + (router.asPath === '/' ? styles.active : "")}>
+        <Link key='home' onClick={() => props.toggleMenu()} href='/' passHref className={styles.a + ' ' + (router.asPath === '/' ? styles.active : "")}>
           <House color={router.asPath === '/' ? '#fff' : '#111'} size='24' /> Home
         </Link>
       </li>
@@ -78,7 +82,7 @@ const Links = () => {
                   bucket.items.map(link => {
                     return (
                       <li className={styles.link_wrapper} key={link.title}>
-                        <Link key={link.title} href={link.path} passHref className={styles.a + ' ' + (router.asPath === link.path ? styles.active : "")}>
+                        <Link key={link.title} onClick={() => props.toggleMenu()} href={link.path} passHref className={styles.a + ' ' + (router.asPath === link.path ? styles.active : "")}>
                           <link.icon color={router.asPath === link.path ? '#fff' : '#111'} size='24' /> {link.title}
                         </Link>
                       </li>

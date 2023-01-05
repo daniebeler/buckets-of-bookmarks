@@ -28,7 +28,7 @@ export default function Post(props: any) {
         <div className={"row m-0 " + styles.height_screen}>
           <div className={"col-12 col-sm-auto p-0 d-none d-sm-block " + styles.height_full}>
             <div className={styles.sidebar + " h-full"}>
-              <Links />
+              <Links toggleMenu={() => {}}/>
             </div>
           </div>
 
