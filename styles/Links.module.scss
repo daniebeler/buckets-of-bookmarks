@@ -38,3 +38,13 @@
 .active:hover {
   color: white;
 }
+
+.outer_ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.inner_ul {
+  list-style: none;
+  padding-left: 20px;
+}

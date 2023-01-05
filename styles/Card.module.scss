@@ -4,6 +4,8 @@
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   border-radius: 10px;
   border: #111 solid 2px;
@@ -12,13 +14,16 @@
   padding: 20px;
 }
 
+.wrapper:hover {
+  background: rgba(17, 17, 17, 0.088);
+  border-radius: 10px;
+  color: white;
+}
+
 .name {
   font-size: 1.3rem;
   margin: 0;
-}
-
-.name:hover {
-  cursor: pointer;
+  padding: 5px 0;
 }
 
 .img {
@@ -28,23 +33,4 @@
   border: #111 solid 2px;
   margin-bottom: 8px;
   background-color: #111;
-}
-
-.link {
-  text-decoration: none;
-  color: #111;
-}
-
-.a {
-  font-size: 0.9rem;
-  display: block;
-  color: #111;
-  padding: 14px;
-  text-decoration: none;
-}
-
-.a:hover {
-  background: #111;
-  border-radius: 10px;
-  color: white;
 }

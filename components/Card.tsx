@@ -5,7 +5,7 @@ import { Smiley, CurrencyCircleDollar, Code, ShoppingCart } from "phosphor-react
 const Card = (props: any) => {
   return (
     <div className={styles.outerwrapper}>
-      <div className={styles.wrapper}>
+      <a className={styles.wrapper} target="_blank" href={props.url} rel="noreferrer">
         <div className="row">
           <div className="col-auto">
             <Image
@@ -49,13 +49,11 @@ const Card = (props: any) => {
         </div>
         <div className="row">
           <div className="col">
-            <a className={styles.a} target="_blank" href={props.url} rel="noreferrer">
               <h2 className={styles.name}>{props.name}</h2>
-            </a>
             <p className='m-0 pt-1'>{props.description}</p>
           </div>
         </div>
-      </div>
+      </a>
 
       <style>{`
         .Polaris-Icon {
