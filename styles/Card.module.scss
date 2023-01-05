@@ -34,3 +34,24 @@
   margin-bottom: 8px;
   background-color: #111;
 }
+
+.badge {
+  font-size: 0.7rem;
+  padding: 1px;
+}
+
+.badge_free {
+  color: green;
+}
+
+.badge_os {
+  color: gray;
+}
+
+.badge_freemium {
+  color: orange;
+}
+
+.badge_paid {
+  color: red;
+}
