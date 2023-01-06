@@ -3,6 +3,20 @@
     "name": "Social Media",
     "items": [
       {
+        "name": "Signal",
+        "description": "Messenger",
+        "url": "https://signal.org/",
+        "img": "general/social-media/signal.svg",
+        "tags": [
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
+        ]
+      },
+      {
         "name": "WhatsApp",
         "description": "Messenger",
         "url": "https://web.whatsapp.com/",
@@ -64,7 +78,8 @@
         "img": "general/social-media/mastodon.svg",
         "tags": [
           { "name": "free" },
-          { "name": "os" }
+          { "name": "os" },
+          { "name": "rss" }
         ]
       },
       {

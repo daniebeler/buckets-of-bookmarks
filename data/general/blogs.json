@@ -21,6 +21,9 @@
         "tags": [
           {
             "name": "free"
+          },
+          {
+            "name": "rss"
           }
         ]
       }

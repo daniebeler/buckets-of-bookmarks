@@ -42,6 +42,12 @@ const Card = (props: any) => {
                       PAID
                     </div>
                   )
+                } else if (item.name === "rss") {
+                  return (
+                    <div key={item.name} className={styles.badge + ' ' + styles.badge_rss} >
+                      RSS
+                    </div>
+                  )
                 }
               })}
           </div>
