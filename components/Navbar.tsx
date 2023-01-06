@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from '../styles/Navbar.module.scss';
 import Overlay from "./Overlay";
+import { List } from "phosphor-react";
 
 const Navbar = () => {
 
@@ -15,7 +16,7 @@ const Navbar = () => {
             <h4 className={styles.headline + " m-0 p-0"}>Buckets of Bookmarks</h4>
           </div>
           <div className="col-auto">
-            <button onClick={toggleMenu}>X</button>
+            <List size='24' color='#111' className={styles.button} onClick={toggleMenu} />
           </div>
         </div>
         <div className={toggle ? styles.show : styles.hide}>
