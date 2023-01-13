@@ -13,10 +13,30 @@
         ]
       },
       {
+        "name": "SVG Repo",
+        "description": "460.000+ Open-licensed SVG Vector and Icons",
+        "url": "https://www.svgrepo.com/",
+        "img": "design/icons/svgrepo.svg",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
+      },
+      {
         "name": "Heroicons",
         "description": "Icons by the developers of Tailwind",
         "url": "https://heroicons.com/",
         "img": "design/icons/heroicons.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
+      },
+      {
+        "name": "Tabler Icons",
+        "description": "Over 3100 pixel-perfect icons for web design",
+        "url": "https://tabler-icons.io/",
+        "img": "design/icons/tabler.png",
         "tags": [
           { "name": "free" },
           { "name": "os" }
