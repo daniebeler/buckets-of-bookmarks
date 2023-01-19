@@ -83,6 +83,16 @@
         ]
       },
       {
+        "name": "3dicons",
+        "description": "Beautifully crafted open source 3D icons",
+        "url": "https://3dicons.co/",
+        "img": "design/icons/3dicons.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
+      },
+      {
         "name": "Iconsax",
         "description": "Official icons of the Vuesax framework",
         "url": "https://iconsax.io/",

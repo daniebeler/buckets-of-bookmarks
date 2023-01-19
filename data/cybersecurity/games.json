@@ -3,6 +3,20 @@
     "name": "Cyber Games",
     "items": [
       {
+        "name": "OverTheWire",
+        "description": "Learn and practice security concepts in the form of fun-filled games.",
+        "url": "https://overthewire.org/wargames/",
+        "img": "cybersecurity/games/overthewire.png",
+        "tags": [
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
+        ]
+      },
+      {
         "name": "XSS game",
         "description": "Learn about Cross Site Scripting",
         "url": "https://xss-game.appspot.com/",

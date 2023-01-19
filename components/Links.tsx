@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from '../styles/Links.module.scss';
-import { House, Palette, GlobeHemisphereWest, NewspaperClipping, ChatCircleDots, TextAa, GoogleLogo, GameController, BezierCurve, PaintBrush, GraduationCap, Books, Camera, ImageSquare, Lightbulb, Smiley, ThumbsUp, Wrench, PuzzlePiece } from "phosphor-react";
+import { House, Palette, Truck, GlobeHemisphereWest, NewspaperClipping, ChatCircleDots, TextAa, GoogleLogo, GameController, BezierCurve, PaintBrush, GraduationCap, Books, Camera, ImageSquare, Lightbulb, Smiley, ThumbsUp, Wrench, PuzzlePiece } from "phosphor-react";
 
 const navLinks = [
   {
@@ -40,6 +40,7 @@ const navLinks = [
     name: 'Coding',
     items: [
       { title: 'Books', path: '/coding/books', icon: Books },
+      { title: 'Resources', path: '/coding/resources', icon: Truck },
       { title: 'Tools', path: '/coding/tools', icon: Wrench },
       { title: 'Practice', path: '/coding/practice', icon: GraduationCap },
       { title: 'Project Ideas', path: '/coding/ideas', icon: Lightbulb },

@@ -251,6 +251,14 @@ export async function getStaticPaths() {
         params: {
           id: [
             'coding',
+            'resources'
+          ]
+        }
+      },
+      {
+        params: {
+          id: [
+            'coding',
             'practice'
           ]
         }
