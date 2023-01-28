@@ -23,6 +23,20 @@
             "name": "free"
           }
         ]
+      },
+      {
+        "name": "Gitignore.io",
+        "description": "Create an gitignore file for your project",
+        "url": "https://www.toptal.com/developers/gitignore",
+        "img": "coding/tools/gitignore.png",
+        "tags": [
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
+        ]
       }
     ]
   }
