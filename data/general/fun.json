@@ -54,7 +54,8 @@
         "tags": [
           {
             "name": "free"
-          }
+          },
+          { "name": "android" }
         ]
       },
       {

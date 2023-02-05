@@ -9,7 +9,8 @@
         "img": "productivity/tools/kommiuniti.svg",
         "tags": [
           { "name": "free" },
-          { "name": "os" }
+          { "name": "os" },
+          { "name": "pwa" }
         ]
       },
       {
@@ -18,7 +19,8 @@
         "url": "https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks&hl=en_US&gl=US",
         "img": "productivity/tools/dailytasks.png",
         "tags": [
-          { "name": "free" }
+          { "name": "free" },
+          { "name": "android" }
         ]
       },
       {
@@ -27,7 +29,9 @@
         "url": "https://www.notion.so",
         "img": "productivity/tools/notion.png",
         "tags": [
-          { "name": "freemium" }
+          { "name": "freemium" },
+          { "name": "android" },
+          { "name": "ios" }
         ]
       },
       {

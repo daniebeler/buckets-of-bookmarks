@@ -48,6 +48,24 @@ const Card = (props: any) => {
                       RSS
                     </div>
                   )
+                } else if (item.name === "pwa") {
+                  return (
+                    <div key={item.name} className={styles.badge + ' ' + styles.badge_pwa} >
+                      PWA
+                    </div>
+                  )
+                } else if (item.name === "android") {
+                  return (
+                    <div key={item.name} className={styles.badge + ' ' + styles.badge_android} >
+                      ANDROID
+                    </div>
+                  )
+                } else if (item.name === "ios") {
+                  return (
+                    <div key={item.name} className={styles.badge + ' ' + styles.badge_ios} >
+                      IOS
+                    </div>
+                  )
                 }
               })}
           </div>

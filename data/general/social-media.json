@@ -13,7 +13,9 @@
           },
           {
             "name": "os"
-          }
+          },
+          { "name": "android" },
+          { "name": "ios" }
         ]
       },
       {
@@ -24,7 +26,9 @@
         "tags": [
           {
             "name": "free"
-          }
+          },
+          { "name": "android" },
+          { "name": "ios" }
         ]
       },
       {
@@ -35,7 +39,9 @@
         "tags": [
           {
             "name": "free"
-          }
+          },
+          { "name": "android" },
+          { "name": "ios" }
         ]
       },
       {
@@ -46,7 +52,9 @@
         "tags": [
           {
             "name": "free"
-          }
+          },
+          { "name": "android" },
+          { "name": "ios" }
         ]
       },
       {
@@ -68,7 +76,9 @@
         "tags": [
           {
             "name": "free"
-          }
+          },
+          { "name": "android" },
+          { "name": "ios" }
         ]
       },
       {
@@ -79,7 +89,31 @@
         "tags": [
           { "name": "free" },
           { "name": "os" },
-          { "name": "rss" }
+          { "name": "rss" },
+          { "name": "pwa" },
+          { "name": "android" },
+          { "name": "ios" }
+        ]
+      },
+      {
+        "name": "Ice Cubes",
+        "description": "Mastodon Client",
+        "url": "https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884",
+        "img": "general/social-media/icecubes.jpg",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" },
+          { "name": "ios" }
+        ]
+      },
+      {
+        "name": "Ivory",
+        "description": "Mastodon Client",
+        "url": "https://apps.apple.com/us/app/ivory-for-mastodon-by-tapbots/id6444602274",
+        "img": "general/social-media/ivory.webp",
+        "tags": [
+          { "name": "paid" },
+          { "name": "ios" }
         ]
       },
       {

@@ -9,7 +9,8 @@
         "img": "coding/ideas/idea-overflow.svg",
         "tags": [
           { "name": "free" },
-          { "name": "os" }
+          { "name": "os" },
+          { "name": "pwa" }
         ]
       },
       {
