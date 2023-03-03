@@ -8,8 +8,12 @@
         "url": "https://undraw.co/illustrations",
         "img": "design/illustrations/undraw.webp",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -18,8 +22,12 @@
         "url": "https://openstickers.craftwork.design/",
         "img": "design/illustrations/openstickers.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -28,8 +36,12 @@
         "url": "https://www.opendoodles.com/",
         "img": "design/illustrations/open-doodles.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -38,8 +50,12 @@
         "url": "https://www.openpeeps.com/",
         "img": "design/illustrations/open-peeps.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -48,8 +64,12 @@
         "url": "https://illlustrations.co/",
         "img": "design/illustrations/illustrationsco.svg",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -58,7 +78,9 @@
         "url": "https://www.glazestock.com/",
         "img": "design/illustrations/glaze.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -67,7 +89,31 @@
         "url": "https://www.humaaans.com/",
         "img": "design/illustrations/humaaans.gif",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Themeisle Illustrations",
+        "description": "Illustrations to use in your next project",
+        "url": "https://themeisle.com/illustrations/",
+        "img": "design/illustrations/themeisle.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Storyset",
+        "description": "Customize, animate and download our illustrations",
+        "url": "https://storyset.com/",
+        "img": "design/illustrations/storyset.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -76,7 +122,9 @@
         "url": "https://drawkit.com",
         "img": "design/illustrations/drawkit.jpeg",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -85,7 +133,9 @@
         "url": "https://growwwkit.com/",
         "img": "design/illustrations/growwwkit.jpg",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -94,7 +144,9 @@
         "url": "https://icons8.com/illustrations",
         "img": "design/illustrations/ouch.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -103,7 +155,9 @@
         "url": "https://weareskribbl.com/",
         "img": "design/illustrations/skribbl.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -112,7 +166,9 @@
         "url": "https://ui8.net/categories/illustrations",
         "img": "design/illustrations/ui8.png",
         "tags": [
-          { "name": "paid" }
+          {
+            "name": "paid"
+          }
         ]
       },
       {
@@ -121,7 +177,9 @@
         "url": "https://absurd.design/",
         "img": "design/illustrations/absurd-design.png",
         "tags": [
-          { "name": "paid" }
+          {
+            "name": "paid"
+          }
         ]
       },
       {
@@ -129,8 +187,7 @@
         "description": "Paid illustration-packs",
         "url": "https://www.pixeltrue.com/packs",
         "img": "design/illustrations/pixeltrue.png",
-        "tags": [
-        ]
+        "tags": []
       }
     ]
   }

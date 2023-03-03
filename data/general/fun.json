@@ -115,6 +115,28 @@
             "name": "paid"
           }
         ]
+      },
+      {
+        "name": "Radio Garden",
+        "description": "Listen to thousands of live radio stations world wide by rotating the globe",
+        "url": "https://radio.garden",
+        "img": "general/fun/radiogarden.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Geography Games",
+        "description": "Beautiful geography games and quizzes",
+        "url": "https://geography.games/",
+        "img": "general/fun/geography-games.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
       }
     ]
   }

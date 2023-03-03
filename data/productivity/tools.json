@@ -24,6 +24,15 @@
         ]
       },
       {
+        "name": "50 Hacks",
+        "description": "Top 50 productivity hacks chosen by internet and you",
+        "url": "https://50hacks.co/",
+        "img": "productivity/tools/50hacks.png",
+        "tags": [
+          { "name": "free" }
+        ]
+      },
+      {
         "name": "Notion",
         "description": "Workspace",
         "url": "https://www.notion.so",

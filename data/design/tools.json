@@ -91,6 +91,15 @@
         "tags": [
           { "name": "freemium" }
         ]
+      },
+      {
+        "name": "haikei",
+        "description": "Generate unique SVG design assets",
+        "url": "https://haikei.app/",
+        "img": "design/tools/haikei.png",
+        "tags": [
+          { "name": "free" }
+        ]
       }
     ]
   }
