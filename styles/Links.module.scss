@@ -11,7 +11,7 @@
 }
 
 .a {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   display: block;
   color: #111;
   padding: 14px;
@@ -23,7 +23,7 @@
 }
 
 .a:hover:not(.active) {
-  border: #111 solid 2px;
+  border: #111 dashed 2px;
   border-radius: 10px;
   color: #111;
   padding: 12px;
@@ -47,5 +47,5 @@
 
 .inner_ul {
   list-style: none;
-  padding-left: 20px;
+  padding-left: 0;
 }

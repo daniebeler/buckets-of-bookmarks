@@ -84,7 +84,7 @@ const Links = (props: ChildProps) => {
                     return (
                       <li className={styles.link_wrapper} key={link.title}>
                         <Link key={link.title} onClick={() => props.toggleMenu()} href={link.path} passHref className={styles.a + ' ' + (router.asPath === link.path ? styles.active : "")}>
-                          <link.icon color={router.asPath === link.path ? '#fff' : '#111'} size='24' /> {link.title}
+                          <link.icon color={router.asPath === link.path ? '#fff' : '#111'} size='20' /> {link.title}
                         </Link>
                       </li>
                     )
