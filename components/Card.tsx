@@ -73,7 +73,7 @@ const Card = (props: any) => {
         <div className="row">
           <div className="col">
             <h2 className={styles.name}>{props.name}</h2>
-            <p className='m-0 pt-1'>{props.description}</p>
+            <p className={styles.description}>{props.description}</p>
           </div>
         </div>
       </a>

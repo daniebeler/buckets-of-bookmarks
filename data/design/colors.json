@@ -3,6 +3,16 @@
     "name": "Colors",
     "items": [
       {
+        "name": "Hypercolor",
+        "description": "Gradients for Tailwind CSS",
+        "url": "https://hypercolor.dev/",
+        "img": "design/colors/hypercolor.png",
+        "tags": [
+          { "name": "free" },
+          { "name": "os" }
+        ]
+      },
+      {
         "name": "Happy Hues",
         "description": "Curated colors in context",
         "url": "https://www.happyhues.co/",
