@@ -73,6 +73,17 @@
         ]
       },
       {
+        "name": "Manypixels",
+        "description": "2500+ royalty-free illustrations  to power up your designs",
+        "url": "https://www.manypixels.co/gallery/",
+        "img": "design/illustrations/manypixels.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
         "name": "Glaze",
         "description": "Royalty-free illustration library",
         "url": "https://www.glazestock.com/",

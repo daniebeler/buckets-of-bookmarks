@@ -17,6 +17,12 @@ const Home = () => {
                 <FileCode size='24' color='#111' />
               </a>
             </div>
+
+            <div className={styles.producthunt_wrapper}>
+              <a href="https://www.producthunt.com/posts/buckets-of-bookmarks?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-buckets&#0045;of&#0045;bookmarks" target="_blank" rel="noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=385741&theme=light" alt="Buckets&#0032;Of&#0032;Bookmarks - An&#0032;ever&#0045;growing&#0032;collection&#0032;of&#0032;useful&#0032;websites&#0032;and&#0032;tools | Product Hunt" /></a>
+            </div>
+
+
           </div>
           <div className={'col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6 ' + styles.right_col}>
             <div className={styles.image_wrapper}>
