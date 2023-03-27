@@ -8,7 +8,9 @@
         "url": "https://m3.material.io/",
         "img": "design/systems/material-design.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -17,7 +19,9 @@
         "url": "https://developer.apple.com/design/human-interface-guidelines/guidelines/overview/",
         "img": "design/systems/human-interface-design.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -26,7 +30,9 @@
         "url": "https://www.microsoft.com/design/fluent/#/",
         "img": "design/systems/fluent.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -35,7 +41,9 @@
         "url": "https://carbondesignsystem.com/",
         "img": "design/systems/carbon.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -44,7 +52,9 @@
         "url": "https://airbnb.design/building-a-visual-language/",
         "img": "design/systems/airbnb-design.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -53,7 +63,9 @@
         "url": "https://spectrum.adobe.com/",
         "img": "design/systems/adobe-spectrum.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -62,7 +74,9 @@
         "url": "https://www.audi.com/ci/en/guides/user-interface/introduction.html",
         "img": "design/systems/audi-design.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -71,7 +85,9 @@
         "url": "https://www.lightningdesignsystem.com/",
         "img": "design/systems/lightning-design.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -80,7 +96,9 @@
         "url": "https://evergreen.segment.com/",
         "img": "design/systems/evergreen.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -89,7 +107,9 @@
         "url": "https://polaris.shopify.com/",
         "img": "design/systems/polaris.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -98,7 +118,9 @@
         "url": "https://atlassian.design/",
         "img": "design/systems/atlassian.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       }
     ]

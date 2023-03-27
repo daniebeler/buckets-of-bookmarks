@@ -8,9 +8,15 @@
         "url": "https://ideaoverflow.xyz",
         "img": "coding/ideas/idea-overflow.svg",
         "tags": [
-          { "name": "free" },
-          { "name": "os" },
-          { "name": "pwa" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          },
+          {
+            "name": "pwa"
+          }
         ]
       },
       {
@@ -19,7 +25,9 @@
         "url": "https://medium.com/geekculture/28-project-ideas-to-practice-your-programming-skills-d27eaa3d8ada",
         "img": "others/internet.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -28,7 +36,9 @@
         "url": "https://github.com/florinpop17/app-ideas",
         "img": "others/internet.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -37,7 +47,9 @@
         "url": "https://github.com/The-Cool-Coders/Project-Ideas-And-Resources",
         "img": "others/internet.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       }
     ]

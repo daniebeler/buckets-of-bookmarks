@@ -8,7 +8,9 @@
         "url": "https://chroma.dev",
         "img": "design/tools/chroma.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -17,7 +19,9 @@
         "url": "https://www.toptal.com/developers/webdevchecklist",
         "img": "design/tools/toptal-checklist.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -26,7 +30,9 @@
         "url": "https://patternico.com/",
         "img": "design/tools/patternico.webp",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -35,7 +41,9 @@
         "url": "https://www.thegoodlineheight.com",
         "img": "design/tools/thegoodlineheight.svg",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -44,7 +52,9 @@
         "url": "https://cleanup.pictures",
         "img": "design/tools/cleanup.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -53,7 +63,9 @@
         "url": "https://www.figma.com/",
         "img": "design/tools/figma.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -62,7 +74,9 @@
         "url": "https://compressor.io",
         "img": "design/tools/compressor.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -71,7 +85,9 @@
         "url": "https://zeplin.io/",
         "img": "design/tools/zeplin.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -80,7 +96,9 @@
         "url": "https://buffer.com/remix",
         "img": "design/tools/remix.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -89,7 +107,9 @@
         "url": "https://www.canva.com/",
         "img": "design/tools/canva.jpg",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -98,7 +118,9 @@
         "url": "https://haikei.app/",
         "img": "design/tools/haikei.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       }
     ]

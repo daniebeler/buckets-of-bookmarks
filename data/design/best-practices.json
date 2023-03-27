@@ -8,7 +8,9 @@
         "url": "https://www.checklist.design/",
         "img": "design/best-practices/checklist-design.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       }
     ]

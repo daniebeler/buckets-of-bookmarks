@@ -1,41 +1,61 @@
 {
     "data": {
-      "name": "UI Components",
-      "items": [
-        {
-          "name": "Tailwind UI",
-          "description": "Official Tailwind CSS Components",
-          "url": "https://tailwindui.com/",
-          "img": "design/ui-components/tailwind-ui.png",
-          "tags": [
-            { "name": "freemium" },
-            { "name": "tailwind" },
-            { "name": "react" }
-          ]
-        },
-        {
-          "name": "Meraki UI",
-          "description": "Elegant, modern, and customizable UI components.",
-          "url": "https://merakiui.com/",
-          "img": "design/ui-components/meraki-ui.png",
-          "tags": [
-            { "name": "free" },
-            { "name": "os" },
-            { "name": "tailwind" }
-          ]
-        },
-        {
-          "name": "Preline UI",
-          "description": "Set of prebuilt UI components based on Tailwind CSS",
-          "url": "https://preline.co",
-          "img": "design/ui-components/preline.png",
-          "tags": [
-            { "name": "free" },
-            { "name": "os" },
-            { "name": "tailwind" },
-            { "name": "react" }
-          ]
-        }
-      ]
+        "name": "UI Components",
+        "items": [
+            {
+                "name": "Tailwind UI",
+                "description": "Official Tailwind CSS Components",
+                "url": "https://tailwindui.com/",
+                "img": "design/ui-components/tailwind-ui.png",
+                "tags": [
+                    {
+                        "name": "freemium"
+                    },
+                    {
+                        "name": "tailwind"
+                    },
+                    {
+                        "name": "react"
+                    }
+                ]
+            },
+            {
+                "name": "Meraki UI",
+                "description": "Elegant, modern, and customizable UI components.",
+                "url": "https://merakiui.com/",
+                "img": "design/ui-components/meraki-ui.png",
+                "tags": [
+                    {
+                        "name": "free"
+                    },
+                    {
+                        "name": "os"
+                    },
+                    {
+                        "name": "tailwind"
+                    }
+                ]
+            },
+            {
+                "name": "Preline UI",
+                "description": "Set of prebuilt UI components based on Tailwind CSS",
+                "url": "https://preline.co",
+                "img": "design/ui-components/preline.png",
+                "tags": [
+                    {
+                        "name": "free"
+                    },
+                    {
+                        "name": "os"
+                    },
+                    {
+                        "name": "tailwind"
+                    },
+                    {
+                        "name": "react"
+                    }
+                ]
+            }
+        ]
     }
-  }
+}

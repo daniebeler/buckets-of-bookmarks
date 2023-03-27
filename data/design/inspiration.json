@@ -8,8 +8,12 @@
         "url": "https://tobiasahlin.com/moving-letters/",
         "img": "design/inspiration/moving-letters.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -18,8 +22,12 @@
         "url": "https://tobiasahlin.com/spinkit/",
         "img": "design/inspiration/spinkit.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -28,7 +36,9 @@
         "url": "https://dribbble.com/",
         "img": "design/inspiration/dribbble.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -37,7 +47,9 @@
         "url": "https://www.awwwards.com/",
         "img": "design/inspiration/awwwards.jpg",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -46,7 +58,9 @@
         "url": "https://mobbin.com",
         "img": "design/inspiration/mobbin.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -55,7 +69,9 @@
         "url": "https://www.marbleflows.com/onboarding",
         "img": "design/inspiration/marbleflows.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -64,7 +80,9 @@
         "url": "https://nicelydone.club/",
         "img": "design/inspiration/nicelydone.png",
         "tags": [
-          { "name": "paid" }
+          {
+            "name": "paid"
+          }
         ]
       }
     ]

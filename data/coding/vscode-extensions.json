@@ -8,8 +8,12 @@
         "url": "https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula",
         "img": "coding/vscode-extensions/dracula.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -18,8 +22,12 @@
         "url": "https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap",
         "img": "coding/vscode-extensions/codesnap.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -28,8 +36,12 @@
         "url": "https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph",
         "img": "coding/vscode-extensions/git-graph.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -38,8 +50,12 @@
         "url": "https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme",
         "img": "coding/vscode-extensions/material-theme.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -48,8 +64,12 @@
         "url": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
         "img": "coding/vscode-extensions/prettier.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -58,8 +78,12 @@
         "url": "https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens",
         "img": "coding/vscode-extensions/version-lens.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       }
     ]

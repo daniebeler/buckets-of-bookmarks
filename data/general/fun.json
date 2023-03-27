@@ -55,7 +55,9 @@
           {
             "name": "free"
           },
-          { "name": "android" }
+          {
+            "name": "android"
+          }
         ]
       },
       {

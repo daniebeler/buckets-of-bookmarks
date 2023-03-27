@@ -8,7 +8,9 @@
         "url": "https://unsplash.com/",
         "img": "design/stock-photos/unsplash.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -17,7 +19,9 @@
         "url": "https://www.freeimages.com/",
         "img": "design/stock-photos/pikspree.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -26,7 +30,9 @@
         "url": "https://stockvault.net/",
         "img": "design/stock-photos/stockvault.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -35,7 +41,9 @@
         "url": "https://burst.shopify.com/",
         "img": "design/stock-photos/burst.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -44,7 +52,9 @@
         "url": "https://pixabay.com/",
         "img": "design/stock-photos/pixabay.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -53,7 +63,9 @@
         "url": "https://www.pexels.com/",
         "img": "design/stock-photos/pexels.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -62,7 +74,9 @@
         "url": "https://freepik.com/",
         "img": "design/stock-photos/freepik.webp",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       }
     ]

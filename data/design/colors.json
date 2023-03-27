@@ -8,9 +8,15 @@
         "url": "https://hypercolor.dev/",
         "img": "design/colors/hypercolor.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" },
-          { "name": "tailwind" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          },
+          {
+            "name": "tailwind"
+          }
         ]
       },
       {
@@ -19,7 +25,9 @@
         "url": "https://www.happyhues.co/",
         "img": "design/colors/happy-hues.gif",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -28,7 +36,9 @@
         "url": "https://color.adobe.com/explore",
         "img": "design/colors/adobe-color.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -37,7 +47,9 @@
         "url": "https://www.canva.com/colors/color-meanings/",
         "img": "design/colors/canva-color-meanings.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -46,7 +58,9 @@
         "url": "https://www.canva.com/colors/color-wheel/",
         "img": "design/colors/canva-color-wheel.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -55,7 +69,9 @@
         "url": "https://www.canva.com/colors/color-palettes/",
         "img": "design/colors/canva-color-palette-ideas.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -64,7 +80,9 @@
         "url": "https://www.canva.com/colors/color-palette-generator/",
         "img": "design/colors/canva-color-palette-generator.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -73,7 +91,9 @@
         "url": "https://colorhunt.co/",
         "img": "design/colors/color-hunt.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -82,7 +102,9 @@
         "url": "https://mycolor.space",
         "img": "design/colors/color-space.jpg",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -91,7 +113,9 @@
         "url": "https://www.grabient.com/",
         "img": "design/colors/grabient.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -100,7 +124,9 @@
         "url": "https://coolors.co/",
         "img": "design/colors/coolors.webp",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       }
     ]

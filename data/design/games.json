@@ -8,7 +8,9 @@
         "url": "https://bezier.method.ac/",
         "img": "design/games/the-bezier-game.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -17,7 +19,9 @@
         "url": "https://type.method.ac/",
         "img": "design/games/kerntype.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -26,7 +30,9 @@
         "url": "https://flexboxfroggy.com/",
         "img": "design/games/flexbox-froggy.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -35,7 +41,9 @@
         "url": "https://color.method.ac/",
         "img": "design/games/color.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -44,7 +52,9 @@
         "url": "https://pixact.ly/",
         "img": "design/games/pixactly.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -53,7 +63,9 @@
         "url": "https://kolor.moro.es/",
         "img": "design/games/kolor.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       }
     ]

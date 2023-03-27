@@ -8,7 +8,9 @@
         "url": "https://www.oreilly.com/library/view/clean-code-a/9780136083238/",
         "img": "coding/books/clean-code.png",
         "tags": [
-          { "name": "paid" }
+          {
+            "name": "paid"
+          }
         ]
       }
     ]

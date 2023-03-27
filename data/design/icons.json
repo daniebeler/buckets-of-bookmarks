@@ -8,8 +8,12 @@
         "url": "https://icons.getbootstrap.com/",
         "img": "design/icons/bootstrap-icons.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -18,8 +22,12 @@
         "url": "https://www.svgrepo.com/",
         "img": "design/icons/svgrepo.svg",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -28,10 +36,18 @@
         "url": "https://heroicons.com/",
         "img": "design/icons/heroicons.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" },
-          { "name": "tailwind" },
-          { "name": "react" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          },
+          {
+            "name": "tailwind"
+          },
+          {
+            "name": "react"
+          }
         ]
       },
       {
@@ -40,9 +56,15 @@
         "url": "https://tabler-icons.io/",
         "img": "design/icons/tabler.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" },
-          { "name": "react" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          },
+          {
+            "name": "react"
+          }
         ]
       },
       {
@@ -51,8 +73,12 @@
         "url": "https://polaris-icons.shopify.com/",
         "img": "design/icons/polaris-icons.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -61,8 +87,12 @@
         "url": "https://ionic.io/ionicons",
         "img": "design/icons/ionicons.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -71,8 +101,12 @@
         "url": "https://icons.download/",
         "img": "design/icons/icons-download.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -81,9 +115,15 @@
         "url": "https://phosphoricons.com/",
         "img": "design/icons/phosphor.svg",
         "tags": [
-          { "name": "free" },
-          { "name": "os" },
-          { "name": "react" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          },
+          {
+            "name": "react"
+          }
         ]
       },
       {
@@ -92,8 +132,12 @@
         "url": "https://3dicons.co/",
         "img": "design/icons/3dicons.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -102,7 +146,9 @@
         "url": "https://iconsax.io/",
         "img": "design/icons/iconsax.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -111,7 +157,9 @@
         "url": "https://icons8.com/",
         "img": "design/icons/icons8.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -120,7 +168,9 @@
         "url": "https://fontawesome.com/",
         "img": "design/icons/fontawesome.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -129,7 +179,9 @@
         "url": "https://www.flaticon.com/",
         "img": "design/icons/flaticon.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -138,7 +190,9 @@
         "url": "https://www.iconfinder.com/",
         "img": "design/icons/iconfinder.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -147,7 +201,9 @@
         "url": "https://thenounproject.com/",
         "img": "design/icons/nounproject.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -155,8 +211,7 @@
         "description": "Icons",
         "url": "https://iconly.pro/",
         "img": "design/icons/iconly.png",
-        "tags": [
-        ]
+        "tags": []
       }
     ]
   }

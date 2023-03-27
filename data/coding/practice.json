@@ -8,8 +8,12 @@
         "url": "https://www.theodinproject.com/",
         "img": "coding/practice/the-odin-project.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -18,8 +22,12 @@
         "url": "https://www.freecodecamp.org/",
         "img": "coding/practice/freecodecamp.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -28,7 +36,9 @@
         "url": "https://www.hackerrank.com/",
         "img": "coding/practice/hackerrank.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       }
     ]

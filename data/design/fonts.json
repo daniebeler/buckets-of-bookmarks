@@ -8,8 +8,12 @@
         "url": "https://fonts.google.com/",
         "img": "design/fonts/google-fonts.png",
         "tags": [
-          { "name": "free" },
-          { "name": "os" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
         ]
       },
       {
@@ -18,7 +22,9 @@
         "url": "https://fontjoy.com/",
         "img": "design/fonts/fontjoy.jpg",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -27,7 +33,9 @@
         "url": "https://tiff.herokuapp.com/",
         "img": "design/fonts/tiff.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -36,7 +44,9 @@
         "url": "https://www.dafont.com",
         "img": "design/fonts/dafont.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -45,7 +55,9 @@
         "url": "https://tobiasahlin.com/typesource/",
         "img": "design/fonts/typesource.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -54,7 +66,9 @@
         "url": "https://www.fontsquirrel.com/",
         "img": "design/fonts/font-squirrel.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -63,7 +77,9 @@
         "url": "https://www.cufonfonts.com/",
         "img": "design/fonts/cufon-fonts.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -72,7 +88,9 @@
         "url": "https://www.fontshare.com/",
         "img": "design/fonts/fontshare.jpg",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -81,7 +99,9 @@
         "url": "https://www.fontspace.com/",
         "img": "design/fonts/fontspace.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -90,7 +110,9 @@
         "url": "https://fontesk.com",
         "img": "design/fonts/fontesk.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -99,8 +121,12 @@
         "url": "https://fontbundles.net/free-fonts",
         "img": "design/fonts/font-bundles.png",
         "tags": [
-          { "name": "paid" },
-          { "name": "free" }
+          {
+            "name": "paid"
+          },
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -109,8 +135,12 @@
         "url": "https://www.urbanfonts.com/",
         "img": "design/fonts/urban-fonts.png",
         "tags": [
-          { "name": "paid" },
-          { "name": "free" }
+          {
+            "name": "paid"
+          },
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -119,8 +149,12 @@
         "url": "https://www.fontfabric.com/free-fonts/",
         "img": "design/fonts/fontfabric.png",
         "tags": [
-          { "name": "paid" },
-          { "name": "free" }
+          {
+            "name": "paid"
+          },
+          {
+            "name": "free"
+          }
         ]
       }
     ]

@@ -11,8 +11,12 @@
           {
             "name": "free"
           },
-          { "name": "android" },
-          { "name": "ios" }
+          {
+            "name": "android"
+          },
+          {
+            "name": "ios"
+          }
         ]
       },
       {
@@ -24,8 +28,12 @@
           {
             "name": "free"
           },
-          { "name": "android" },
-          { "name": "ios" }
+          {
+            "name": "android"
+          },
+          {
+            "name": "ios"
+          }
         ]
       },
       {
@@ -37,8 +45,12 @@
           {
             "name": "free"
           },
-          { "name": "android" },
-          { "name": "ios" }
+          {
+            "name": "android"
+          },
+          {
+            "name": "ios"
+          }
         ]
       },
       {
@@ -50,8 +62,12 @@
           {
             "name": "free"
           },
-          { "name": "android" },
-          { "name": "ios" }
+          {
+            "name": "android"
+          },
+          {
+            "name": "ios"
+          }
         ]
       },
       {
@@ -63,8 +79,12 @@
           {
             "name": "free"
           },
-          { "name": "android" },
-          { "name": "ios" }
+          {
+            "name": "android"
+          },
+          {
+            "name": "ios"
+          }
         ]
       },
       {
@@ -76,8 +96,12 @@
           {
             "name": "free"
           },
-          { "name": "android" },
-          { "name": "ios" }
+          {
+            "name": "android"
+          },
+          {
+            "name": "ios"
+          }
         ]
       }
     ]

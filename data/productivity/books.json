@@ -8,7 +8,9 @@
         "url": "https://jamesclear.com/atomic-habits",
         "img": "productivity/books/atomic-habits.png",
         "tags": [
-          { "name": "paid" }
+          {
+            "name": "paid"
+          }
         ]
       },
       {
@@ -17,7 +19,9 @@
         "url": "https://www.goodreads.com/book/show/19288230-scrum",
         "img": "productivity/books/scrum.png",
         "tags": [
-          { "name": "paid" }
+          {
+            "name": "paid"
+          }
         ]
       },
       {
@@ -26,7 +30,9 @@
         "url": "https://www.goodreads.com/book/show/28257707-the-subtle-art-of-not-giving-a-f-ck",
         "img": "productivity/books/the-subtle-art-of-not-giving-a-fuck.png",
         "tags": [
-          { "name": "paid" }
+          {
+            "name": "paid"
+          }
         ]
       }
     ]

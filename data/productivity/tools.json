@@ -8,9 +8,15 @@
         "url": "https://kommiuniti.netlify.app/",
         "img": "productivity/tools/kommiuniti.svg",
         "tags": [
-          { "name": "free" },
-          { "name": "os" },
-          { "name": "pwa" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          },
+          {
+            "name": "pwa"
+          }
         ]
       },
       {
@@ -19,8 +25,12 @@
         "url": "https://play.google.com/store/apps/details?id=com.daniebeler.dailytasks&hl=en_US&gl=US",
         "img": "productivity/tools/dailytasks.png",
         "tags": [
-          { "name": "free" },
-          { "name": "android" }
+          {
+            "name": "free"
+          },
+          {
+            "name": "android"
+          }
         ]
       },
       {
@@ -29,7 +39,9 @@
         "url": "https://50hacks.co/",
         "img": "productivity/tools/50hacks.png",
         "tags": [
-          { "name": "free" }
+          {
+            "name": "free"
+          }
         ]
       },
       {
@@ -38,9 +50,15 @@
         "url": "https://www.notion.so",
         "img": "productivity/tools/notion.png",
         "tags": [
-          { "name": "freemium" },
-          { "name": "android" },
-          { "name": "ios" }
+          {
+            "name": "freemium"
+          },
+          {
+            "name": "android"
+          },
+          {
+            "name": "ios"
+          }
         ]
       },
       {
@@ -49,7 +67,9 @@
         "url": "https://habitsgarden.com/",
         "img": "productivity/tools/habitsgarden.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -58,7 +78,9 @@
         "url": "https://trello.com/",
         "img": "productivity/tools/trello.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       },
       {
@@ -67,7 +89,9 @@
         "url": "https://toggl.com/track/",
         "img": "productivity/tools/toggl-track.png",
         "tags": [
-          { "name": "freemium" }
+          {
+            "name": "freemium"
+          }
         ]
       }
     ]
