@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
-import { Rubik } from '@next/font/google'
+import { Rubik } from 'next/font/google'
 
 const rubikLight = Rubik({
   subsets: ['latin'],
