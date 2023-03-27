@@ -144,6 +144,15 @@ export async function getStaticPaths() {
         }
       },
       {
+        params:
+        {
+          id: [
+            'design',
+            'ui-components'
+          ]
+        }
+      },
+      {
         params: {
           id: [
             'design',

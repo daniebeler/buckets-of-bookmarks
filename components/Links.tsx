@@ -1,39 +1,24 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from '../styles/Links.module.scss';
-import { House, Palette, Truck, GlobeHemisphereWest, NewspaperClipping, ChatCircleDots, TextAa, GoogleLogo, GameController, BezierCurve, PaintBrush, GraduationCap, Books, Camera, ImageSquare, Lightbulb, Smiley, ThumbsUp, Wrench, PuzzlePiece } from "phosphor-react";
+import { House, DeviceMobileSpeaker, Palette, Truck, GlobeHemisphereWest, NewspaperClipping, ChatCircleDots, TextAa, GoogleLogo, GameController, BezierCurve, PaintBrush, GraduationCap, Books, Camera, ImageSquare, Lightbulb, Smiley, ThumbsUp, Wrench, PuzzlePiece } from "phosphor-react";
 
 const navLinks = [
-  {
-    name: 'General',
-    items: [
-      { title: 'Google', path: '/general/google', icon: GoogleLogo },
-      { title: 'Blogs', path: '/general/blogs', icon: NewspaperClipping },
-      { title: 'Social Media', path: '/general/social-media', icon: ChatCircleDots },
-      { title: 'Fun', path: '/general/fun', icon: GameController },
-    ]
-  },
   {
     name: 'Design',
     items: [
       { title: 'Colors', path: '/design/colors', icon: Palette },
-      { title: 'Typography', path: '/design/fonts', icon: TextAa },
-      { title: 'Games', path: '/design/games', icon: GameController },
       { title: 'Icons', path: '/design/icons', icon: Smiley },
-      { title: 'Design Systems', path: '/design/systems', icon: BezierCurve },
       { title: 'Illustrations', path: '/design/illustrations', icon: ImageSquare },
       { title: 'Stock Photos', path: '/design/stock-photos', icon: Camera },
-      { title: 'Best Practices', path: '/design/best-practices', icon: ThumbsUp },
-      { title: 'Inspiration', path: '/design/inspiration', icon: Lightbulb },
+      { title: 'UI Components', path: '/design/ui-components', icon: DeviceMobileSpeaker },
+      { title: 'Typography', path: '/design/fonts', icon: TextAa },
       { title: 'Tools', path: '/design/tools', icon: Wrench },
+      { title: 'Best Practices', path: '/design/best-practices', icon: ThumbsUp },
+      { title: 'Design Systems', path: '/design/systems', icon: BezierCurve },
+      { title: 'Inspiration', path: '/design/inspiration', icon: Lightbulb },
       { title: 'AI Art', path: '/design/ai-art', icon: PaintBrush },
-    ]
-  },
-  {
-    name: 'Productivity',
-    items: [
-      { title: 'Tools', path: '/productivity/tools', icon: Wrench },
-      { title: 'Books', path: '/productivity/books', icon: Books },
+      { title: 'Games', path: '/design/games', icon: GameController },
     ]
   },
   {
@@ -45,6 +30,22 @@ const navLinks = [
       { title: 'Practice', path: '/coding/practice', icon: GraduationCap },
       { title: 'Project Ideas', path: '/coding/ideas', icon: Lightbulb },
       { title: 'VS-Code Extensions', path: '/coding/vscode-extensions', icon: PuzzlePiece },
+    ]
+  },
+  {
+    name: 'Productivity',
+    items: [
+      { title: 'Tools', path: '/productivity/tools', icon: Wrench },
+      { title: 'Books', path: '/productivity/books', icon: Books },
+    ]
+  },
+  {
+    name: 'General',
+    items: [
+      { title: 'Google', path: '/general/google', icon: GoogleLogo },
+      { title: 'Blogs', path: '/general/blogs', icon: NewspaperClipping },
+      { title: 'Social Media', path: '/general/social-media', icon: ChatCircleDots },
+      { title: 'Fun', path: '/general/fun', icon: GameController },
     ]
   },
   {

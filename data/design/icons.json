@@ -29,7 +29,9 @@
         "img": "design/icons/heroicons.png",
         "tags": [
           { "name": "free" },
-          { "name": "os" }
+          { "name": "os" },
+          { "name": "tailwind" },
+          { "name": "react" }
         ]
       },
       {
@@ -39,7 +41,8 @@
         "img": "design/icons/tabler.png",
         "tags": [
           { "name": "free" },
-          { "name": "os" }
+          { "name": "os" },
+          { "name": "react" }
         ]
       },
       {
@@ -79,7 +82,8 @@
         "img": "design/icons/phosphor.svg",
         "tags": [
           { "name": "free" },
-          { "name": "os" }
+          { "name": "os" },
+          { "name": "react" }
         ]
       },
       {

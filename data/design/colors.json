@@ -9,7 +9,8 @@
         "img": "design/colors/hypercolor.png",
         "tags": [
           { "name": "free" },
-          { "name": "os" }
+          { "name": "os" },
+          { "name": "tailwind" }
         ]
       },
       {

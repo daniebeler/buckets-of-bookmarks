@@ -66,6 +66,18 @@ const Card = (props: any) => {
                       IOS
                     </div>
                   )
+                } else if (item.name === "tailwind") {
+                  return (
+                    <div key={item.name} className={styles.badge + ' ' + styles.badge_tailwind} >
+                      TAILWIND
+                    </div>
+                  )
+                } else if (item.name === "react") {
+                  return (
+                    <div key={item.name} className={styles.badge + ' ' + styles.badge_react} >
+                      REACT
+                    </div>
+                  )
                 }
               })}
           </div>
