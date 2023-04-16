@@ -127,6 +127,20 @@
         ]
       },
       {
+        "name": "Simple Icons",
+        "description": "Free SVG icons for popular brands",
+        "url": "https://simpleicons.org/",
+        "img": "design/icons/simpleicons.svg",
+        "tags": [
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
+        ]
+      },
+      {
         "name": "3dicons",
         "description": "Beautifully crafted open source 3D icons",
         "url": "https://3dicons.co/",
@@ -137,6 +151,17 @@
           },
           {
             "name": "os"
+          }
+        ]
+      },
+      {
+        "name": "Reshot",
+        "description": "Instant downloads and commercial licenses for over 40,000 icons",
+        "url": "https://www.reshot.com/free-svg-icons",
+        "img": "design/icons/reshot.svg",
+        "tags": [
+          {
+            "name": "free"
           }
         ]
       },

@@ -73,6 +73,17 @@
         ]
       },
       {
+        "name": "Reshot",
+        "description": "Instant downloads and commercial licenses for over 1,500 vector illustrations",
+        "url": "https://www.reshot.com/free-vector-illustrations/",
+        "img": "design/icons/reshot.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
         "name": "Manypixels",
         "description": "2500+ royalty-free illustrations  to power up your designs",
         "url": "https://www.manypixels.co/gallery/",
