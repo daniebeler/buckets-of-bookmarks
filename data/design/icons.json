@@ -3,6 +3,23 @@
     "name": "Icons",
     "items": [
       {
+        "name": "Phosphor Icons",
+        "description": "Flexible icon family",
+        "url": "https://phosphoricons.com/",
+        "img": "design/icons/phosphor.svg",
+        "tags": [
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          },
+          {
+            "name": "react"
+          }
+        ]
+      },
+      {
         "name": "Bootstrap Icons",
         "description": "Free and Open Source icon library",
         "url": "https://icons.getbootstrap.com/",
@@ -110,27 +127,24 @@
         ]
       },
       {
-        "name": "Phosphor Icons",
-        "description": "Flexible icon family",
-        "url": "https://phosphoricons.com/",
-        "img": "design/icons/phosphor.svg",
+        "name": "Simple Icons",
+        "description": "Free SVG icons for popular brands",
+        "url": "https://simpleicons.org/",
+        "img": "design/icons/simpleicons.svg",
         "tags": [
           {
             "name": "free"
           },
           {
             "name": "os"
-          },
-          {
-            "name": "react"
           }
         ]
       },
       {
-        "name": "Simple Icons",
-        "description": "Free SVG icons for popular brands",
-        "url": "https://simpleicons.org/",
-        "img": "design/icons/simpleicons.svg",
+        "name": "Animated Fluent Emojis",
+        "description": "All the Microsoft animated fluent emojis",
+        "url": "https://animated-fluent-emoji.vercel.app/",
+        "img": "design/icons/fluenticons.png",
         "tags": [
           {
             "name": "free"
