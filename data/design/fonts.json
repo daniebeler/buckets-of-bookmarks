@@ -116,6 +116,28 @@
         ]
       },
       {
+        "name": "Fonts in the Wild",
+        "description": "Find fonts in real live examples",
+        "url": "https://www.fontsinthewild.com/",
+        "img": "design/fonts/fontsinthewild.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "Fonts in Use",
+        "description": "An independent archive of typography",
+        "url": "https://fontsinuse.com/",
+        "img": "design/fonts/fontsinuse.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
         "name": "Font Bundles",
         "description": "Free fonts for commercial use",
         "url": "https://fontbundles.net/free-fonts",
