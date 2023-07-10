@@ -67,6 +67,50 @@
             "name": "free"
           }
         ]
+      },
+      {
+        "name": "Can't Unsee",
+        "description": "Select the design that is most correct",
+        "url": "https://cantunsee.space/",
+        "img": "design/games/cantunsee.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "What the Hex?",
+        "description": "Guess the color of a given Hex value",
+        "url": "https://yizzle.com/whatthehex/",
+        "img": "design/games/whatthehex.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "I shot the serif",
+        "description": "Shoot only the serif fonts within the available time to move on to the next stage",
+        "url": "https://www.tothepoint.co.uk/us/fun/i-shot-the-serif/",
+        "img": "design/games/ishottheserif.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "It's Centred That",
+        "description": "Guess whether or not the dot is in the centre of each shape",
+        "url": "https://www.supremo.co.uk/designers-eye",
+        "img": "design/games/itscentredthat.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
       }
     ]
   }
