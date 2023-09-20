@@ -138,6 +138,17 @@
         ]
       },
       {
+        "name": "Free Faces",
+        "description": "Fonts available under free licences",
+        "url": "https://www.freefaces.gallery/",
+        "img": "design/fonts/freefaces.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
         "name": "Font Bundles",
         "description": "Free fonts for commercial use",
         "url": "https://fontbundles.net/free-fonts",
