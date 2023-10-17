@@ -10,21 +10,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3",
-    "fs": "^0.0.1-security",
-    "next": "13.2.4",
-    "next-sitemap": "^4.0.6",
+    "bootstrap": "^5.3.2",
+    "fs": "0.0.1-security",
+    "next": "13.5.5",
+    "next-sitemap": "^4.2.3",
     "phosphor-react": "^1.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.60.0"
+    "sass": "^1.69.3"
   },
   "devDependencies": {
-    "@types/node": "18.15.10",
-    "@types/react": "18.0.29",
-    "@types/react-dom": "18.0.11",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
-    "typescript": "5.0.2"
+    "@types/node": "20.8.6",
+    "@types/react": "18.2.28",
+    "@types/react-dom": "18.2.13",
+    "eslint": "8.51.0",
+    "eslint-config-next": "13.5.5",
+    "typescript": "5.2.2"
   }
 }
