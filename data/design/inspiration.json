@@ -3,6 +3,20 @@
     "name": "Inspiration",
     "items": [
       {
+        "name": "Wall of Inspiration",
+        "description": "Collection of beautiful websites",
+        "url": "https://wallofinspiration.netlify.app/",
+        "img": "design/inspiration/wall-of-inspiration.svg",
+        "tags": [
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
+        ]
+      },
+      {
         "name": "Moving Letters",
         "description": "Text animations with source code",
         "url": "https://tobiasahlin.com/moving-letters/",
