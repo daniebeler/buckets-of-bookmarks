@@ -12,7 +12,7 @@
   "dependencies": {
     "bootstrap": "^5.3.2",
     "fs": "0.0.1-security",
-    "next": "14.0.1",
+    "next": "14.0.3",
     "next-sitemap": "^4.2.3",
     "phosphor-react": "^1.4.1",
     "react": "18.2.0",
@@ -20,11 +20,11 @@
     "sass": "^1.69.5"
   },
   "devDependencies": {
-    "@types/node": "20.8.10",
-    "@types/react": "18.2.34",
-    "@types/react-dom": "18.2.14",
-    "eslint": "8.52.0",
-    "eslint-config-next": "14.0.1",
-    "typescript": "5.2.2"
+    "@types/node": "20.9.2",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15",
+    "eslint": "8.47.0",
+    "eslint-config-next": "14.0.3",
+    "typescript": "5.1.6"
   }
 }
