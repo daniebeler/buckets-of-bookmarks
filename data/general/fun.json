@@ -14,6 +14,39 @@
         ]
       },
       {
+        "name": "Neal.fun",
+        "description": "Games, visualizations, interactives and other weird stuff.",
+        "url": "https://neal.fun/",
+        "img": "general/fun/nealfun.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "VOLE.wtf",
+        "description": "Small, fun online games",
+        "url": "https://vole.wtf/",
+        "img": "general/fun/volewtf.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
+        "name": "The Useless Web",
+        "description": "The Useless Sites of the Useless Web",
+        "url": "https://theuselessweb.com/",
+        "img": "general/fun/uselessweb.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
         "name": "TypeRacer",
         "description": "Online typing competition game",
         "url": "https://play.typeracer.com/",
