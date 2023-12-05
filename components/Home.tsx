@@ -5,14 +5,14 @@ const Home = () => {
   return (
     <div className="bg-gray-900 h-full w-full">
       <div className="flex flex-row flex-wrap-reverse h-full w-full">
-        <div className="basis-full lg:basis-7/12 xl:basis-1/2 flex flex-col lg:justify-center p-5">
-          <h1 className="text-white text-5xl">Buckets Of</h1>
-          <h1 className="text-white text-5xl">Bookmarks</h1>
-          <p className="text-white">
+        <div className="basis-full lg:basis-7/12 xl:basis-1/2 flex flex-col items-start lg:justify-center p-6">
+          <h1 className="text-white text-7xl">Buckets Of</h1>
+          <h1 className="text-white text-7xl">Bookmarks</h1>
+          <p className="text-white pt-3 pb-4">
             An ever-growing collection of useful websites and hidden gems of the
             internet. Sorted by category and tagged by price.
           </p>
-          <div className="">
+          {/* <div className="">
             <a
               className=""
               target="_blank"
@@ -21,7 +21,7 @@ const Home = () => {
             >
               <FileCode size="24" color="#111" />
             </a>
-          </div>
+          </div> */}
 
           <div className="">
             <a

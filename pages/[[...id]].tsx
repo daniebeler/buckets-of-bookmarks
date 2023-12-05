@@ -3,7 +3,6 @@ import Collection from "../components/Collection"
 import Home from "../components/Home";
 import Links from "../components/Links";
 import Navbar from "../components/Navbar";
-import styles from '../styles/App.module.scss'
 
 export default function Post(props: any) {
 
@@ -28,7 +27,7 @@ export default function Post(props: any) {
       <div className="w-full">
         <div className="flex flex-row m-0 pt-[45px] md:pt-0 h-screen">
           <div className=" p-0 hidden md:block h-full">
-            <div className="p-3 h-screen overflow-scroll bg-gray-800">
+            <div className="p-3 h-full overflow-scroll bg-gray-800">
               <Links toggleMenu={() => {}}/>
             </div>
           </div>
@@ -36,10 +35,10 @@ export default function Post(props: any) {
           {
             props.data &&
             <div className="col p-0 h-full w-full">
-              <div className="h-screen bg-gray-900 overflow-scroll">
-                <div className={"container-fluid flex " + styles.header_wrapper}>
+              <div className="h-full bg-gray-900 overflow-scroll">
+                <div className="container-fluid flex py-24">
                   <div className="container">
-                    <h1 className="text-center text-white text-3xl">{props.data.name}</h1>
+                    <h1 className="text-center text-white text-4xl">{props.data.name}</h1>
                   </div>
                 </div>
                 <Collection data={props.data.items} />
