@@ -1,10 +1,9 @@
 import Card from "./Card"
-import styles from '../styles/Collection.module.scss'
 
 const Collection = (props: any) => {
   return (
     <div>
-      <div className={'container-fluid ' + styles.collection_wrapper}>
+      <div className='container-fluid '>
         <div className='row'>
           {props.data.map((item: any) => {
             return (

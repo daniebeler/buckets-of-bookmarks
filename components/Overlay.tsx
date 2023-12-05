@@ -9,7 +9,7 @@ interface ChildProps {
 const Overlay = (props: ChildProps) => {
 
   return (
-    <div className={styles.overlay_wrapper}>
+    <div className="bg-gray-700">
       <div className={styles.inner_wrapper}>
         <div className="container">
           <div className={styles.header + " row d-flex align-items-center"}>

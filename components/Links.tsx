@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import styles from '../styles/Links.module.scss';
 import { House, DeviceMobileSpeaker, Palette, Truck, GlobeHemisphereWest, NewspaperClipping, ChatCircleDots, TextAa, GoogleLogo, GameController, BezierCurve, PaintBrush, GraduationCap, Books, Camera, ImageSquare, Lightbulb, Smiley, ThumbsUp, Wrench, PuzzlePiece } from "phosphor-react";
 
 const navLinks = [
@@ -67,25 +66,25 @@ const Links = (props: ChildProps) => {
   const router = useRouter();
 
   return (
-    <ul className={styles.outer_ul}>
-      <li className={styles.link_wrapper_home} key='home'>
-        <Link key='home' onClick={() => props.toggleMenu()} href='/' passHref className={styles.a + ' ' + (router.asPath === '/' ? styles.active : "")}>
-          <House color={router.asPath === '/' ? '#fff' : '#111'} size='24' /> Home
+    <ul className="list-none px-0">
+      <li className="my-4" key='home'>
+        <Link key='home' onClick={() => props.toggleMenu()} href='/' passHref className={'text-white text-sm flex p-3 rounded-lg ' + (router.asPath === '/' ? "bg-black" : "")}>
+          <House color="white" size='20' className="mr-2" /> Home
         </Link>
       </li>
       {
         navLinks.map(bucket => {
           return (
             <li key={bucket.name}>
-              <h4 className={styles.category}>{bucket.name}</h4>
+              <h4 className="pl-4 text-white pt-4 pb-3">{bucket.name}</h4>
 
-              <ul className={styles.inner_ul}>
+              <ul className="list-none px-0">
                 {
                   bucket.items.map(link => {
                     return (
-                      <li className={styles.link_wrapper} key={link.title}>
-                        <Link key={link.title} onClick={() => props.toggleMenu()} href={link.path} passHref className={styles.a + ' ' + (router.asPath === link.path ? styles.active : "")}>
-                          <link.icon color={router.asPath === link.path ? '#fff' : '#111'} size='20' /> {link.title}
+                      <li className="mb-2" key={link.title}>
+                        <Link key={link.title} onClick={() => props.toggleMenu()} href={link.path} passHref className={'text-white text-sm flex p-3 rounded-lg ' + (router.asPath === link.path ? "bg-black" : "")}>
+                          <link.icon color="white" size='20' className="mr-2" /> {link.title}
                         </Link>
                       </li>
                     )
