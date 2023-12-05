@@ -10,7 +10,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bootstrap": "^5.3.2",
     "fs": "0.0.1-security",
     "next": "14.0.3",
     "next-sitemap": "^4.2.3",

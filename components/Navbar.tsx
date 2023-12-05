@@ -7,15 +7,15 @@ const Navbar = () => {
   const toggleMenu = () => setToggle(!toggle);
 
   return (
-    <div className="d-block d-sm-none flex flex-col fixed w-full">
-      <div className="h-[45px] row d-flex align-items-center">
-        <div className="col">
-          <h4 className="text-center m-0 p-0">Buckets of Bookmarks</h4>
+    <div className="block md:hidden fixed w-full">
+      <div className="h-[45px] row flex justify-center bg-gray-700 items-center">
+        <div className="basis-full">
+          <h4 className="text-center m-0 p-0 text-white">Buckets of Bookmarks</h4>
         </div>
-        <div className="col-auto">
+        <div className="basis-0">
           <List
             size="24"
-            color="#111"
+            color="white"
             className="hover:cursor-pointer"
             onClick={toggleMenu}
           />

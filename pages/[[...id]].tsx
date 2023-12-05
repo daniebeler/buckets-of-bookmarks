@@ -10,7 +10,7 @@ export default function Post(props: any) {
   if (!props) return <p>No data</p>
 
   return (
-    <div className={styles.page_wrapper}>
+    <div>
 
       <Head>
         <title>Buckets Of Bookmarks</title>
@@ -22,11 +22,12 @@ export default function Post(props: any) {
         <link rel="icon" href="/bob-circle.svg" />
       </Head>
 
+
       <Navbar />
 
-      <div className={styles.inner_page_wrapper + " w-100"}>
-        <div className="row m-0 pt-5 pt-sm-0 h-screen">
-          <div className="col-12 col-sm-auto p-0 d-none d-sm-block h-full">
+      <div className="w-full">
+        <div className="flex flex-row m-0 pt-[45px] md:pt-0 h-screen">
+          <div className=" p-0 hidden md:block h-full">
             <div className="p-3 h-screen overflow-scroll bg-gray-800">
               <Links toggleMenu={() => {}}/>
             </div>
@@ -34,8 +35,8 @@ export default function Post(props: any) {
 
           {
             props.data &&
-            <div className="col p-0 h-full">
-              <div className=" h-screen bg-gray-900 overflow-scroll">
+            <div className="col p-0 h-full w-full">
+              <div className="h-screen bg-gray-900 overflow-scroll">
                 <div className={"container-fluid flex " + styles.header_wrapper}>
                   <div className="container">
                     <h1 className="text-center text-white text-3xl">{props.data.name}</h1>
@@ -48,7 +49,7 @@ export default function Post(props: any) {
 
           {
             !props.data &&
-            <div className="col p-0 h-full">
+            <div className="col p-0 h-full w-full">
               <div className={"h-full"}>
                   <Home />
               </div>

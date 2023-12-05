@@ -1,21 +1,25 @@
-import Card from "./Card"
+import Card from "./Card";
 
 const Collection = (props: any) => {
   return (
-    <div>
-      <div className='container-fluid '>
-        <div className='row'>
-          {props.data.map((item: any) => {
-            return (
-              <div key={item.name} className='col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2'>
-                <Card name={item.name} description={item.description} url={item.url} img={item.img} tags={item.tags} />
-              </div>
-            )
-          })}
-        </div>
+    <div className="p-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+        {props.data.map((item: any) => {
+          return (
+            <div key={item.name}>
+              <Card
+                name={item.name}
+                description={item.description}
+                url={item.url}
+                img={item.img}
+                tags={item.tags}
+              />
+            </div>
+          );
+        })}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Collection
+export default Collection;
