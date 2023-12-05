@@ -5,9 +5,9 @@ const Home = () => {
   return (
     <div className="bg-gray-900 h-full w-full">
       <div className="flex flex-row flex-wrap-reverse h-full w-full">
-        <div className="basis-full lg:basis-7/12 xl:basis-1/2 flex flex-col items-start lg:justify-center p-6">
-          <h1 className="text-white text-7xl">Buckets Of</h1>
-          <h1 className="text-white text-7xl">Bookmarks</h1>
+        <div className="basis-full lg:basis-1/2 flex flex-col items-start lg:justify-center p-6">
+          <h1 className="text-white text-5xl lg:text-6xl xl:text-7xl">Buckets Of</h1>
+          <h1 className="text-white text-5xl lg:text-6xl xl:text-7xl">Bookmarks</h1>
           <p className="text-white pt-3 pb-4">
             An ever-growing collection of useful websites and hidden gems of the
             internet. Sorted by category and tagged by price.
@@ -36,7 +36,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="basis-full lg:basis-5/12 xl:basis-1/2 p-6">
+        <div className="basis-full lg:basis-1/2 p-6">
           <div className="bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 flex h-[40vh] rounded-xl relative lg:h-full w-full">
             <Image
               src={"/images/others/ReadingDoodle.svg"}

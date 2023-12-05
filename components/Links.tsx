@@ -68,7 +68,7 @@ const Links = (props: ChildProps) => {
   return (
     <ul className="list-none px-0">
       <li className="my-4" key='home'>
-        <Link key='home' onClick={() => props.toggleMenu()} href='/' passHref className={'text-white text-sm flex p-3 rounded-lg ' + (router.asPath === '/' ? "bg-black" : "hover:bg-gray-600")}>
+        <Link key='home' onClick={() => props.toggleMenu()} href='/' passHref className={'text-white text-sm flex p-3 rounded-lg ' + (router.asPath === '/' ? "bg-gray-900" : "hover:bg-gray-700")}>
           <House color="white" size='20' className="mr-2" /> Home
         </Link>
       </li>
@@ -83,7 +83,7 @@ const Links = (props: ChildProps) => {
                   bucket.items.map(link => {
                     return (
                       <li className="mb-2" key={link.title}>
-                        <Link key={link.title} onClick={() => props.toggleMenu()} href={link.path} passHref className={'text-white text-sm flex p-3 rounded-lg ' + (router.asPath === link.path ? "bg-black" : "hover:bg-gray-600")}>
+                        <Link key={link.title} onClick={() => props.toggleMenu()} href={link.path} passHref className={'text-white text-sm flex p-3 rounded-lg ' + (router.asPath === link.path ? "bg-gray-900" : "hover:bg-gray-700")}>
                           <link.icon color="white" size='20' className="mr-2" /> {link.title}
                         </Link>
                       </li>
