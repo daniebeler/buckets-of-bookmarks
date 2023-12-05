@@ -7,7 +7,7 @@ interface ChildProps {
 const Overlay = (props: ChildProps) => {
 
   return (
-    <div className="bg-gray-700 p-4 overflow-auto">
+    <div className="bg-gray-800 p-4 overflow-auto">
       <div className="w-full flex h-screen">
         <div className="container">
           <div className="row">
