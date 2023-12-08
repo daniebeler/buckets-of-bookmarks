@@ -88,7 +88,7 @@ const Card = (props: any) => {
         </div>
         <div>
           <h2 className="text-white text-lg">{props.name}</h2>
-          <p className="text-white text-sm">{props.description}</p>
+          <p className="text-gray-300 text-sm pt-1">{props.description}</p>
         </div>
       </a>
     </div>
