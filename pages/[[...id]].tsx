@@ -18,7 +18,7 @@ export default function Post(props: any) {
           content="Categorized collections of useful websites and tools"
         />
         <meta name="msvalidate.01" content="69FEAD321D5E273091E169DF37464921" />
-        <link rel="icon" href="/bob-circle.svg" />
+        <link rel="icon" href="/logo.svg" />
       </Head>
 
 
