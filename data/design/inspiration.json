@@ -67,6 +67,17 @@
         ]
       },
       {
+        "name": "Footer",
+        "description": "A collection of beautiful Website Footers",
+        "url": "https://www.footer.design",
+        "img": "design/inspiration/footerdesign.svg",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
         "name": "Mobbin",
         "description": "App screens",
         "url": "https://mobbin.com",
