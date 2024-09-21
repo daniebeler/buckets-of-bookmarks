@@ -56,6 +56,17 @@
         ]
       },
       {
+        "name": "Behance",
+        "description": "Platform where artists and designers showcase their portfolios and discover creative work.",
+        "url": "https://www.behance.net",
+        "img": "design/inspiration/behance.png",
+        "tags": [
+          {
+            "name": "free"
+          }
+        ]
+      },
+      {
         "name": "Awwwards",
         "description": "The awards of design, creativity and innovation on the internet",
         "url": "https://www.awwwards.com/",
