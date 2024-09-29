@@ -6,16 +6,16 @@ const navLinks = [
   {
     name: 'Design',
     items: [
-      { title: 'Colors', path: '/design/colors', icon: Palette },
       { title: 'Icons', path: '/design/icons', icon: Smiley },
       { title: 'Illustrations', path: '/design/illustrations', icon: ImageSquare },
       { title: 'Stock Photos', path: '/design/stock-photos', icon: Camera },
+      { title: 'Colors', path: '/design/colors', icon: Palette },
+      { title: 'Inspiration', path: '/design/inspiration', icon: Lightbulb },
       { title: 'UI Components', path: '/design/ui-components', icon: DeviceMobileSpeaker },
       { title: 'Typography', path: '/design/fonts', icon: TextAa },
       { title: 'Tools', path: '/design/tools', icon: Wrench },
       { title: 'Best Practices', path: '/design/best-practices', icon: ThumbsUp },
       { title: 'Design Systems', path: '/design/systems', icon: BezierCurve },
-      { title: 'Inspiration', path: '/design/inspiration', icon: Lightbulb },
       { title: 'AI Art', path: '/design/ai-art', icon: PaintBrush },
       { title: 'Games', path: '/design/games', icon: GameController },
     ]
@@ -23,7 +23,6 @@ const navLinks = [
   {
     name: 'Coding',
     items: [
-      { title: 'Books', path: '/coding/books', icon: Books },
       { title: 'Resources', path: '/coding/resources', icon: Truck },
       { title: 'Tools', path: '/coding/tools', icon: Wrench },
       { title: 'Practice', path: '/coding/practice', icon: GraduationCap },
@@ -35,7 +34,6 @@ const navLinks = [
     name: 'Productivity',
     items: [
       { title: 'Tools', path: '/productivity/tools', icon: Wrench },
-      { title: 'Books', path: '/productivity/books', icon: Books },
     ]
   },
   {

@@ -38,7 +38,7 @@ export default function Post(props: any) {
               <div className="h-full bg-gray-900 overflow-scroll">
                 <div className="container-fluid flex py-24">
                   <div className="container">
-                    <h1 className="text-center text-white text-4xl">{props.data.name}</h1>
+                    <h1 className="text-center text-white text-4xl uppercase">{props.data.name}</h1>
                   </div>
                 </div>
                 <Collection data={props.data.items} />
@@ -237,22 +237,6 @@ export async function getStaticPaths() {
           id: [
             'productivity',
             'tools'
-          ]
-        }
-      },
-      {
-        params: {
-          id: [
-            'productivity',
-            'books'
-          ]
-        }
-      },
-      {
-        params: {
-          id: [
-            'coding',
-            'books'
           ]
         }
       },

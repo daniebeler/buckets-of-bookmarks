@@ -16,7 +16,7 @@ const rubikMedium = Rubik({
 
 const rubikBold = Rubik({
   subsets: ['latin'],
-  weight: '700',
+  weight: '900',
   display: 'swap'
 })
 
@@ -28,7 +28,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           font-family: ${rubikLight.style.fontFamily};
         }
 
-        h1 {
+        h1, .bold {
           font-family: ${rubikBold.style.fontFamily};
         }
 
