@@ -47,6 +47,17 @@
         ]
       },
       {
+        "name": "Wappalyzer",
+        "description": "Identify technologies on websites",
+        "url": "https://www.wappalyzer.com/",
+        "img": "design/tools/wappalyzer.svg",
+        "tags": [
+          {
+            "name": "freemium"
+          }
+        ]
+      },
+      {
         "name": "CleanUp",
         "description": "Editing Tool to remove unwanted elements from image",
         "url": "https://cleanup.pictures",
