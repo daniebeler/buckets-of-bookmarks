@@ -47,6 +47,20 @@
         ]
       },
       {
+        "name": "Pattern Monster",
+        "description": "Customizable SVG patterns",
+        "url": "https://pattern.monster/",
+        "img": "design/tools/patternmonster.png",
+        "tags": [
+          {
+            "name": "os"
+          },
+          {
+            "name": "freemium"
+          }
+        ]
+      },
+      {
         "name": "Wappalyzer",
         "description": "Identify technologies on websites",
         "url": "https://www.wappalyzer.com/",
