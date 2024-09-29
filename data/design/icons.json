@@ -85,6 +85,20 @@
         ]
       },
       {
+        "name": "iconmonstr",
+        "description": "4784+ Icons",
+        "url": "https://iconmonstr.com/",
+        "img": "design/icons/iconmonstr.svg",
+        "tags": [
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
+        ]
+      },
+      {
         "name": "Polaris Icons",
         "description": "A collection of simple and informative icons that draw on the visual language of the Polaris design system",
         "url": "https://polaris-icons.shopify.com/",
