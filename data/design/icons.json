@@ -127,6 +127,20 @@
         ]
       },
       {
+        "name": "Atlas Icons",
+        "description": "Customizable, high-quality icons",
+        "url": "https://atlasicons.vectopus.com/",
+        "img": "design/icons/atlasicons.svg",
+        "tags": [
+          {
+            "name": "free"
+          },
+          {
+            "name": "os"
+          }
+        ]
+      },
+      {
         "name": "Icons.download",
         "description": "Open source vector icons in 16 styles",
         "url": "https://icons.download/",
