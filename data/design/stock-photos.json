@@ -7,6 +7,7 @@
         "description": "Stock images",
         "url": "https://unsplash.com/",
         "img": "design/stock-photos/unsplash.png",
+        "screenshot": "design/stock-photos/screen_unsplash.png",
         "tags": [
           {
             "name": "free"
@@ -18,6 +19,7 @@
         "description": "Stock images",
         "url": "https://www.freeimages.com/",
         "img": "design/stock-photos/pikspree.png",
+        "screenshot": "design/stock-photos/screen_freeimages.png",
         "tags": [
           {
             "name": "free"
@@ -29,6 +31,7 @@
         "description": "Stock images",
         "url": "https://stockvault.net/",
         "img": "design/stock-photos/stockvault.png",
+        "screenshot": "design/stock-photos/screen_stockvault.png",
         "tags": [
           {
             "name": "free"
@@ -40,6 +43,7 @@
         "description": "Stock images",
         "url": "https://burst.shopify.com/",
         "img": "design/stock-photos/burst.png",
+        "screenshot": "design/stock-photos/screen_burst.png",
         "tags": [
           {
             "name": "free"
@@ -51,6 +55,7 @@
         "description": "Stock images",
         "url": "https://pixabay.com/",
         "img": "design/stock-photos/pixabay.png",
+        "screenshot": "design/stock-photos/screen_pixabay.png",
         "tags": [
           {
             "name": "free"
@@ -62,6 +67,7 @@
         "description": "Stock images",
         "url": "https://www.pexels.com/",
         "img": "design/stock-photos/pexels.png",
+        "screenshot": "design/stock-photos/screen_pexels.png",
         "tags": [
           {
             "name": "free"
@@ -73,6 +79,7 @@
         "description": "Stock images",
         "url": "https://freepik.com/",
         "img": "design/stock-photos/freepik.webp",
+        "screenshot": "design/stock-photos/screen_freepik.png",
         "tags": [
           {
             "name": "freemium"
