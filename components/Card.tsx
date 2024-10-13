@@ -99,11 +99,14 @@ const Card = (props: any) => {
           </div>
 
           {props.screenshot && (
-            <img
+            <div className="relative w-full aspect-video mt-4">
+            <Image
               src={"/images/" + props.screenshot}
               alt=""
-              className="rounded-lg w-full aspect-video object-cover mt-4"
+              layout="fill"
+              className="rounded-lg object-cover"
             />
+          </div>
           )}
         </div>
         {/*  <div>
