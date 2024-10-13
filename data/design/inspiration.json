@@ -7,6 +7,7 @@
         "description": "Collection of beautiful websites",
         "url": "https://wallofinspiration.netlify.app/",
         "img": "design/inspiration/wall-of-inspiration.svg",
+        "screenshot": "design/inspiration/screen_wall.png",
         "tags": [
           {
             "name": "free"
@@ -21,20 +22,7 @@
         "description": "Text animations with source code",
         "url": "https://tobiasahlin.com/moving-letters/",
         "img": "design/inspiration/moving-letters.png",
-        "tags": [
-          {
-            "name": "free"
-          },
-          {
-            "name": "os"
-          }
-        ]
-      },
-      {
-        "name": "Spinkit",
-        "description": "Simple loading spinners animated with CSS",
-        "url": "https://tobiasahlin.com/spinkit/",
-        "img": "design/inspiration/spinkit.png",
+        "screenshot": "design/inspiration/screen_movingletters.png",
         "tags": [
           {
             "name": "free"
@@ -49,6 +37,7 @@
         "description": "Social networking platform for digital designers and creatives",
         "url": "https://dribbble.com/",
         "img": "design/inspiration/dribbble.png",
+        "screenshot": "design/inspiration/screen_dribbble.png",
         "tags": [
           {
             "name": "free"
@@ -60,6 +49,7 @@
         "description": "Platform where artists and designers showcase their portfolios and discover creative work.",
         "url": "https://www.behance.net",
         "img": "design/inspiration/behance.png",
+        "screenshot": "design/inspiration/screen_behance.png",
         "tags": [
           {
             "name": "free"
@@ -71,6 +61,7 @@
         "description": "The awards of design, creativity and innovation on the internet",
         "url": "https://www.awwwards.com/",
         "img": "design/inspiration/awwwards.jpg",
+        "screenshot": "design/inspiration/screen_awwwards.png",
         "tags": [
           {
             "name": "free"
@@ -82,6 +73,7 @@
         "description": "A collection of beautiful Website Footers",
         "url": "https://www.footer.design",
         "img": "design/inspiration/footerdesign.svg",
+        "screenshot": "design/inspiration/screen_footer.png",
         "tags": [
           {
             "name": "free"
@@ -93,6 +85,7 @@
         "description": "App screens",
         "url": "https://mobbin.com",
         "img": "design/inspiration/mobbin.png",
+        "screenshot": "design/inspiration/screen_mobbin.png",
         "tags": [
           {
             "name": "freemium"
@@ -104,20 +97,10 @@
         "description": "User onboarding flows from Top SaaS",
         "url": "https://www.marbleflows.com/onboarding",
         "img": "design/inspiration/marbleflows.png",
+        "screenshot": "design/inspiration/screen_onboardinglove.png",
         "tags": [
           {
             "name": "freemium"
-          }
-        ]
-      },
-      {
-        "name": "Nicelydone",
-        "description": "Library of UX/UI design examples from web apps",
-        "url": "https://nicelydone.club/",
-        "img": "design/inspiration/nicelydone.png",
-        "tags": [
-          {
-            "name": "paid"
           }
         ]
       }

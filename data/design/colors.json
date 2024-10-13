@@ -7,6 +7,7 @@
         "description": "Gradients for Tailwind CSS",
         "url": "https://hypercolor.dev/",
         "img": "design/colors/hypercolor.png",
+        "screenshot": "design/colors/screen_hypercolor.png",
         "tags": [
           {
             "name": "free"
@@ -24,6 +25,7 @@
         "description": "Curated colors in context",
         "url": "https://www.happyhues.co/",
         "img": "design/colors/happy-hues.gif",
+        "screenshot": "design/colors/screen_happyhues.png",
         "tags": [
           {
             "name": "free"
@@ -35,6 +37,7 @@
         "description": "Curated colors in context",
         "url": "https://color.adobe.com/explore",
         "img": "design/colors/adobe-color.png",
+        "screenshot": "design/colors/screen_adobecolor.png",
         "tags": [
           {
             "name": "free"
@@ -46,6 +49,7 @@
         "description": "Color meanings and symbolism",
         "url": "https://www.canva.com/colors/color-meanings/",
         "img": "design/colors/canva-color-meanings.png",
+        "screenshot": "design/colors/screen_canvameaning.png",
         "tags": [
           {
             "name": "free"
@@ -57,6 +61,7 @@
         "description": "Color theory and the color wheel",
         "url": "https://www.canva.com/colors/color-wheel/",
         "img": "design/colors/canva-color-wheel.png",
+        "screenshot": "design/colors/screen_canvawheel.png",
         "tags": [
           {
             "name": "free"
@@ -68,6 +73,7 @@
         "description": "Color palette ideas",
         "url": "https://www.canva.com/colors/color-palettes/",
         "img": "design/colors/canva-color-palette-ideas.png",
+        "screenshot": "design/colors/screen_canvapalettes.png",
         "tags": [
           {
             "name": "free"
@@ -79,6 +85,7 @@
         "description": "Color palette generator",
         "url": "https://www.canva.com/colors/color-palette-generator/",
         "img": "design/colors/canva-color-palette-generator.png",
+        "screenshot": "design/colors/screen_canvagenerator.png",
         "tags": [
           {
             "name": "free"
@@ -90,6 +97,7 @@
         "description": "Color palettes",
         "url": "https://colorhunt.co/",
         "img": "design/colors/color-hunt.png",
+        "screenshot": "design/colors/screen_colorhunt.png",
         "tags": [
           {
             "name": "free"
@@ -101,6 +109,7 @@
         "description": "Color palettes and gradient generator",
         "url": "https://mycolor.space",
         "img": "design/colors/color-space.jpg",
+        "screenshot": "design/colors/screen_colorspace.png",
         "tags": [
           {
             "name": "free"
@@ -112,6 +121,7 @@
         "description": "Collection of trendy color gradients",
         "url": "https://www.grabient.com/",
         "img": "design/colors/grabient.png",
+        "screenshot": "design/colors/screen_grabient.png",
         "tags": [
           {
             "name": "free"
@@ -123,6 +133,7 @@
         "description": "Color palettes generator",
         "url": "https://coolors.co/",
         "img": "design/colors/coolors.webp",
+        "screenshot": "design/colors/screen_coolors.png",
         "tags": [
           {
             "name": "freemium"

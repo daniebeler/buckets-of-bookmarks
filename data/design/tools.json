@@ -18,6 +18,7 @@
         "description": "Web Developer Checklist",
         "url": "https://www.toptal.com/developers/webdevchecklist",
         "img": "design/tools/toptal-checklist.png",
+        "screenshot": "design/tools/screen_toptalchecklist.png",
         "tags": [
           {
             "name": "free"
@@ -29,6 +30,7 @@
         "description": "Pattern generator",
         "url": "https://patternico.com/",
         "img": "design/tools/patternico.webp",
+        "screenshot": "design/tools/screen_patternico.png",
         "tags": [
           {
             "name": "free"
@@ -40,6 +42,7 @@
         "description": "Calculate perfect line height",
         "url": "https://www.thegoodlineheight.com",
         "img": "design/tools/thegoodlineheight.svg",
+        "screenshot": "design/tools/screen_goodlineheight.png",
         "tags": [
           {
             "name": "free"
@@ -51,6 +54,7 @@
         "description": "Customizable SVG patterns",
         "url": "https://pattern.monster/",
         "img": "design/tools/patternmonster.png",
+        "screenshot": "design/tools/screen_patternmonster.png",
         "tags": [
           {
             "name": "os"
@@ -87,6 +91,7 @@
         "description": "Design tool",
         "url": "https://www.figma.com/",
         "img": "design/tools/figma.png",
+        "screenshot": "design/tools/screen_figma.png",
         "tags": [
           {
             "name": "freemium"
@@ -98,6 +103,7 @@
         "description": "Fast & effective image compression",
         "url": "https://compressor.io",
         "img": "design/tools/compressor.png",
+        "screenshot": "design/tools/screen_compressor.png",
         "tags": [
           {
             "name": "freemium"
@@ -131,6 +137,7 @@
         "description": "Online design tool",
         "url": "https://www.canva.com/",
         "img": "design/tools/canva.jpg",
+        "screenshot": "design/tools/screen_canva.png",
         "tags": [
           {
             "name": "freemium"
@@ -142,6 +149,7 @@
         "description": "Generate unique SVG design assets",
         "url": "https://haikei.app/",
         "img": "design/tools/haikei.png",
+        "screenshot": "design/tools/screen_haikei.png",
         "tags": [
           {
             "name": "freemium"
