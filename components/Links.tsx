@@ -29,26 +29,6 @@ const navLinks = [
       { title: 'Project Ideas', path: '/coding/ideas', icon: Lightbulb },
       { title: 'VS-Code Extensions', path: '/coding/vscode-extensions', icon: PuzzlePiece },
     ]
-  },
-  {
-    name: 'Productivity',
-    items: [
-      { title: 'Tools', path: '/productivity/tools', icon: Wrench },
-    ]
-  },
-  {
-    name: 'General',
-    items: [
-      { title: 'Fun', path: '/general/fun', icon: GameController },
-    ]
-  },
-  {
-    name: 'Cybersecurity',
-    items: [
-      { title: 'Practice', path: '/cybersecurity/practice', icon: GraduationCap },
-      { title: 'Games', path: '/cybersecurity/games', icon: GameController },
-      { title: 'OSINT', path: '/cybersecurity/osint', icon: GlobeHemisphereWest },
-    ]
   }
 ]
 

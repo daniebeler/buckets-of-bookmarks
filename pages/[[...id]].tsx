@@ -102,15 +102,6 @@ export async function getStaticPaths() {
         params:
         {
           id: [
-            'general',
-            'fun'
-          ]
-        }
-      },
-      {
-        params:
-        {
-          id: [
             'design',
             'colors'
           ]
@@ -208,14 +199,6 @@ export async function getStaticPaths() {
       {
         params: {
           id: [
-            'productivity',
-            'tools'
-          ]
-        }
-      },
-      {
-        params: {
-          id: [
             'coding',
             'resources'
           ]
@@ -250,30 +233,6 @@ export async function getStaticPaths() {
           id: [
             'coding',
             'vscode-extensions'
-          ]
-        }
-      },
-      {
-        params: {
-          id: [
-            'cybersecurity',
-            'practice'
-          ]
-        }
-      },
-      {
-        params: {
-          id: [
-            'cybersecurity',
-            'games'
-          ]
-        }
-      },
-      {
-        params: {
-          id: [
-            'cybersecurity',
-            'osint'
           ]
         }
       }
