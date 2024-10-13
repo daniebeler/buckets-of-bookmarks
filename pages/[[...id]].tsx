@@ -195,46 +195,6 @@ export async function getStaticPaths() {
             'fonts'
           ]
         }
-      },
-      {
-        params: {
-          id: [
-            'coding',
-            'resources'
-          ]
-        }
-      },
-      {
-        params: {
-          id: [
-            'coding',
-            'practice'
-          ]
-        }
-      },
-      {
-        params: {
-          id: [
-            'coding',
-            'ideas'
-          ]
-        }
-      },
-      {
-        params: {
-          id: [
-            'coding',
-            'tools'
-          ]
-        }
-      },
-      {
-        params: {
-          id: [
-            'coding',
-            'vscode-extensions'
-          ]
-        }
       }
     ],
     fallback: false
