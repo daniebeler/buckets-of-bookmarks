@@ -7,6 +7,7 @@
         "description": "A game to help you master the pen tool",
         "url": "https://bezier.method.ac/",
         "img": "design/games/the-bezier-game.png",
+        "screenshot": "design/games/screen_bezier.png",
         "tags": [
           {
             "name": "free"
@@ -18,6 +19,7 @@
         "description": "A letter spacing game",
         "url": "https://type.method.ac/",
         "img": "design/games/kerntype.png",
+        "screenshot": "design/games/screen_kerntype.png",
         "tags": [
           {
             "name": "free"
@@ -29,6 +31,7 @@
         "description": "Learn CSS",
         "url": "https://flexboxfroggy.com/",
         "img": "design/games/flexbox-froggy.png",
+        "screenshot": "design/games/screen_froggy.png",
         "tags": [
           {
             "name": "free"
@@ -40,6 +43,7 @@
         "description": "A color matching game",
         "url": "https://color.method.ac/",
         "img": "design/games/color.png",
+        "screenshot": "design/games/screen_colormatching.png",
         "tags": [
           {
             "name": "free"
@@ -51,6 +55,7 @@
         "description": "An online tool that tests how well you know your pixels",
         "url": "https://pixact.ly/",
         "img": "design/games/pixactly.png",
+        "screenshot": "design/games/screen_pixactly.png",
         "tags": [
           {
             "name": "free"
@@ -62,6 +67,7 @@
         "description": "Try to guess the color as fast as possible!",
         "url": "https://kolor.moro.es/",
         "img": "design/games/kolor.png",
+        "screenshot": "design/games/screen_kolor.png",
         "tags": [
           {
             "name": "free"
@@ -73,6 +79,7 @@
         "description": "Select the design that is most correct",
         "url": "https://cantunsee.space/",
         "img": "design/games/cantunsee.png",
+        "screenshot": "design/games/screen_cantunsee.png",
         "tags": [
           {
             "name": "free"
@@ -84,6 +91,7 @@
         "description": "Guess the color of a given Hex value",
         "url": "https://yizzle.com/whatthehex/",
         "img": "design/games/whatthehex.png",
+        "screenshot": "design/games/screen_whatthehex.png",
         "tags": [
           {
             "name": "free"
@@ -95,6 +103,7 @@
         "description": "Shoot only the serif fonts within the available time to move on to the next stage",
         "url": "https://www.tothepoint.co.uk/us/fun/i-shot-the-serif/",
         "img": "design/games/ishottheserif.png",
+        "screenshot": "design/games/screen_sherif.png",
         "tags": [
           {
             "name": "free"
@@ -106,6 +115,7 @@
         "description": "Guess whether or not the dot is in the centre of each shape",
         "url": "https://www.supremo.co.uk/designers-eye",
         "img": "design/games/itscentredthat.png",
+        "screenshot": "design/games/screen_itscentred.png",
         "tags": [
           {
             "name": "free"
