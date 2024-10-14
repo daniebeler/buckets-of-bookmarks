@@ -195,6 +195,14 @@ export async function getStaticPaths() {
             'fonts'
           ]
         }
+      },
+      {
+        params: {
+          id: [
+            'design',
+            'extensions'
+          ]
+        }
       }
     ],
     fallback: false

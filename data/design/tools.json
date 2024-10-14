@@ -3,17 +3,6 @@
     "name": "Design Tools",
     "items": [
       {
-        "name": "Chroma",
-        "description": "Browser Extension for picking colors and building color palettes",
-        "url": "https://chroma.dev",
-        "img": "design/tools/chroma.png",
-        "tags": [
-          {
-            "name": "free"
-          }
-        ]
-      },
-      {
         "name": "Toptal Checklist",
         "description": "Web Developer Checklist",
         "url": "https://www.toptal.com/developers/webdevchecklist",
@@ -59,17 +48,6 @@
           {
             "name": "os"
           },
-          {
-            "name": "freemium"
-          }
-        ]
-      },
-      {
-        "name": "Wappalyzer",
-        "description": "Identify technologies on websites",
-        "url": "https://www.wappalyzer.com/",
-        "img": "design/tools/wappalyzer.svg",
-        "tags": [
           {
             "name": "freemium"
           }

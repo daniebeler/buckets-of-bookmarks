@@ -14,6 +14,7 @@ import {
   Smiley,
   ThumbsUp,
   Wrench,
+  PuzzlePiece,
 } from "phosphor-react";
 
 const navLinks = [
@@ -36,6 +37,7 @@ const navLinks = [
       },
       { title: "Typography", path: "/design/fonts", icon: TextAa },
       { title: "Tools", path: "/design/tools", icon: Wrench },
+      { title: "Browser Extensions", path: "/design/extensions", icon: PuzzlePiece },
       {
         title: "Best Practices",
         path: "/design/best-practices",

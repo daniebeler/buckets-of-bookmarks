@@ -7,6 +7,7 @@
         "description": "Open source fonts",
         "url": "https://fonts.google.com/",
         "img": "design/fonts/google-fonts.png",
+        "screenshot": "design/fonts/screen_googlefonts.png",
         "tags": [
           {
             "name": "free"
@@ -21,17 +22,7 @@
         "description": "Font pairing made simple",
         "url": "https://fontjoy.com/",
         "img": "design/fonts/fontjoy.jpg",
-        "tags": [
-          {
-            "name": "free"
-          }
-        ]
-      },
-      {
-        "name": "Tiff",
-        "description": "Visually contrast the differences between two fonts",
-        "url": "https://tiff.herokuapp.com/",
-        "img": "design/fonts/tiff.png",
+        "screenshot": "design/fonts/screen_fontjoy.png",
         "tags": [
           {
             "name": "free"
@@ -43,6 +34,7 @@
         "description": "Free fonts",
         "url": "https://www.dafont.com",
         "img": "design/fonts/dafont.png",
+        "screenshot": "design/fonts/screen_dafont.png",
         "tags": [
           {
             "name": "free"
@@ -54,6 +46,7 @@
         "description": "Google Web Font inspiration in HTML & CSS",
         "url": "https://tobiasahlin.com/typesource/",
         "img": "design/fonts/typesource.png",
+        "screenshot": "design/fonts/screen_typesource.png",
         "tags": [
           {
             "name": "free"
@@ -65,6 +58,7 @@
         "description": "Free fonts for commercial use",
         "url": "https://www.fontsquirrel.com/",
         "img": "design/fonts/font-squirrel.png",
+        "screenshot": "design/fonts/screen_fontsquirrel.png",
         "tags": [
           {
             "name": "free"
@@ -76,6 +70,7 @@
         "description": "Free font collections",
         "url": "https://www.cufonfonts.com/",
         "img": "design/fonts/cufon-fonts.png",
+        "screenshot": "design/fonts/screen_cufonfonts.png",
         "tags": [
           {
             "name": "free"
@@ -87,6 +82,7 @@
         "description": "Free fonts service from the Indian Type Foundry",
         "url": "https://www.fontshare.com/",
         "img": "design/fonts/fontshare.jpg",
+        "screenshot": "design/fonts/screen_fontshare.png",
         "tags": [
           {
             "name": "free"
@@ -98,6 +94,7 @@
         "description": "Free downloads of legally licensed fonts",
         "url": "https://www.fontspace.com/",
         "img": "design/fonts/fontspace.png",
+        "screenshot": "design/fonts/screen_fontspace.png",
         "tags": [
           {
             "name": "free"
@@ -109,6 +106,7 @@
         "description": "Free fonts for commercial and personal use",
         "url": "https://fontesk.com",
         "img": "design/fonts/fontesk.png",
+        "screenshot": "design/fonts/screen_fontesk.png",
         "tags": [
           {
             "name": "free"
@@ -120,6 +118,7 @@
         "description": "Find fonts in real live examples",
         "url": "https://www.fontsinthewild.com/",
         "img": "design/fonts/fontsinthewild.png",
+        "screenshot": "design/fonts/screen_fontsinthewild.png",
         "tags": [
           {
             "name": "free"
@@ -131,6 +130,7 @@
         "description": "An independent archive of typography",
         "url": "https://fontsinuse.com/",
         "img": "design/fonts/fontsinuse.png",
+        "screenshot": "design/fonts/screen_fontsinuse.png",
         "tags": [
           {
             "name": "free"
@@ -142,6 +142,7 @@
         "description": "Fonts available under free licences",
         "url": "https://www.freefaces.gallery/",
         "img": "design/fonts/freefaces.svg",
+        "screenshot": "design/fonts/screen_freefaces.png",
         "tags": [
           {
             "name": "free"
@@ -153,6 +154,7 @@
         "description": "Free fonts for commercial use",
         "url": "https://fontbundles.net/free-fonts",
         "img": "design/fonts/font-bundles.png",
+        "screenshot": "design/fonts/screen_fontbundles.png",
         "tags": [
           {
             "name": "paid"
@@ -167,6 +169,7 @@
         "description": "Free and premium fonts",
         "url": "https://www.urbanfonts.com/",
         "img": "design/fonts/urban-fonts.png",
+        "screenshot": "design/fonts/screen_urbanfonts.png",
         "tags": [
           {
             "name": "paid"
@@ -181,6 +184,7 @@
         "description": "High-Quality fonts",
         "url": "https://www.fontfabric.com/free-fonts/",
         "img": "design/fonts/fontfabric.png",
+        "screenshot": "design/fonts/screen_fontfabric.png",
         "tags": [
           {
             "name": "paid"
